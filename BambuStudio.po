@@ -8031,7 +8031,7 @@ msgid "Topmost surface"
 msgstr "Surface la plus élevée"
 
 msgid "Top area threshold"
-msgstr "Seuil de zone supérieure"
+msgstr "Seuil de la zone supérieure"
 
 msgid ""
 "This factor affects the acreage of top area. The small the number the big "
