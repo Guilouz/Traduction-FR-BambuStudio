@@ -4,7 +4,7 @@ Vous trouverez ici la traduction française du slicer Bambu Studio de Bambu Lab.
 ## À Propos
 
 - Traduction complète de l'interface Bambu (UI)
-- Correction de toutes les traductions françaises qui étaient de simples traductions Google (Chinois -> Anglais -> Français)
+- Correction de toutes les traductions françaises qui étaient de simples traductions Google
 - Traduction des textes manquants
 - Correction de certains textes qui n'étaient jamais traduits
 
