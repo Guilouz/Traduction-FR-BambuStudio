@@ -22,7 +22,7 @@ Vous trouverez ici la traduction française du slicer Bambu Studio de Bambu Lab.
   - Rendez-vous dans le dossier `\resources\web\homepage` et remplacez le fichier `index.html` du dossier `homepage`.
   - Rendez-vous dans le dossier `\resources\web\model` et remplacez le fichier `index.html` du dossier `model`.
   - Rendez-vous ensuite dans le dossier `\resources\i18n\fr` et remplacez le fichier 'BambuStudio.mo'.
-  - Démarrez Bambu Studio et définissez la langue sur 'Français' dans les paramètres.
+  - Démarrez Bambu Studio et définissez la langue sur `Français` dans les paramètres.
 
 - **MacOS:**
   - Fermez Bambu Studio si il est actuellement ouvert.
@@ -34,9 +34,9 @@ Vous trouverez ici la traduction française du slicer Bambu Studio de Bambu Lab.
   - Rendez-vous dans le dossier `\Contents\Resources\web\homepage` et remplacez le fichier `index.html` du dossier `homepage`.
   - Rendez-vous dans le dossier `\Contents\Resources\web\model` et remplacez le fichier `index.html` du dossier `model`.
   - Rendez-vous ensuite dans le dossier `\Contents\Resources\i18n\fr` et remplacez le fichier 'BambuStudio.mo'.
-  - Démarrez Bambu Studio et définissez la langue sur 'Français' dans les paramètres.
+  - Démarrez Bambu Studio et définissez la langue sur `Français` dans les paramètres.
 
 ## Changements
 
 - **12/11/2023:**
-  - Traduction pour la version [1.8.0 Public beta](https://github.com/bambulab/BambuStudio/releases/tag/v01.08.00.57) (1.8.0.57)
+  - Traduction pour la version [1.8.0 Release Candidate 2](https://github.com/bambulab/BambuStudio/releases/tag/v01.08.00.57) (1.8.0.57)
