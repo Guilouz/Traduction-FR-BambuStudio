@@ -733,7 +733,7 @@ msgid "Info"
 msgstr "Info"
 
 msgid "Rebuild"
-msgstr "Reconstruire"
+msgstr "Reconstruction"
 
 msgid "Loading current presets"
 msgstr "Chargement des préréglages actuels"
