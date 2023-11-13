@@ -5365,8 +5365,8 @@ msgstr ""
 
 msgid "Flushing volumes: Auto-calculate everytime the color changed."
 msgstr ""
-"Volumes de purge: Calcul automatique à chaque fois qu'une couleur est "
-"changée."
+"Calcul automatique des volumes de purge à chaque fois qu'une couleur est "
+"changée"
 
 msgid "If enabled, auto-calculate everytime the color changed."
 msgstr ""
@@ -5385,13 +5385,13 @@ msgid "User Sync"
 msgstr "Synchronisation utilisateur"
 
 msgid "Update built-in Presets automatically."
-msgstr "Mettre automatiquement à jour les préréglages intégrés."
+msgstr "Mettre à jour les préréglages intégrés automatiquement"
 
 msgid "System Sync"
 msgstr "Synchronisation du système"
 
 msgid "Clear my choice on the unsaved presets."
-msgstr "Effacer mon choix sur les préréglages non enregistrés."
+msgstr "Effacer mon choix sur les préréglages non enregistrés"
 
 msgid "Associate files to BambuStudio"
 msgstr "Associer des fichiers à Bambu Studio"
@@ -5424,8 +5424,7 @@ msgid "Online Models"
 msgstr "Modèles en ligne"
 
 msgid "Show online staff-picked models on the home page"
-msgstr ""
-"Afficher les modèles en ligne sélectionnés par l'équipe sur la page d'accueil"
+msgstr "Afficher les modèles en ligne sur la page d'accueil"
 
 msgid "Maximum recent projects"
 msgstr "Projets récents maximum"
@@ -5434,7 +5433,7 @@ msgid "Maximum count of recent projects"
 msgstr "Nombre maximal de projets récents"
 
 msgid "Clear my choice on the unsaved projects."
-msgstr "Effacer mon choix sur les projets non enregistrés."
+msgstr "Effacer mon choix sur les projets non enregistrés"
 
 msgid "No warnings when loading 3MF with modified G-codes"
 msgstr ""
