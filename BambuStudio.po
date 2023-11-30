@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 09:10+0800\n"
+"POT-Creation-Date: 2023-11-22 18:26+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -326,6 +326,9 @@ msgstr "Mode"
 msgid "Movement:"
 msgstr "Mouvement:"
 
+msgid "Groove Angle"
+msgstr "Angle de rainure"
+
 msgid "Movement"
 msgstr "Mouvement"
 
@@ -349,15 +352,6 @@ msgstr "Largeur"
 
 msgid "Flap Angle"
 msgstr "Angle du rabat"
-
-msgid "Groove Angle"
-msgstr "Angle de rainure"
-
-msgid "Upper part"
-msgstr "Partie supérieure"
-
-msgid "Lower part"
-msgstr "Partie inférieure"
 
 msgid "Keep orientation"
 msgstr "Conserver l'orientation"
@@ -589,13 +583,9 @@ msgid "Angle"
 msgstr "Angle"
 
 msgid ""
-"Embeded\n"
-"\n"
+"Embeded\r\n"
 "depth"
-msgstr ""
-"Profondeur\n"
-"\n"
-"intégrée"
+msgstr "Intégré"
 
 msgid "Surface"
 msgstr "Surface"
@@ -1250,9 +1240,6 @@ msgstr "Cliquez sur l'icône pour modifier la couleur de peinture de l'objet"
 
 msgid "Click the icon to shift this object to the bed"
 msgstr "Cliquez sur l'icône pour déplacer cet objet vers le plateau"
-
-msgid " search results"
-msgstr "Résultats de la recherche"
 
 msgid "Loading file"
 msgstr "Chargement du fichier"
@@ -2860,6 +2847,18 @@ msgstr "Mise en pause par le Gcode inséré par l'utilisateur"
 msgid "Motor noise showoff"
 msgstr "Démonstration du bruit du moteur"
 
+msgid "Nozzle filament covered detected pause"
+msgstr "Pause en cas de buse recouverte de filament"
+
+msgid "Cutter error pause"
+msgstr "Pause en cas d'erreur de coupe"
+
+msgid "First layer error pause"
+msgstr "Pause en cas d’erreur de la première couche"
+
+msgid "Nozzle clog pause"
+msgstr "Pause en cas de bouchage de la buse"
+
 msgid "MC"
 msgstr "MC"
 
@@ -3475,8 +3474,8 @@ msgstr "Non"
 msgid "will be closed before creating a new model. Do you want to continue?"
 msgstr "sera fermé avant de créer un nouveau modèle. Voulez-vous continuer ?"
 
-msgid "Upload"
-msgstr "Envoyer"
+msgid "Share"
+msgstr "Partager"
 
 msgid "Slice plate"
 msgstr "Découper le plateau"
@@ -5756,6 +5755,9 @@ msgstr "Tâche annulée"
 msgid "(LAN)"
 msgstr "(LAN)"
 
+msgid "Search"
+msgstr "Rechercher"
+
 msgid "My Device"
 msgstr "Mon Imprimante"
 
@@ -6049,10 +6051,6 @@ msgstr ""
 msgid "Slice ok."
 msgstr "Découpage terminé."
 
-#, c-format, boost-format
-msgid "Closing in %ds"
-msgstr "Fermeture dans %ds"
-
 msgid "View all Daily tips"
 msgstr "Voir tous les conseils quotidiens"
 
@@ -6252,6 +6250,17 @@ msgstr ""
 "Distance Z supérieure à 0, un espacement de l'interface supérieure à 0, un "
 "motif d'interface Concentrique et la désactivation de la hauteur de couche "
 "indépendante des supports"
+
+msgid ""
+"Layer height exceeds the limit in Printer Settings -> Extruder -> Layer "
+"height limits ,this may cause printing quality issues."
+msgstr ""
+"La hauteur des couches dépasse la limite fixée dans Paramètres de "
+"l’imprimante -> Hotend -> Limites de hauteur de couche, ce qui peut "
+"entraîner des problèmes de qualité d'impression."
+
+msgid "Adjust to the set range automatically? \n"
+msgstr "S’adapter automatiquement à la plage définie ?\n"
 
 msgid ""
 "When recording timelapse without toolhead, it is recommended to add a "
@@ -7641,13 +7650,6 @@ msgstr ""
 msgid "Layer height cannot exceed nozzle diameter"
 msgstr "La hauteur de la couche ne peut pas dépasser le diamètre de la buse"
 
-msgid ""
-"Layer height cannot exceed the limit in Printer Settings -> Extruder -> "
-"Layer height limits"
-msgstr ""
-"La hauteur de couche ne peut pas dépasser la limite définie dans Paramètres "
-"de l'imprimante -> Extrudeur -> Limites de hauteur de couche"
-
 #, c-format, boost-format
 msgid "Plate %d: %s does not support filament %s"
 msgstr "Le plateau %d : %s ne prend pas en charge le filament %s"
@@ -8323,6 +8325,32 @@ msgstr ""
 "Vitesse de la paroi qui est la plus à l'extérieur et visible. Elle est "
 "utilisée pour être plus lente que la vitesse de la paroi interne pour "
 "obtenir une meilleure qualité."
+
+msgid "Small perimeters"
+msgstr "Petits périmètres"
+
+msgid ""
+"This setting will affect the speed of perimeters having radius <= small "
+"perimeter threshold(usually holes). If expressed as percentage (for example: "
+"80%) it will be calculated onthe outer wall speed setting above. Set to zero "
+"for auto."
+msgstr ""
+"Ce paramètre affectera la vitesse des périmètres ayant un rayon <= au petit "
+"seuil de périmètre (généralement des trous). S’il est exprimé en pourcentage "
+"(par exemple : 80 %), il sera calculé sur la vitesse de la paroi extérieure "
+"réglée ci-dessus. Régler sur zéro pour automatique."
+
+msgid "mm/s or %"
+msgstr "mm/s or %"
+
+msgid "Small perimter threshold"
+msgstr "Seuil des petits périmètres"
+
+msgid ""
+"This sets the threshold for small perimeter length. Default threshold is 0mm"
+msgstr ""
+"Ceci définit le seuil pour une petite longueur de périmètre. Le seuil par "
+"défaut est 0 mm"
 
 msgid "Order of walls"
 msgstr "Ordre des parois"
@@ -9867,20 +9895,21 @@ msgid ""
 "into a regular grid will create more stable supports (default), while snug "
 "support towers will save material and reduce object scarring.\n"
 "For tree support, slim style will merge branches more aggressively and save "
-"a lot of material (default), while hybrid style will create similar "
-"structure to normal support under large flat overhangs."
+"a lot of material, strong style will make larger and stronger support "
+"structure and use more materials, while hybrid style is the combination of "
+"slim tree and normal support with normal nodes under large flat overhangs "
+"(default)."
 msgstr ""
-"Style et forme des supports.\n"
-"Supports Normaux : Grille régulière avec des supports plus stables (par "
-"défaut).\n"
-"Support Ajustés : Economisent de la matière et réduisent les traces sur le "
-"modèle.\n"
-"Supports Arborescents Fins : Fusionnent les branches de manière plus "
-"agressive et économisent beaucoup de filament (par défaut).\n"
-"Supports Arborescents Solides : Fusionnent les branches de manière moins "
-"agressive et économisent moins de filament.\n"
-"Supports Arborescents Hybrides : Structure similaire aux supports normaux "
-"avec de grands surplombs plats."
+"Style et forme des supports. Pour les supports Normaux, une grille régulière "
+"créera des supports plus stables (par défaut), tandis que des tours de "
+"support bien ajustées économiseront du matériel et réduiront les coutures "
+"des objets.\n"
+"Pour les supports Arborescents, le style Fins fusionnera les branches de "
+"manière plus agressive et économisera beaucoup de filament, le style Solides "
+"créera une structure de support plus grande et plus solide et utilisera plus "
+"de filament, tandis que le style Hybrides est la combinaison des supports "
+"Arborescents Fins et des supports Normaux avec des nœuds normaux sous de "
+"grands surplombs plats (par défaut)."
 
 msgid "Snug"
 msgstr "Ajustés"
@@ -9945,11 +9974,11 @@ msgstr "Diamètre des branches"
 msgid "This setting determines the initial diameter of support nodes."
 msgstr "Ce paramètre détermine le diamètre initial des branches de support."
 
-msgid "Tree support wall loops"
-msgstr "Nombre de parois des branches"
+msgid "Support wall loops"
+msgstr "Nombre de parois des supports"
 
-msgid "This setting specify the count of walls around tree support"
-msgstr "Ce paramètre spécifie le nombre de parois des branches de support"
+msgid "This setting specify the count of walls around support"
+msgstr "Ce paramètre spécifie le nombre de parois des supports"
 
 msgid "Tree support brim width"
 msgstr "Largeur de la bordure des supports arborescents"
@@ -11152,6 +11181,9 @@ msgstr ""
 "Le nom du fichier envoyé ne se termine pas par \"%s\". Souhaitez-vous "
 "continuer ?"
 
+msgid "Upload"
+msgstr "Envoyer"
+
 msgid "Simulate"
 msgstr "Simuler"
 
@@ -11307,7 +11339,7 @@ msgstr "Informations de connexion"
 msgid "Select filament preset"
 msgstr "Préréglage du filament"
 
-msgid "Creat Filament"
+msgid "Create Filament"
 msgstr "Créer un filament"
 
 msgid "Create based on current filamet"
@@ -11424,13 +11456,13 @@ msgstr "Créer une imprimante/buse"
 msgid "Create Printer"
 msgstr "Créer une imprimante"
 
-msgid "Create Nozzle for existing printer"
+msgid "Create Nozzle for Existing Printer"
 msgstr "Créer une buse pour une imprimante existante"
 
-msgid "Create from template"
+msgid "Create from Template"
 msgstr "Créer à partir d'un modèle"
 
-msgid "Create based on current printer"
+msgid "Create Based on Current Printer"
 msgstr "Créer en fonction de l'imprimante actuelle"
 
 msgid "wiki"
@@ -11441,6 +11473,9 @@ msgstr "Importer un préréglage"
 
 msgid "Create Type"
 msgstr "Créer un type"
+
+msgid "Select vendor"
+msgstr "Fabriquant"
 
 msgid "The model is not fond, place reselect vendor."
 msgstr "Le modèle n'est pas trouvé, veuillez sélectionner le fabriquant."
@@ -11472,8 +11507,14 @@ msgstr "Y"
 msgid "Hot Bed STL"
 msgstr "STL du plateau"
 
+msgid "Load stl"
+msgstr "Charger un STL"
+
 msgid "Hot Bed SVG"
 msgstr "SVG du plateau"
+
+msgid "Load svg"
+msgstr "Charger un SVG"
 
 msgid "Max print height"
 msgstr "Hauteur imprimable"
@@ -11499,9 +11540,6 @@ msgstr ""
 
 msgid "Printer preset"
 msgstr "Préréglages de l'imprimante"
-
-msgid "Select vendor"
-msgstr "Fabriquant"
 
 msgid "Filament preset template"
 msgstr "Modèles prédéfinis de filaments"
@@ -11591,8 +11629,9 @@ msgstr ""
 "Toutes les saisies dans le fabriquant ou le modèle d'imprimante personnalisé "
 "sont des espaces. Veuillez les saisir à nouveau."
 
-msgid "Please check bed shape input."
-msgstr "Veuillez vérifier la saisie de la forme du plateau."
+msgid "Please check bed printable shape and origin input."
+msgstr ""
+"Veuillez vérifier la forme imprimable du plateau et la saisie de l’origine."
 
 msgid ""
 "You have not yet selected the printer to replace the nozzle, please choose."
@@ -11616,9 +11655,17 @@ msgstr ""
 msgid "Filament Created"
 msgstr "Filament créé"
 
-msgid "Please go to filament setting to edit your presets if you need"
+msgid ""
+"Please go to filament setting to edit your presets if you need.\n"
+"Please note that nozzle temperature, hot bed temperature, and maximum "
+"volumetric speed have a significant impact on printing quality. Please set "
+"them carefully."
 msgstr ""
-"Veuillez accéder aux paramètres du filament pour modifier vos préréglages"
+"Veuillez accéder aux paramètres du filament pour modifier vos préréglages si "
+"vous en avez besoin.\n"
+"Veuillez noter que la température de la buse, la température du plateau et "
+"la vitesse volumétrique maximale ont un impact significatif sur la qualité "
+"d’impression. Veuillez les définir avec soin."
 
 msgid "Printer Setting"
 msgstr "Paramètres de l'imprimante"
@@ -11739,6 +11786,13 @@ msgstr "Modifier le filament"
 msgid "Filament presets under this filament"
 msgstr "Préréglages de filament sous ce filament"
 
+msgid ""
+"Note: If the only preset under this filament is deleted, the filament will "
+"be deleted after exiting the dialog."
+msgstr ""
+"Remarque : Si le seul préréglage sous ce filament est supprimé, le filament "
+"sera supprimé après avoir quitté la boîte de dialogue."
+
 msgid "Presets inherited by other presets can not be deleted"
 msgstr ""
 "Les préréglages hérités d'autres préréglages ne peuvent pas être supprimés"
@@ -11749,6 +11803,12 @@ msgstr[0] "Les préréglages suivants héritent de ce préréglage."
 msgstr[1] "Le préréglage suivant hérite de ce préréglage."
 
 msgid "Delete Preset"
+msgstr "Supprimer le préréglage"
+
+msgid "Are you sure to delete the selected preset?"
+msgstr "Êtes-vous sûr de vouloir supprimer le préréglage sélectionné ?"
+
+msgid "Delete preset"
 msgstr "Supprimer le préréglage"
 
 msgid "+ Add Preset"
@@ -11805,6 +11865,166 @@ msgid ""
 msgstr ""
 "Impossible de calibrer : il est possible que la plage de valeurs de "
 "calibrage définie est trop grande ou que l'intervalle est trop petit"
+
+msgid "Physical Printer"
+msgstr "Imprimante Physique"
+
+msgid "Print Host upload"
+msgstr "Envoi vers l’imprimante hôte"
+
+msgid "Could not get a valid Printer Host reference"
+msgstr "Impossible d’obtenir une référence d’imprimante hôte valide"
+
+msgid "Success!"
+msgstr "Succès !"
+
+msgid "Refresh Printers"
+msgstr "Actualiser les imprimantes"
+
+msgid ""
+"HTTPS CA file is optional. It is only needed if you use HTTPS with a self-"
+"signed certificate."
+msgstr ""
+"Le fichier CA HTTPS est facultatif. Il n'est nécessaire que si vous utilisez "
+"HTTPS avec un certificat auto-signé."
+
+msgid "Certificate files (*.crt, *.pem)|*.crt;*.pem|All files|*.*"
+msgstr ""
+"Fichiers de certificat (*.crt, *.pem)|*.crt;*.pem|Tous les fichiers|*.*"
+
+msgid "Open CA certificate file"
+msgstr "Ouvrir le fichier de certificat CA"
+
+#, c-format, boost-format
+msgid ""
+"On this system, %s uses HTTPS certificates from the system Certificate Store "
+"or Keychain."
+msgstr ""
+"Sur ce système, %s utilise les certificats HTTPS du magasin de certificats "
+"du système ou du trousseau."
+
+msgid ""
+"To use a custom CA file, please import your CA file into Certificate Store / "
+"Keychain."
+msgstr ""
+"Pour utiliser un certificat personnalisé, veuillez importer votre fichier "
+"dans magasin de certificats / trousseau."
+
+msgid "Connection to printers connected via the print host failed."
+msgstr ""
+"La connexion aux imprimantes connectées via l’hôte d’impression a échoué."
+
+#, c-format, boost-format
+msgid "Mismatched type of print host: %s"
+msgstr "Type d’hôte d’impression incompatible : %s"
+
+msgid "Connection to AstroBox works correctly."
+msgstr "La connexion à AstroBox fonctionne correctement."
+
+msgid "Could not connect to AstroBox"
+msgstr "Impossible de se connecter à AstroBox"
+
+msgid "Note: AstroBox version at least 1.1.0 is required."
+msgstr "Note : la version minimum requise de AstroBox est 1.1.0."
+
+msgid "Connection to Duet works correctly."
+msgstr "La connexion à Duet fonctionne correctement."
+
+msgid "Could not connect to Duet"
+msgstr "Impossible de se connecter à Duet"
+
+msgid "Unknown error occured"
+msgstr "Une erreur inconnue s’est produite"
+
+msgid "Wrong password"
+msgstr "Mot de passe incorrect"
+
+msgid "Could not get resources to create a new connection"
+msgstr ""
+"Impossible d’obtenir les ressources nécessaires pour créer une nouvelle "
+"connexion"
+
+msgid "Upload not enabled on FlashAir card."
+msgstr "Le téléchargement n’est pas activé sur la carte FlashAir."
+
+msgid "Connection to FlashAir works correctly and upload is enabled."
+msgstr ""
+"La connexion à FlashAir fonctionne correctement et le téléchargement est "
+"activé."
+
+msgid "Could not connect to FlashAir"
+msgstr "Impossible de se connecter à FlashAir"
+
+msgid ""
+"Note: FlashAir with firmware 2.00.02 or newer and activated upload function "
+"is required."
+msgstr ""
+"Note : FlashAir avec le firmware 2.00.02 ou une fonction de téléchargement "
+"plus récente et activée est requis."
+
+msgid "Connection to MKS works correctly."
+msgstr "La connexion à MKS fonctionne correctement."
+
+msgid "Could not connect to MKS"
+msgstr "Impossible de se connecter à MKS"
+
+msgid "Connection to OctoPrint works correctly."
+msgstr "La connexion à OctoPrint fonctionne correctement."
+
+msgid "Could not connect to OctoPrint"
+msgstr "Impossible de se connecter à OctoPrint"
+
+msgid "Note: OctoPrint version at least 1.1.0 is required."
+msgstr "Note : la version minimum requise de OctoPrint est 1.1.0."
+
+msgid "Connection to Prusa SL1 / SL1S works correctly."
+msgstr "La connexion à Prusa SL1 / SL1S fonctionne correctement."
+
+msgid "Could not connect to Prusa SLA"
+msgstr "Impossible de se connecter à Prusa SLA"
+
+msgid "Connection to PrusaLink works correctly."
+msgstr "La connexion à PrusaLink fonctionne correctement."
+
+msgid "Could not connect to PrusaLink"
+msgstr "Impossible de se connecter à PrusaLink"
+
+msgid "Connection to Repetier works correctly."
+msgstr "La connexion à Repetier fonctionne correctement."
+
+msgid "Could not connect to Repetier"
+msgstr "Impossible de se connecter à Repetier"
+
+msgid "Note: Repetier version at least 0.90.0 is required."
+msgstr "Note : la version minimum requise de Repetier est 0.90.0."
+
+#, boost-format
+msgid ""
+"HTTP status: %1%\n"
+"Message body: \"%2%\""
+msgstr ""
+"État HTTP : %1%\n"
+"Corps du message : \"%2%\""
+
+#, boost-format
+msgid ""
+"Parsing of host response failed.\n"
+"Message body: \"%1%\"\n"
+"Error: \"%2%\""
+msgstr ""
+"L’analyse de la réponse de l’hôte a échoué.\n"
+"Corps du message : \"%1%\"\n"
+"Erreur : \"%2%\""
+
+#, boost-format
+msgid ""
+"Enumeration of host printers failed.\n"
+"Message body: \"%1%\"\n"
+"Error: \"%2%\""
+msgstr ""
+"L’énumération des imprimantes hôtes a échoué.\n"
+"Corps du message : \"%1%\"\n"
+"Erreur : \"%2%\""
 
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
