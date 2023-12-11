@@ -7161,11 +7161,11 @@ msgid "Shift+Mouse wheel"
 msgstr "Maj + Molette de la souris"
 
 msgid "Release Note"
-msgstr "Note de version"
+msgstr "Notes de version"
 
 #, c-format, boost-format
 msgid "version %s update information :"
-msgstr "informations de mise à jour de la version %s :"
+msgstr "Informations de mise à jour de la version %s :"
 
 msgid "Network plug-in update"
 msgstr "Mise à jour du plug-in réseau"
