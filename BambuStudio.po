@@ -145,7 +145,7 @@ msgid "Smart fill"
 msgstr "Remplissage intelligent"
 
 msgid "Bucket fill"
-msgstr "Remplissage du seau"
+msgstr "Pot de peinture"
 
 msgid "Height range"
 msgstr "Plage de hauteur"
@@ -154,7 +154,7 @@ msgid "Alt + Shift + Enter"
 msgstr "Alt + Shift + Entrée"
 
 msgid "Toggle Wireframe"
-msgstr "Basculer la structure"
+msgstr "Basculer le maillage"
 
 msgid "Shortcut Key "
 msgstr "Raccourci "
@@ -527,7 +527,7 @@ msgid "%d triangles"
 msgstr "%d triangles"
 
 msgid "Show wireframe"
-msgstr "Afficher la structure"
+msgstr "Afficher le maillage"
 
 #, boost-format
 msgid "%1%"
