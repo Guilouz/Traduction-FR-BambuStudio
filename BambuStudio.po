@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-13 10:26+0800\n"
+"POT-Creation-Date: 2024-01-05 17:05+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -4470,6 +4470,42 @@ msgstr "%s informations"
 msgid "Skip"
 msgstr "Passer"
 
+msgid "Newer 3mf version"
+msgstr "Nouvelle version 3mf"
+
+msgid ""
+"The 3mf file version is in Beta and it is newer than the current Bambu "
+"Studio version."
+msgstr ""
+"La version du fichier 3mf est en Beta et est plus récente que la version "
+"actuelle de BambuStudio."
+
+msgid "If you would like to try Bambu Studio Beta, you may click to"
+msgstr "Si vous souhaitez essayer BambuStudio Beta, vous pouvez cliquer sur"
+
+msgid "Download Beta Version"
+msgstr "Télécharger la version Bêta"
+
+msgid "The 3mf file version is newer than the current Bambu Studio version."
+msgstr ""
+"La version du fichier 3mf est plus récente que la version actuelle de "
+"BambuStudio."
+
+msgid ""
+"Update your Bambu Studio could enable all functionality in the 3mf file."
+msgstr ""
+"La mise à jour de BambuStudio permet d'activer toutes les fonctionnalités du "
+"fichier 3mf."
+
+msgid "Current Version: "
+msgstr "Versions actuelle: "
+
+msgid "Latest Version: "
+msgstr "Dernière version: "
+
+msgid "Not for new"
+msgstr "Pas pour le nouveau"
+
 msgid "3D Mouse disconnected."
 msgstr "Souris 3D déconnectée."
 
@@ -4840,40 +4876,8 @@ msgstr ""
 "Le fichier 3mf a été généré par une ancienne version de Bambu Lab, "
 "chargement des données de géométrie uniquement."
 
-#, c-format, boost-format
-msgid "This slicer file version %s is newer than %s's version:"
-msgstr ""
-"Cette version de fichier de slicer %s est plus récente que la version %s :"
-
-msgid ""
-"Would you like to update your Bambu Studio software to enable all "
-"functionality in this slicer file?\n"
-msgstr ""
-"Souhaitez-vous mettre à jour votre logiciel Bambu Studio pour activer toutes "
-"les fonctionnalités de ce fichier de slicer ?\n"
-
-msgid "Newer 3mf version"
-msgstr "Nouvelle version 3mf"
-
-msgid ""
-"you can always update Bambu Studio at your convenience. The slicer file will "
-"now be loaded without full functionality."
-msgstr ""
-"vous pouvez toujours mettre à jour Bambu Studio à votre convenance. Le "
-"fichier de slicer sera désormais chargé sans toutes les fonctionnalités."
-
-#, c-format, boost-format
-msgid ""
-"This slicer file version %s is newer than %s's version.\n"
-"\n"
-"Would you like to update your Bambu Studio software to enable all "
-"functionality in this slicer file?"
-msgstr ""
-"Cette version de fichier de slicer %s est plus récente que la version de "
-"%s.\n"
-"\n"
-"Souhaitez-vous mettre à jour votre logiciel Bambu Studio pour activer toutes "
-"les fonctionnalités de ce fichier de slicer ?"
+msgid "Found following keys unrecognized:\n"
+msgstr "Clés suivantes non reconnues :\n"
 
 msgid "Invalid values found in the 3mf:"
 msgstr "Valeurs non valides trouvées dans le 3mf :"
@@ -5477,6 +5481,15 @@ msgstr "Mode Nuit"
 
 msgid "Enable Dark mode"
 msgstr "Activer le Mode Nuit"
+
+msgid "User Experience"
+msgstr "Expérience utilisateur"
+
+msgid "Join Customer Experience Improvement Program."
+msgstr "Rejoindre le programme d’amélioration de l’expérience client."
+
+msgid "What data would be collected?"
+msgstr "Quelles sont les données collectées ?"
 
 msgid "Develop mode"
 msgstr "Mode Développeur"
@@ -7619,6 +7632,11 @@ msgid ""
 msgstr ""
 "Le mode vase ne fonctionne pas lorsqu'un objet contient plusieurs matériaux."
 
+msgid "Variable layer height is not supported with Organic supports."
+msgstr ""
+"La hauteur de couche variable n’est pas prise en charge avec les supports "
+"organiques."
+
 msgid ""
 "Different nozzle diameters and different filament diameters is not allowed "
 "when prime tower is enabled."
@@ -8985,12 +9003,13 @@ msgstr ""
 "Activez cette option si la machine prend en charge le contrôle de "
 "température de la chambre"
 
-msgid "Support air filtration"
-msgstr "Filtration de l'air"
+msgid "Air filtration enhancement"
+msgstr "Amélioration de la filtration de l’air"
 
-msgid "Enable this if printer support air filtration"
+msgid "Enable this if printer support air filtration enhancement"
 msgstr ""
-"Activez cette option si l'imprimante prend en charge la filtration de l'air"
+"Activez cette option si l’imprimante prend en charge l’amélioration de la "
+"filtration de l’air."
 
 msgid "G-code flavor"
 msgstr "Version de G-code"
