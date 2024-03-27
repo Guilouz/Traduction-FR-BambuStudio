@@ -19,7 +19,6 @@ Vous trouverez ici la traduction française du slicer Bambu Studio de Bambu Lab.
   - Rendez-vous dans le dossier d'installation de Bambu Studio, par défaut : `C:\Program Files\Bambu Studio`.
   - Rendez-vous dans le dossier `\resources\web\data` et remplacez le fichier `text.js` du dossier `data`.
   - Rendez-vous dans le dossier `\resources\web\device` et remplacez le fichier `missing_connection.html` du dossier `device`.
-  - Rendez-vous dans le dossier `\resources\web\homepage` et remplacez le fichier `index.html` du dossier `homepage`.
   - Rendez-vous dans le dossier `\resources\web\model` et remplacez le fichier `index.html` du dossier `model`.
   - Rendez-vous ensuite dans le dossier `\resources\i18n\fr` et remplacez le fichier `BambuStudio.mo`.
   - Démarrez Bambu Studio et définissez la langue sur `Français` dans les paramètres.
@@ -31,12 +30,14 @@ Vous trouverez ici la traduction française du slicer Bambu Studio de Bambu Lab.
   - Faites un clic droit sur l'application `BambuStudio.app` puis `Afficher le contenu du paquet`.
   - Rendez-vous dans le dossier `\Contents\Resources\web\data` et remplacez le fichier `text.js` du dossier `data`.
   - Rendez-vous dans le dossier `\Contents\Resources\web\device` et remplacez le fichier `missing_connection.html` du dossier `device`.
-  - Rendez-vous dans le dossier `\Contents\Resources\web\homepage` et remplacez le fichier `index.html` du dossier `homepage`.
   - Rendez-vous dans le dossier `\Contents\Resources\web\model` et remplacez le fichier `index.html` du dossier `model`.
   - Rendez-vous ensuite dans le dossier `\Contents\Resources\i18n\fr` et remplacez le fichier `BambuStudio.mo`.
   - Démarrez Bambu Studio et définissez la langue sur `Français` dans les paramètres.
 
 ## Changements
+
+- **27/03/2024:**
+  - Traduction pour la version [1.9.0 Public Beta](https://github.com/bambulab/BambuStudio/releases/tag/v01.09.00.60) (1.9.0.60)
 
 - **18/01/2024:**
   - Traduction pour la version [1.8.4 Public Official](https://github.com/bambulab/BambuStudio/releases/tag/v01.08.04.51) (1.8.4.51)
