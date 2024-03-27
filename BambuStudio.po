@@ -5852,7 +5852,7 @@ msgid "Customize"
 msgstr "Personnalisée"
 
 msgid "Other layer filament sequence"
-msgstr "Séquence de filament de l’autre couche"
+msgstr "Séquence du filament des autres couches"
 
 msgid "Please input layer value (>= 2)."
 msgstr "Veuillez saisir la valeur de la couche (>= 2)."
@@ -5864,7 +5864,7 @@ msgid "Print sequence"
 msgstr "Séquence d'impression"
 
 msgid "Same as Global"
-msgstr "Identique à Globale"
+msgstr "Identique à la séquence globale"
 
 msgid "Enable"
 msgstr "Activer"
@@ -5876,7 +5876,7 @@ msgid "Spiral vase"
 msgstr "Mode vase"
 
 msgid "First layer filament sequence"
-msgstr "Séquence de filament de première couche"
+msgstr "Séquence du filament de première couche"
 
 msgid "Same as Global Plate Type"
 msgstr "Plateau par défaut"
