@@ -6947,19 +6947,19 @@ msgid "Preset(Old)"
 msgstr "Préréglage (ancien)"
 
 msgid "Modified Value(New)"
-msgstr "Valeur modifiée (nouveau)"
+msgstr "Préréglage (nouveau)"
 
 msgid "Save Modified Value"
-msgstr "Enregistrer la valeur modifiée"
+msgstr "Enregistrer les modifications"
 
 msgid "Don't save"
 msgstr "Ne pas enregistrer"
 
 msgid "Discard Modified Value"
-msgstr "Ignorer la valeur modifiée"
+msgstr "Ignorer les modifications"
 
 msgid "Use Modified Value"
-msgstr "Utiliser la valeur modifiée"
+msgstr "Utiliser les modifications"
 
 msgid "Click the right mouse button to display the full text."
 msgstr ""
@@ -7022,15 +7022,14 @@ msgstr ""
 
 #, boost-format
 msgid "You have changed some settings of preset \"%1%\". "
-msgstr "Vous avez modifié certains paramètres du préréglage \"%1%\"."
+msgstr "Modification du préréglage \"%1%\"."
 
 msgid ""
 "\n"
 "You can save or discard the preset values you have modified."
 msgstr ""
 "\n"
-"Vous pouvez enregistrer ou supprimer les valeurs prédéfinies que vous avez "
-"modifiées."
+"Vous pouvez enregistrer ou supprimer les valeurs que vous avez modifiées."
 
 msgid ""
 "\n"
@@ -7038,9 +7037,8 @@ msgid ""
 "continue using the values you have modified on the new preset."
 msgstr ""
 "\n"
-"Vous pouvez enregistrer ou supprimer les valeurs prédéfinies que vous avez "
-"modifiées, ou choisir de continuer à utiliser les valeurs que vous avez "
-"modifiées sur le nouveau préréglage."
+"Vous pouvez enregistrer ou supprimer les valeurs que vous avez modifiées\n"
+"ou choisir de continuer à utiliser les valeurs que vous avez modifiées."
 
 msgid "You have previously modified your settings."
 msgstr "Vous avez modifié vos paramètres précédemment."
@@ -7052,7 +7050,8 @@ msgid ""
 msgstr ""
 "\n"
 "Vous pouvez ignorer les valeurs prédéfinies que vous avez modifiées ou "
-"choisir de continuer à utiliser les valeurs modifiées dans le nouveau projet."
+"choisir\n"
+"de continuer à utiliser les valeurs modifiées dans le nouveau projet."
 
 msgid "Extruders count"
 msgstr "Nombre d'extrudeurs"
