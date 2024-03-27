@@ -555,7 +555,7 @@ var LangText={
 		"t105": "Auteur du profil",
 		"t106": "Description du profil",
 		"t107": "Modèles en ligne",
-		"t108":"PLUS",
+		"t108":"Plus",
 		"t109":"Filaments du système",
 		"t110":"Filaments personnalisés",
 		"t111":"Créer un nouveau filament",
