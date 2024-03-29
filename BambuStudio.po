@@ -4045,7 +4045,7 @@ msgstr ""
 "réessayer."
 
 msgid "Please confirm if the printer is connected."
-msgstr "Veuillez confirmer si l’imprimante est connectée."
+msgstr "Veuillez vérifier si l’imprimante est connectée."
 
 msgid ""
 "The printer is currently busy downloading. Please try again after it "
