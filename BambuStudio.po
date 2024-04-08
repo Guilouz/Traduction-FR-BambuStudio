@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-22 15:49+0800\n"
+"POT-Creation-Date: 2024-04-07 16:19+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -207,6 +207,15 @@ msgstr "Échelle"
 
 msgid "Error: Please close all toolbar menus first"
 msgstr "Erreur : Veuillez d'abord fermer tous les menus de la barre d'outils"
+
+msgid "Tool-Move"
+msgstr "Outil-Déplacement"
+
+msgid "Tool-Scale"
+msgstr "Outil-Échelle"
+
+msgid "Tool-Rotate"
+msgstr "Outil-Rotation"
 
 msgid "Tool-Lay on Face"
 msgstr "Pose de l'outil sur la face"
@@ -605,6 +614,12 @@ msgstr "Annuler une fonctionnalité jusqu’à la sortie"
 msgid "Measure"
 msgstr "Mesurer"
 
+msgid ""
+"Please confirm explosion ratio = 1,and please select at least one object"
+msgstr ""
+"Veuillez confirmer le rapport d'explosion = 1 et sélectionner au moins un "
+"objet"
+
 msgid "Edit to scale"
 msgstr "Modifier à l’échelle"
 
@@ -634,9 +649,6 @@ msgstr ""
 msgid "Copy to clipboard"
 msgstr "Copier dans le presse-papier"
 
-msgid "MoveInMeasure"
-msgstr "Déplacer dans la mesure"
-
 msgid "Angle"
 msgstr "Angle"
 
@@ -651,6 +663,36 @@ msgstr "Distance directe"
 
 msgid "Distance XYZ"
 msgstr "Distance XYZ"
+
+msgid "Parallel"
+msgstr "Parallèle"
+
+msgid "Center coincidence"
+msgstr "Coïncidence centrale"
+
+msgid "Featue 1"
+msgstr "Caractéristique 1"
+
+msgid "Reverse rotation"
+msgstr "Rotation inverse"
+
+msgid "Rotate around center:"
+msgstr "Faire pivoter autour du centre :"
+
+msgid "Parallel_distance:"
+msgstr "Distance parallèle :"
+
+msgid "Featue 2"
+msgstr "Caractéristique 2"
+
+msgid ""
+"Due to ensuer_on_bed, assembly between \n"
+"different objects may not be correct in 3D view.\n"
+" It is recommended to assemble them together."
+msgstr ""
+"En raison de précautions au niveau du plateau, l’assemblage\n"
+"entre différents objets peut ne pas être correct en vue 3D.\n"
+"Il est recommandé de les assembler ensemble."
 
 msgid "Brush size"
 msgstr "Taille de la brosse"
@@ -2717,6 +2759,20 @@ msgstr ""
 "Réinitialiser à 0.2"
 
 msgid ""
+"Too small scarf start height.\n"
+"Reset to 50%"
+msgstr ""
+"Hauteur de départ de l’écharpe trop petite.\n"
+"Réinitialiser à 50%"
+
+msgid ""
+"Too big scarf start height.\n"
+"Reset to 50%"
+msgstr ""
+"Hauteur de départ de l’écharpe trop grande.\n"
+"Réinitialiser à 50%"
+
+msgid ""
 "Too small ironing spacing.\n"
 "Reset to 0.1"
 msgstr ""
@@ -3069,6 +3125,10 @@ msgstr "La valeur %s est hors plage, continuer ?"
 msgid "Parameter validation"
 msgstr "Validation des paramètres"
 
+#, c-format, boost-format
+msgid "Value %s is out of range. The valid range is from %d to %d."
+msgstr "La valeur %s est hors plage. La plage valide va de %d à %d."
+
 msgid "Value is out of range."
 msgstr "La valeur est hors plage."
 
@@ -3146,11 +3206,11 @@ msgstr "Afficher"
 msgid "Flushed"
 msgstr "Purgé"
 
-msgid "Total"
-msgstr "Total"
-
 msgid "Tower"
 msgstr "Tour"
+
+msgid "Total"
+msgstr "Total"
 
 msgid "Total Estimation"
 msgstr "Estimation totale"
@@ -3253,6 +3313,12 @@ msgstr "Durée estimée"
 
 msgid "Normal mode"
 msgstr "Mode normal"
+
+msgid "Total Filament"
+msgstr "Filament total"
+
+msgid "Model Filament"
+msgstr "Filament du modèle"
 
 msgid "Prepare time"
 msgstr "Durée de préparation"
@@ -4282,6 +4348,13 @@ msgstr "Téléchargement terminé"
 #, c-format, boost-format
 msgid "Downloading %d%%..."
 msgstr "Téléchargement %d%%…"
+
+msgid ""
+"Reconnecting the printer, the operation cannot be completed immediately, "
+"please try again later."
+msgstr ""
+"Reconnexion de l’imprimante, l’opération ne peut pas être terminée "
+"immédiatement, veuillez réessayer plus tard."
 
 msgid ""
 "Over 4 studio/handy are using remote access, you can close some and try "
@@ -5592,13 +5665,24 @@ msgstr ""
 
 msgid "Flushing volumes: Auto-calculate every time when the color is changed."
 msgstr ""
-"Calcul automatique des volumes de purge à chaque fois qu'une couleur est "
+"Calcul automatique des volumes de purge à chaque fois que la couleur est "
 "changée"
 
 msgid "If enabled, auto-calculate every time when the color is changed."
 msgstr ""
+"Si activé, le volume de purge est calculé automatiquement à chaque fois que "
+"la couleur est changée."
+
+msgid ""
+"Flushing volumes: Auto-calculate every time when the filament is changed."
+msgstr ""
+"Calcul automatique des volumes de purge à chaque fois que le filament est "
+"changé"
+
+msgid "If enabled, auto-calculate every time when filament is changed"
+msgstr ""
 "Si activé, le volume de purge est calculé automatiquement à chaque fois "
-"qu'une couleur est changée."
+"qu'un filament est changé."
 
 msgid "Presets"
 msgstr "Préréglages"
@@ -6543,14 +6627,26 @@ msgstr "Ignorer"
 msgid ""
 "Experimental feature: Retracting and cutting off the filament at a greater "
 "distance during filament changes to minimize flush.Although it can notably "
-"reduce flush, it may also elevate the risk of nozzle clogs or other printing "
-"complications."
+"reduce flush,  it may also elevate the risk of nozzle clogs or other "
+"printing complications."
 msgstr ""
 "Fonctionnalité expérimentale : Rétracter et couper le filament à une plus "
 "grande distance lors des changements de filament pour minimiser la purge. "
 "Bien que cela puisse réduire considérablement la purge, cela peut également "
 "augmenter le risque d’obstruction des buses ou d’autres complications "
 "d’impression."
+
+msgid ""
+"Experimental feature: Retracting and cutting off the filament at a greater "
+"distance during filament changes to minimize flush.Although it can notably "
+"reduce flush, it may also elevate the risk of nozzle clogs or other printing "
+"complications.Please use with the latest printer firmware."
+msgstr ""
+"Fonctionnalité expérimentale : Rétracter et couper le filament à une plus "
+"grande distance lors des changements de filament pour minimiser la purge. "
+"Bien que cela puisse réduire considérablement la purge, cela peut également "
+"augmenter le risque d’obstruction des buses ou d’autres complications "
+"d’impression. Veuillez l’utiliser avec le dernier firmware de l’imprimante."
 
 msgid ""
 "When recording timelapse without toolhead, it is recommended to add a "
@@ -7158,12 +7254,12 @@ msgstr "Volumes de purge - Changement de filament"
 
 msgid ""
 "Studio would re-calculate your flushing volumes everytime the filaments "
-"color changed. You could disable the auto-calculate in Bambu Studio > "
-"Preferences"
+"color changed or filaments changed. You could disable the auto-calculate in "
+"Bambu Studio > Preferences"
 msgstr ""
 "Bambu Studio recalcule vos volumes de purge à chaque fois que la couleur des "
-"filaments est changée. Vous pouvez désactiver le calcul automatique dans "
-"Bambu Studio > Préférences"
+"filaments est changée ou que les filaments sont remplacés. Vous pouvez "
+"désactiver le calcul automatique dans Bambu Studio > Préférences"
 
 msgid "Flushing volume (mm³) for each filament pair."
 msgstr "Volume de purge (mm³) pour chaque paire de filaments."
@@ -9193,6 +9289,19 @@ msgstr ""
 "Vitesse de remplissage des espaces. Ils ont généralement une largeur de "
 "ligne irrégulière et doivent être imprimés plus lentement"
 
+msgid "Precise Z height"
+msgstr "Hauteur Z précise"
+
+msgid ""
+"Enable this to get precise z height of object after slicing. It will get the "
+"precise object height by fine-tuning the layer heights of the last few "
+"layers. Note that this is an experimental parameter."
+msgstr ""
+"Activez cette option pour obtenir une hauteur Z précise de l’objet après le "
+"découpage. Il obtiendra la hauteur précise de l’objet en ajustant avec "
+"précision les hauteurs des dernières couches. Notez qu’il s’agit d’un "
+"paramètre expérimental."
+
 msgid "Arc fitting"
 msgstr "Fonction Arc"
 
@@ -9388,6 +9497,18 @@ msgstr ""
 
 msgid "Speed of internal sparse infill"
 msgstr "Vitesse de remplissage interne"
+
+msgid "Interface shells"
+msgstr "Coque des interfaces"
+
+msgid ""
+"Force the generation of solid shells between adjacent materials/volumes. "
+"Useful for multi-extruder prints with translucent materials or manual "
+"soluble support material"
+msgstr ""
+"Forcer la génération de coques solides entre matériaux/volumes adjacents. "
+"Utile pour les impressions multi-extrudeurs avec des matériaux translucides "
+"ou un matériau de support soluble."
 
 msgid "Maximum width of a segmented region"
 msgstr "Largeur maximale d'une région segmentée"
@@ -9954,9 +10075,9 @@ msgstr "Seuil d’angle conditionnel"
 msgid ""
 "This option sets the threshold angle for applying a conditional scarf joint "
 "seam.\n"
-"If the maximum angle within the perimeter loop exceeds this value "
-"(indicating the absence of sharp corners), a scarf joint seam will be used. "
-"The default value is 155°."
+"If the seam angle within the perimeter loop exceeds this value (indicating "
+"the absence of sharp corners), a scarf joint seam will be used. The default "
+"value is 155°."
 msgstr ""
 "Cette option définit l’angle seuil pour l’application d’une couture avec "
 "joint d’écharpe.\n"
@@ -10874,9 +10995,6 @@ msgstr ""
 "La compensation de taille X-Y ne peut pas être combinée avec la peinture en "
 "couleur."
 
-msgid "Generating supports"
-msgstr "Génération des supports"
-
 msgid ""
 "Unknown file format. Input file must have .stl, .obj, .amf(.xml) extension."
 msgstr ""
@@ -10979,12 +11097,6 @@ msgstr "Débit"
 
 msgid "Max Volumetric Speed"
 msgstr "Vitesse volumétrique maximale"
-
-msgid "Please enter the name you want to save to printer."
-msgstr "Veuillez saisir le nom que vous souhaitez enregistrer sur l'imprimante"
-
-msgid "The name cannot exceed 40 characters."
-msgstr "Le nom ne peut pas dépasser 40 caractères."
 
 #, c-format, boost-format
 msgid ""
@@ -11255,6 +11367,12 @@ msgstr ""
 
 msgid "Failed"
 msgstr "Échoué"
+
+msgid "Please enter the name you want to save to printer."
+msgstr "Veuillez saisir le nom que vous souhaitez enregistrer sur l'imprimante"
+
+msgid "The name cannot exceed 40 characters."
+msgstr "Le nom ne peut pas dépasser 40 caractères."
 
 msgid ""
 "Only one of the results with the same name will be saved. Are you sure you "
@@ -12758,6 +12876,17 @@ msgstr ""
 "couche plus petite et entraîne des lignes de couche moins nombreuses mais "
 "toujours apparentes et une qualité d’impression légèrement supérieure, mais "
 "un temps d’impression plus long dans certains cas d’impression."
+
+msgid ""
+"This is neither a commonly used filament, nor one of Bambu filaments, and it "
+"varies a lot from brand to brand. So, it's highly recommended to ask its "
+"vendor for suitable profile before printing and adjust some parameters "
+"according to its performances."
+msgstr ""
+"Ce n’est ni un filament couramment utilisé, ni un des filaments Bambu, et "
+"cela varie beaucoup d’une marque à l’autre. Il est donc fortement recommandé "
+"de demander à son fournisseur le profil adapté avant l’impression et "
+"d’ajuster certains paramètres en fonction de ses performances."
 
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
