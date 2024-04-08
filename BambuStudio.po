@@ -671,19 +671,19 @@ msgid "Center coincidence"
 msgstr "Coïncidence centrale"
 
 msgid "Featue 1"
-msgstr "Caractéristique 1"
+msgstr "Fonction 1"
 
 msgid "Reverse rotation"
 msgstr "Rotation inverse"
 
 msgid "Rotate around center:"
-msgstr "Faire pivoter autour du centre :"
+msgstr "Rotation autour du centre:"
 
 msgid "Parallel_distance:"
-msgstr "Distance parallèle :"
+msgstr "Distance parallèle:"
 
 msgid "Featue 2"
-msgstr "Caractéristique 2"
+msgstr "Fonction 2"
 
 msgid ""
 "Due to ensuer_on_bed, assembly between \n"
