@@ -7366,7 +7366,7 @@ msgid "Filament Loaded, Resume"
 msgstr "Filament chargé, Reprendre"
 
 msgid "View Liveview"
-msgstr "Afficher la vue en direct"
+msgstr "Afficher la visualisation en direct"
 
 msgid "Confirm and Update Nozzle"
 msgstr "Confirmer et mettre à jour la buse"
@@ -12324,7 +12324,7 @@ msgid "Task Sending"
 msgstr "Tâches à envoyer"
 
 msgid "Task Sent"
-msgstr "Tâches envoyée"
+msgstr "Tâches envoyées"
 
 msgid "No task"
 msgstr "Aucune tâche"
