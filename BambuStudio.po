@@ -5753,7 +5753,7 @@ msgid "Print sequence"
 msgstr "Séquence d'impression"
 
 msgid "Same as Global"
-msgstr "Identique à la séquence globale"
+msgstr "Séquence d’impression globale"
 
 msgid "Enable"
 msgstr "Activer"
