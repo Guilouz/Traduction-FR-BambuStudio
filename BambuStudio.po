@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 09:05+0800\n"
+"POT-Creation-Date: 2024-05-31 17:44+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -2298,13 +2298,15 @@ msgstr "Voulez-vous vraiment effacer les informations sur le filament ?"
 msgid "You need to select the material type and color first."
 msgstr "Vous devez d'abord sélectionner le type de matériau et la couleur."
 
-msgid "Please input a valid value (K in 0~0.3)"
-msgstr "Veuillez entrer une valeur valide (K dans la plage 0~0.3)"
+#, c-format, boost-format
+msgid "Please input a valid value (K in %.1f~%.1f)"
+msgstr "Veuillez entrer une valeur valide (K dans la plage %.1f~%.1f)"
 
-msgid "Please input a valid value (K in 0~0.3, N in 0.6~2.0)"
+#, c-format, boost-format
+msgid "Please input a valid value (K in %.1f~%.1f, N in %.1f~%.1f)"
 msgstr ""
-"Veuillez entrer une valeur valide (K dans la plage 0~0.3, N dans la plage "
-"0.6~2.0)"
+"Veuillez entrer une valeur valide (K dans la plage %.1f~%.1f, N dans la "
+"plage %.1f~%.1f)"
 
 msgid "Other Color"
 msgstr "Autre Couleur"
@@ -3098,30 +3100,30 @@ msgstr "Mise à jour a échoué."
 
 msgid ""
 "The current chamber temperature or the target chamber temperature exceeds "
-"45\\u2103.In order to avoid extruder clogging,low temperature filament(PLA/"
-"PETG/TPU) is not allowed to be loaded."
+"45℃.In order to avoid extruder clogging,low temperature filament(PLA/PETG/"
+"TPU) is not allowed to be loaded."
 msgstr ""
 "La température actuelle de la chambre ou la température cible de la chambre "
-"dépasse 45\\u2103. Afin d'éviter le bouchage de l'extrudeur, un filament "
-"basse température (PLA/PETG/TPU) ne doit pas être chargé."
+"dépasse 45℃. Afin d'éviter le bouchage de l'extrudeur, un filament basse "
+"température (PLA/PETG/TPU) ne doit pas être chargé."
 
 msgid ""
 "Low temperature filament(PLA/PETG/TPU) is loaded in the extruder.In order to "
 "avoid extruder clogging,it is not allowed to set the chamber temperature "
-"above 45\\u2103."
+"above 45℃."
 msgstr ""
 "Un filament basse température (PLA/PETG/TPU) est chargé dans l'extrudeur. "
 "Afin d'éviter le bouchage de l'extrudeur, il n'est pas autorisé de régler la "
-"température de la chambre au-dessus de 45\\u2103."
+"température de la chambre au-dessus de 45℃."
 
 msgid ""
-"When you set the chamber temperature below 40\\u2103, the chamber "
-"temperature control will not be activated. And the target chamber "
-"temperature will automatically be set to 0\\u2103."
+"When you set the chamber temperature below 40℃, the chamber temperature "
+"control will not be activated. And the target chamber temperature will "
+"automatically be set to 0℃."
 msgstr ""
-"Lorsque vous réglez la température de la chambre en dessous de 40\\u2103, le "
+"Lorsque vous réglez la température de la chambre en dessous de 40℃, le "
 "contrôle de la température de la chambre ne sera pas activé. Et la "
-"température cible de la chambre sera automatiquement réglée sur 0\\u2103."
+"température cible de la chambre sera automatiquement réglée sur 0℃."
 
 msgid "Failed to start printing job"
 msgstr "Échec du démarrage de la tâche d'impression"
@@ -3442,6 +3444,19 @@ msgstr "Augmenter/Diminuer la zone d'édition"
 
 msgid "Sequence"
 msgstr "Séquence"
+
+msgid "object selection"
+msgstr "sélection d'objets"
+
+msgid "part selection"
+msgstr "sélection de pièces"
+
+msgid "number keys"
+msgstr "touches numériques"
+
+msgid "number keys can quickly change the color of objects"
+msgstr ""
+"les touches numériques peuvent changer rapidement la couleur des objets"
 
 msgid "Mirror Object"
 msgstr "Objet miroir"
@@ -6239,9 +6254,6 @@ msgstr "envoi terminé"
 
 msgid "Error code"
 msgstr "Code d'erreur"
-
-msgid "Printer local connection failed, please try again."
-msgstr "La connexion locale de l'imprimante a échoué, veuillez réessayer."
 
 msgid "No login account, only printers in LAN mode are displayed"
 msgstr ""
@@ -11453,10 +11465,10 @@ msgid ""
 "printer will use the default compensation parameter for the filament during "
 "every filament switch which will have a good result in most cases.\n"
 "\n"
-"Please note there are a few cases that will make the calibration result not "
-"reliable: using a texture plate to do the calibration; the build plate does "
-"not have good adhesion (please wash the build plate or apply gluestick!) ..."
-"You can find more from our wiki.\n"
+"Please note that there are a few cases that can make the calibration results "
+"unreliable, such as insufficient adhesion on the build plate. Improving "
+"adhesion can be achieved by washing the build plate or applying glue. For "
+"more information on this topic, please refer to our Wiki.\n"
 "\n"
 "The calibration results have about 10 percent jitter in our test, which may "
 "cause the result not exactly the same in each calibration. We are still "
@@ -11476,11 +11488,12 @@ msgstr ""
 "\n"
 "Veuillez noter qu'il y a quelques cas qui rendront le résultat de "
 "calibration non fiable : utiliser un plateau texturé pour faire la "
-"calibration, utiliser un plateau qui n'a pas une bonne adhérence (veuillez "
-"dans ce cas laver la plaque de construction ou appliquer de la colle)… Vous "
-"pouvez trouver d'autres cas sur notre Wiki.\n"
+"calibration, utiliser un plateau qui n'a pas une bonne adhérence. "
+"L’amélioration de l’adhérence peut être obtenue en nettoyant la plaque de "
+"construction ou en appliquant de la colle.… Pour plus d’informations sur ce "
+"sujet, veuillez vous référer à notre Wiki.\n"
 "\n"
-"Les résultats de calibration ont environ 10 % d'écart dans nos tests, ce qui "
+"Les résultats de calibration ont environ 10% d'écart dans nos tests, ce qui "
 "peut faire en sorte que le résultat ne soit pas exactement le même à chaque "
 "calibration. Nous enquêtons toujours sur la cause première pour apporter des "
 "améliorations avec de nouvelles mises à jour."
@@ -11879,7 +11892,7 @@ msgstr "Intervalle: "
 
 msgid ""
 "Please input valid values:\n"
-"start > 0 \\step >= 0\n"
+"start > 0 step >= 0\n"
 "end > start + step)"
 msgstr ""
 "Veuillez saisir des valeurs valides :\n"
@@ -11897,7 +11910,7 @@ msgstr "Vitesse de fin: "
 
 msgid ""
 "Please input valid values:\n"
-"start > 10 \\step >= 0\n"
+"start > 10 step >= 0\n"
 "end > start + step)"
 msgstr ""
 "Veuillez saisir des valeurs valides :\n"
@@ -13189,12 +13202,12 @@ msgstr "Tâches envoyées"
 msgid "Edit multiple printers"
 msgstr "Modifier plusieurs imprimantes"
 
-msgid "Select connected printetrs (0/6)"
-msgstr "Sélectionnez les imprimantes connectées (0/6)"
+msgid "Select connected printers (0/6)"
+msgstr "Sélection des imprimantes connectées (0/6)"
 
 #, c-format, boost-format
-msgid "Select Connected Printetrs (%d/6)"
-msgstr "Sélectionnez les imprimantes connectées (%d/6)"
+msgid "Select Connected Printers (%d/6)"
+msgstr "Sélection des imprimantes connectées (%d/6)"
 
 #, c-format, boost-format
 msgid "The maximum number of printers that can be selected is %d"
@@ -13223,6 +13236,45 @@ msgstr "Il n’y a aucune tâche à envoyer !"
 
 msgid "No historical tasks!"
 msgstr "Pas d’historique de tâches"
+
+msgid "Upgrading"
+msgstr "Mise à jour"
+
+msgid "syncing"
+msgstr "Synchronisation"
+
+msgid "Printing Finish"
+msgstr "Impressions terminées"
+
+msgid "Printing Failed"
+msgstr "Impressions échouées"
+
+msgid "Printing Pause"
+msgstr "Impressions mises en pause"
+
+msgid "Pending"
+msgstr "En attente"
+
+msgid "Sending"
+msgstr "Envois en cours"
+
+msgid "Sending Finish"
+msgstr "Envois terminés"
+
+msgid "Sending Cancel"
+msgstr "Envois annulés"
+
+msgid "Sending Failed"
+msgstr "Envois échoués"
+
+msgid "Print Success"
+msgstr "Impressions terminées"
+
+msgid "Print Failed"
+msgstr "Impressions échouées"
+
+msgid "Removed"
+msgstr "Supprimées"
 
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
@@ -13545,39 +13597,3 @@ msgstr ""
 "à la déformation, tels que l'ABS, une augmentation\n"
 "appropriée de la température du plateau peut réduire le\n"
 "risque de déformation."
-
-msgid "Unconnected device"
-msgstr "Imprimante non connectée"
-
-msgid "Upgrading"
-msgstr "Mise à jour"
-
-msgid "syncing"
-msgstr "Synchronisation"
-
-msgid "Printing Finish"
-msgstr "Impression terminée"
-
-msgid "Printing Failed"
-msgstr "Impression échouée"
-
-msgid "PrintingPause"
-msgstr "Impression en pause"
-
-msgid "Pending"
-msgstr "En attente"
-
-msgid "Sending"
-msgstr "Envoi en cours"
-
-msgid "Sending Finish"
-msgstr "Envoi terminé"
-
-msgid "Sending Cancel"
-msgstr "Envoi annulé"
-
-msgid "Sending Failed"
-msgstr "Envoi échoué"
-
-msgid "Print Success"
-msgstr "Succès d'impression"
