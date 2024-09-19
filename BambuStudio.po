@@ -13639,6 +13639,3 @@ msgstr ""
 "à la déformation, tels que l'ABS, une augmentation\n"
 "appropriée de la température du plateau peut réduire le\n"
 "risque de déformation."
-
-#~ msgid "Downloads"
-#~ msgstr "Téléchargements"
