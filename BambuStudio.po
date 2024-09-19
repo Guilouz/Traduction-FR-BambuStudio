@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-22 18:32+0800\n"
+"POT-Creation-Date: 2024-09-18 15:33+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1) ? 0 : 1;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 
 msgid "Supports Painting"
 msgstr "Peindre les supports"
@@ -3274,14 +3274,11 @@ msgstr "Tour"
 msgid "Total"
 msgstr "Total"
 
-msgid "Total Estimation"
-msgstr "Estimation totale"
-
-msgid "Total time"
-msgstr "Durée totale"
-
 msgid "Total cost"
 msgstr "Coût total"
+
+msgid "Time Estimation"
+msgstr "Durée estimée"
 
 msgid "up to"
 msgstr "jusqu'à"
@@ -3370,8 +3367,8 @@ msgstr "Imprimante"
 msgid "Print settings"
 msgstr "Paramètres d'impression"
 
-msgid "Time Estimation"
-msgstr "Durée estimée"
+msgid "Total Estimation"
+msgstr "Estimation totale"
 
 msgid "Normal mode"
 msgstr "Mode normal"
@@ -3387,6 +3384,9 @@ msgstr "Durée de préparation"
 
 msgid "Model printing time"
 msgstr "Durée d'impression du modèle"
+
+msgid "Total time"
+msgstr "Durée totale"
 
 msgid "Switch to silent mode"
 msgstr "Passer en mode silencieux"
@@ -4196,6 +4196,11 @@ msgstr ""
 "Fermé temporairement car il n'y a pas eu d'activité pendant une longue "
 "période."
 
+msgid "Temporarily closed because there is no printing for a while."
+msgstr ""
+"Fermé temporairement car il n'y a pas eu d’impression pendant une longue "
+"période."
+
 msgid "Please confirm if the printer is connected."
 msgstr "Veuillez vérifier si l’imprimante est connectée."
 
@@ -4239,8 +4244,8 @@ msgstr ""
 msgid "The printer has been logged out and cannot connect."
 msgstr "L’imprimante a été déconnectée et ne peut pas se reconnecter."
 
-msgid "Stopped."
-msgstr "Arrêté."
+msgid "Video Stopped."
+msgstr "Arrêt de la vidéo."
 
 msgid "LAN Connection Failed (Failed to start liveview)"
 msgstr ""
@@ -4889,9 +4894,6 @@ msgstr "Modèle téléchargé."
 
 msgid "Serious warning:"
 msgstr "Avertissement sérieux :"
-
-msgid " (Repair)"
-msgstr " (Réparer)"
 
 msgid " Click here to install it."
 msgstr " Cliquez ici pour l'installer."
@@ -5621,16 +5623,19 @@ msgstr "Volume : %1% mm³\n"
 msgid "Triangles: %1%\n"
 msgstr "Triangles : %1%\n"
 
+msgid " (Repair)"
+msgstr " (Réparer)"
+
 msgid "Tips:"
 msgstr "Astuces :"
 
 msgid ""
-"\"Fix Model\" feature is currently only on Windows. Please repair the model "
-"on Bambu Studio(windows) or CAD softwares."
+"\"Fix Model\" feature is currently only on Windows. Please use a third-party "
+"tool to repair the model before importing it into Bambu Studio, such as "
 msgstr ""
-"La fonctionnalité \"Réparer le modèle\" n'est actuellement disponible que "
-"sur Windows. Veuillez réparer le modèle sur Bambu Studio (Windows) ou avec "
-"des logiciels de CAO."
+"La fonction \"Réparer le modèle\" n'est actuellement disponible que sous "
+"Windows. Veuillez utiliser un outil tiers pour réparer le modèle avant de "
+"l'importer dans BambuStudio, tel que"
 
 #, c-format, boost-format
 msgid ""
@@ -5866,8 +5871,19 @@ msgstr "toutes les"
 msgid "The peroid of backup in seconds."
 msgstr "La période de sauvegarde en secondes."
 
-msgid "Downloads"
-msgstr "Téléchargements"
+msgid "Media"
+msgstr "Médias"
+
+msgid "Keep liveview when printing."
+msgstr "Conserver l'affichage en direct lors de l'impression."
+
+msgid ""
+"By default, Liveview will pause after 15 minutes of inactivity on the "
+"computer. Check this box to disable this feature during printing."
+msgstr ""
+"Par défaut, l’affichage en direct se met en pause après 15 minutes "
+"d'inactivité sur l'ordinateur. Cochez cette case pour désactiver cette "
+"fonction pendant l'impression."
 
 msgid "Dark Mode"
 msgstr "Mode Nuit"
@@ -13623,3 +13639,6 @@ msgstr ""
 "à la déformation, tels que l'ABS, une augmentation\n"
 "appropriée de la température du plateau peut réduire le\n"
 "risque de déformation."
+
+#~ msgid "Downloads"
+#~ msgstr "Téléchargements"
