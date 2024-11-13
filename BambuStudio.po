@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-25 21:39+0800\n"
+"POT-Creation-Date: 2024-11-12 11:34+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -845,6 +845,9 @@ msgstr "Attention : L’entrée ne peut pas être vide !"
 msgid "Warning:create text fail."
 msgstr "Avertissement : Echec de création du texte."
 
+msgid "Warning:text normal is error."
+msgstr "Avertissement : Le texte normal est une erreur."
+
 msgid "Surface"
 msgstr "Surface"
 
@@ -863,8 +866,8 @@ msgstr "Rayon de détection"
 msgid "Remove selected points"
 msgstr "Supprimer les points sélectionnés"
 
-msgid "Remove all points"
-msgstr "Supprimer tous les points"
+msgid "Remove all"
+msgstr "Suprimer tout"
 
 msgid "Auto-generate points"
 msgstr "Générer automatiquement des points"
@@ -888,8 +891,8 @@ msgstr ""
 "Attention : Le type de bordure n’est pas réglé sur \"Bordures d’angle "
 "(Peintes)\" et les bordures d’angle ne prendront pas effet !"
 
-msgid "(Set the brim type to \"painted\")"
-msgstr "(Définir le type de bordure sur \"Bordures d’angle (Peintes)\")"
+msgid "Set the brim type to \"painted\""
+msgstr "Définir le type de bordure sur \"Bordures d’angle (Peintes)\""
 
 msgid " invalid brim ears"
 msgstr " bordure d’angle invalide"
@@ -2091,9 +2094,6 @@ msgid "OK"
 msgstr "OK"
 
 msgid "Jump to Layer"
-msgstr "Aller à la couche"
-
-msgid "Jump to layer"
 msgstr "Aller à la couche"
 
 msgid "Please enter the layer number"
@@ -3983,6 +3983,12 @@ msgstr ""
 "plateau et en vous assurant que la hauteur ne dépasse pas le volume "
 "d'impression."
 
+#, c-format, boost-format
+msgid "filaments %s cannot be printed directly on the surface of this plate."
+msgstr ""
+"les filaments %s ne peuvent pas être imprimés directement sur la surface de "
+"ce plateau."
+
 msgid "Calibration step selection"
 msgstr "Sélection des étapes de calibration"
 
@@ -5175,6 +5181,9 @@ msgstr "Nombre de facettes triangulaires"
 msgid "0"
 msgstr "0"
 
+msgid "Don't show again"
+msgstr "Ne plus afficher"
+
 msgid "Calculating, please wait..."
 msgstr "Calcul en cours, veuillez patienter…"
 
@@ -5183,9 +5192,6 @@ msgstr "Statut"
 
 msgid "Update"
 msgstr "Mise à jour"
-
-msgid "Don't show again"
-msgstr "Ne plus afficher"
 
 #, c-format, boost-format
 msgid "%s error"
@@ -5381,6 +5387,9 @@ msgstr "Votre modèle a besoin de supports ! Veuillez activer les supports."
 msgid "Gcode path overlap"
 msgstr "Chevauchement de chemin Gcode"
 
+msgid "Click Wiki for help."
+msgstr "Cliquez sur Wiki pour obtenir de l'aide."
+
 msgid "Support painting"
 msgstr "Peindre les supports"
 
@@ -5462,14 +5471,14 @@ msgstr ""
 "Vérifier si la buse est enveloppée à cause d’un filament ou d’autres corps "
 "étrangers."
 
-msgid "Nozzle Type"
-msgstr "Type de la buse"
+msgid "Hardened Steel"
+msgstr "Acier trempé"
 
 msgid "Stainless Steel"
 msgstr "Acier inoxydable"
 
-msgid "Hardened Steel"
-msgstr "Acier trempé"
+msgid "Nozzle Type"
+msgstr "Type de la buse"
 
 #, c-format, boost-format
 msgid "%.1f"
@@ -6295,6 +6304,16 @@ msgstr ""
 "Avec cette option activée, vous pouvez envoyer une tâche à plusieurs "
 "imprimantes en même temps et gérer plusieurs imprimantes."
 
+msgid "Show the step mesh parameter setting dialog."
+msgstr ""
+"Afficher la boîte de dialogue des paramètres de maillage des fichiers STEP"
+
+msgid ""
+"If enabled,a parameter settings dialog will appear during STEP file import."
+msgstr ""
+"Si cette option est activée, une boîte de dialogue de configuration des "
+"paramètres apparaîtra lors de l’importation d’un fichier STEP."
+
 msgid "Support beta version update."
 msgstr "Autoriser les mises à jour bêta"
 
@@ -6407,6 +6426,9 @@ msgstr "Modèles en ligne"
 
 msgid "Show online staff-picked models on the home page"
 msgstr "Afficher les modèles en ligne sur la page d'accueil"
+
+msgid "Show history on the home page"
+msgstr "Afficher l'historique sur la page d'accueil"
 
 msgid "Maximum recent projects"
 msgstr "Projets récents maximum"
@@ -6809,14 +6831,8 @@ msgstr "Hors ligne"
 msgid "Busy"
 msgstr "Occupée"
 
-msgid "Bambu Cool Plate SuperTack"
-msgstr "Bambu Cool Plate SuperTack"
-
 msgid "Bambu Cool Plate"
 msgstr "Bambu Cool Plate"
-
-msgid "PLA Plate"
-msgstr "Plateau PLA"
 
 msgid "Bamabu Engineering Plate"
 msgstr "Bambu Engineering Plate"
@@ -6829,6 +6845,9 @@ msgstr "Bambu High Temperature Plate"
 
 msgid "Bamabu Textured PEI Plate"
 msgstr "Bambu Textured PEI Plate"
+
+msgid "Bambu Cool Plate SuperTack"
+msgstr "Bambu Cool Plate SuperTack"
 
 msgid "Send print job to"
 msgstr "Envoi de la tâche d'impression"
@@ -7014,13 +7033,12 @@ msgstr ""
 "diamètre de buse mémorisée. Si vous avez changé de buse récemment, accédez à "
 "Imprimante > Pièces de l’imprimante pour modifier les paramètres."
 
-#, c-format, boost-format
 msgid ""
-"Printing high temperature material(%s material) with %s may cause nozzle "
+"Printing high temperature material(%1 material) with %2 may cause nozzle "
 "damage"
 msgstr ""
-"L’impression d’un matériau à haute température (%s) avec %s peut endommager "
-"la buse."
+"L’impression d’un matériau à haute température (matériau %1) avec %2 peut "
+"endommager la buse."
 
 msgid "Please fix the error above, otherwise printing cannot continue."
 msgstr ""
@@ -7512,8 +7530,8 @@ msgstr ""
 "installé. Une valeur à 0 signifie que le filament ne prend pas en charge "
 "l'impression sur le plateau Bambu Cool Plate SuperTack"
 
-msgid "Cool Plate / PLA Plate"
-msgstr "Bambu Cool Plate / Plateau PLA"
+msgid "Cool Plate"
+msgstr "Cool Plate"
 
 msgid ""
 "Bed temperature when cool plate is installed. Value 0 means the filament "
@@ -8378,28 +8396,34 @@ msgid "Connect the printer using IP and access code"
 msgstr "Lier avec l’IP et le code d’accès"
 
 msgid ""
-"Step 1, please confirm Bambu Studio and your printer are in the same LAN."
+"Step 1. Please confirm Bambu Studio and your printer are in the same LAN."
 msgstr ""
 "Étape 1 : Veuillez confirmer que Bambu Studio et votre imprimante sont sur "
 "le même réseau local."
 
 msgid ""
-"Step 2, if the IP and Access Code below are different from the actual values "
+"Step 2. If the IP and Access Code below are different from the actual values "
 "on your printer, please correct them."
 msgstr ""
 "Étape 2 : Si l'adresse IP et le code d'accès ci-dessous sont différents des "
 "valeurs réelles de votre imprimante, veuillez les corriger."
 
+msgid ""
+"Step 3. Please obtain the device SN from the printer side; it is usually "
+"found in the device information on the printer screen."
+msgstr ""
+"Étape 3 : Veuillez obtenir le numéro de série de l’appareil auprès de "
+"l’imprimante; il se trouve généralement dans les informations sur l’appareil "
+"sur l’écran de l’imprimante."
+
 msgid "Access Code"
 msgstr "Code d'accès"
 
+msgid "Printer model"
+msgstr "Modèle de l'imprimante"
+
 msgid "Where to find your printer's IP and Access Code?"
 msgstr "Où trouver l'adresse IP et le code d'accès de votre imprimante ?"
-
-msgid "Step 3: Ping the IP address to check for packet loss and latency."
-msgstr ""
-"Étape 3 : envoyez une requête ping à l'adresse IP pour vérifier la perte de "
-"paquets et la latence."
 
 msgid "Connect"
 msgstr "Connecter"
@@ -8412,11 +8436,6 @@ msgstr "Échec de la connexion à l’imprimante."
 
 msgid "Failed to publish login request."
 msgstr "Échec de la publication de la demande de connexion."
-
-msgid "The device does not support using IP and Access Code for connection."
-msgstr ""
-"L’appareil ne prend pas en charge l’utilisation de l’IP et du code d’accès "
-"pour la connexion."
 
 msgid "The printer has already been bound."
 msgstr "L’imprimante a déjà été reliée."
@@ -8605,10 +8624,25 @@ msgstr ""
 "Échec de la génération du gcode pour un G-code personnalisé non valide.\n"
 "\n"
 
-msgid "Please check the custom G-code or use the default custom G-code."
+msgid "Please check the custom G-code or use the default custom G-code.\n"
 msgstr ""
 "Veuillez vérifier le G-code personnalisé ou utiliser le G-code personnalisé "
-"par défaut."
+"par défaut.\n"
+
+msgid ""
+"You can find them from 'Printer settings' -> 'Machine G-code' and 'Filament "
+"settings' -> 'Advanced'."
+msgstr ""
+"Vous pouvez les trouver dans ‘Paramètres de l’imprimante’ -> ‘G-code de la "
+"machine’ et ‘Paramètres du filament’ -> ‘Avancé’."
+
+msgid "You can find it from 'Printer settings' -> 'Machine G-code'."
+msgstr ""
+"Vous pouvez le trouver dans ‘Paramètres de l’imprimante’ -> ‘G-code de la "
+"machine’."
+
+msgid "You can find it from 'Filament settings' -> 'Advanced'."
+msgstr "Vous pouvez le trouver dans ‘Paramètres du filament’ -> ‘Avancé’."
 
 #, boost-format
 msgid "Generating G-code: layer %1%"
@@ -9677,7 +9711,7 @@ msgid ""
 "by-object printing."
 msgstr ""
 "Distance de la pointe de la buse à la tige inférieure. Utilisée pour éviter "
-"les collisions dans l'impression par objet."
+"les collisions lors de l'impression par objet."
 
 msgid "Height to lid"
 msgstr "Hauteur au couvercle"
@@ -9687,14 +9721,18 @@ msgid ""
 "object printing."
 msgstr ""
 "Distance de la pointe de la buse au couvercle. Utilisée pour éviter les "
-"collisions dans l'impression par objet."
+"collisions lors de l'impression par objet."
+
+msgid "Distance to rod"
+msgstr "Distance à la tige"
 
 msgid ""
-"Clearance radius around extruder. Used for collision avoidance in by-object "
-"printing."
+"Horizontal distance of the nozzle tip to the rod's farther edge. Used for "
+"collision avoidance in by-object printing."
 msgstr ""
-"Rayon autour de la tête d'impression. Utilisé pour éviter les collisions "
-"dans l'impression par objet."
+"Distance horizontale entre la pointe de la buse et le bord le plus éloigné "
+"de la tige. Utilisée pour éviter les collisions lors de l’impression par "
+"objet."
 
 msgid "Nozzle height"
 msgstr "Hauteur de la buse"
@@ -10990,8 +11028,8 @@ msgstr ""
 "Cette quantité est exprimée en pourcentage du diamètre actuel de la buse. La "
 "valeur par défaut de ce paramètre est 15"
 
-msgid "Conditional scarf joint"
-msgstr "Joints d’écharpe conditionnels"
+msgid "Smart scarf seam application"
+msgstr "Application intelligentes des joints d’écharpe"
 
 msgid ""
 "Apply scarf joints only to smooth perimeters where traditional seams do not "
@@ -11001,8 +11039,8 @@ msgstr ""
 "coutures traditionnelles ne cachent pas efficacement les coutures aux angles "
 "vifs."
 
-msgid "Conditional angle threshold"
-msgstr "Seuil d’angle conditionnel"
+msgid "Scarf application angle threshold"
+msgstr "Seuil d’angle d’application"
 
 msgid ""
 "This option sets the threshold angle for applying a conditional scarf joint "
@@ -11011,7 +11049,7 @@ msgid ""
 "the absence of sharp corners), a scarf joint seam will be used. The default "
 "value is 155°."
 msgstr ""
-"Cette option définit l’angle seuil pour l’application d’une couture avec "
+"Cette option définit le seuil d’angle pour l’application d’une couture avec "
 "joint d’écharpe.\n"
 "Si l’angle maximum à l’intérieur de la boucle périphérique dépasse cette "
 "valeur (indiquant l’absence de coins pointus), une couture à joint d’écharpe "
@@ -11049,7 +11087,7 @@ msgstr ""
 "exemple 80%), elle sera calculée en fonction du paramètre de vitesse de "
 "déplacement ci-dessus. La valeur par défaut de ce paramètre est 80%."
 
-msgid "Role base wipe speed"
+msgid "Role-based wipe speed"
 msgstr "Vitesse d'essuyage basée sur les rôles"
 
 msgid ""
@@ -11952,17 +11990,17 @@ msgstr ""
 "La compensation de taille X-Y ne peut pas être combinée avec la peinture en "
 "couleur."
 
-msgid ""
-"Unknown file format. Input file must have .stl, .obj, .amf(.xml) extension."
-msgstr ""
-"Format de fichier inconnu. Le fichier d'entrée doit avoir l'extension .stl, ."
-"obj, .amf(.xml)."
-
 msgid "Loading of a model file failed."
 msgstr "Le chargement d'un fichier de modèle a échoué."
 
 msgid "The supplied file couldn't be read because it's empty"
 msgstr "Impossible de lire le fichier fourni car il est vide"
+
+msgid ""
+"Unknown file format. Input file must have .stl, .obj, .amf(.xml) extension."
+msgstr ""
+"Format de fichier inconnu. Le fichier d'entrée doit avoir l'extension .stl, ."
+"obj, .amf(.xml)."
 
 msgid "Unknown file format. Input file must have .3mf or .zip.amf extension."
 msgstr ""
@@ -12486,11 +12524,57 @@ msgid "Method"
 msgstr "Méthode"
 
 #, c-format, boost-format
+msgid ""
+"Tip: Using a %.1fmm nozzle for auto dynamic flow calibration may have a high "
+"probability of failure.\n"
+"If it fails, it is recommended to use manual calibration."
+msgstr ""
+"Astuce : L’utilisation d’une buse de %.1fmm pour la calibration automatique "
+"du débit peut entraîner une forte probabilité d’échec.\n"
+"En cas d’échec, il est recommandé d’utiliser la calibration manuelle."
+
+#, c-format, boost-format
+msgid ""
+"Tip: Using a %.1fmm nozzle for auto dynamic flow calibration may not get "
+"accurate calibration results.\n"
+"It is recommended to use manual calibration."
+msgstr ""
+"Astuce : L’utilisation d’une buse de %.1fmm pour la calibration automatique "
+"du débit peut ne pas donner de résultats de calibration précis.\n"
+"Il est recommandé d’utiliser la calibration manuelle."
+
+#, c-format, boost-format
 msgid "%s is not compatible with %s"
 msgstr "%s n'est pas compatible avec %s"
 
 msgid "TPU is not supported for Flow Dynamics Auto-Calibration."
 msgstr "Le TPU n'est pas supporté pour la calibration du Pressure Advance"
+
+#, c-format, boost-format
+msgid ""
+"Tip: Calibrating foam filaments(%s) in X series printers may not get "
+"accurate results\n"
+"because their dynamic response is much different from that of ordinary "
+"filaments, and there is a high risk of oozing when printing calibration "
+"lines."
+msgstr ""
+"Astuce : La calibration des filaments dotés de la technologie de mousse "
+"active (%s) sur les imprimantes de la série X peut ne pas donner de "
+"résultats précis\n"
+"car leur réponse dynamique est très différente de celle des filaments "
+"ordinaires et il existe un risque élevé de suintement lors de l’impression "
+"des lignes de calibration."
+
+#, c-format, boost-format
+msgid ""
+"Tip: When using the A1/A1 mini printer, we do not recommend calibrating foam "
+"filaments(%s),\n"
+"as the results may be unstable and affect print quality."
+msgstr ""
+"Astuce : Lorsque vous utilisez l’imprimante A1/A1 Mini, nous vous "
+"déconseillons de calibrer les filaments de la technologie de mousse active "
+"(%s),\n"
+"car les résultats peuvent être instables et affecter la qualité d’impression."
 
 msgid "Connecting to printer"
 msgstr "Connexion à l'imprimante"
