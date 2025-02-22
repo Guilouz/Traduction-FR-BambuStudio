@@ -115,7 +115,9 @@ var LangText={
 		"t121": "Search",
 		"t122": "Search online models",
 		"t123": "Plate",
-		"t124": ""
+		"t124": "",
+		"t125": "Maker’s Supply",
+		"t126": "Loading……"
 	},
 	"zh_CN": {
 		"t1": "欢迎使用Bambu Studio",
@@ -233,7 +235,10 @@ var LangText={
 		"t121": "搜索",
 		"t122": "搜索在线模型",
 		"t123": "第",
-		"t124": " 盘",		
+		"t124": " 盘",
+		"t124": " 盘",
+		"t125": "创客宝库",
+		"t126": "正在加载……",
 		"wk1": "快速入门指南",
 		"wk2": "本文介绍了Bambu Studio的最基本用法。它指导用户配置软件，创建项目，并逐步完成第一个打印任务。",
 		"wk3": "基于项目的工作流",
@@ -604,6 +609,8 @@ var LangText={
 		"t122": "Rechercher des modèles en ligne",
 		"t123": "Plateau",
 		"t124": "",
+		"t125": "Maker’s Supply",
+		"t126": "Chargement……",
 		"t150":"Connexion à l'imprimante",
 		"t151":"Veuillez configurer la connexion de votre imprimante pour afficher l'interface.",
 		"t152":"Aucune information sur le modèle",
