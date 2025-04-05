@@ -4083,9 +4083,7 @@ msgid "Right nozzle"
 msgstr "Buse Droite"
 
 msgid "Please place filaments on the printer based on grouping result."
-msgstr ""
-"Veuillez placer les filaments sur l’imprimante en fonction du résultat du "
-"regroupement."
+msgstr "Placez les filaments sur l’imprimante selon le résultat obtenu."
 
 msgid "Tips:"
 msgstr "Astuces :"
@@ -4140,7 +4138,7 @@ msgid "Set to Optimal"
 msgstr "Définir sur Optimal"
 
 msgid "Regroup filament"
-msgstr "Regrouper les filaments"
+msgstr "Regroupement des filaments"
 
 msgid "up to"
 msgstr "jusqu'à"
