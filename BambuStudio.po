@@ -2712,8 +2712,7 @@ msgstr "Envoi de la configuration d'impression"
 
 #, c-format, boost-format
 msgid "Successfully sent. Will automatically jump to the device page in %ss"
-msgstr ""
-"Envoyée avec succès. Bascule automatique sur la page de l'imprimante dans %ss"
+msgstr "Envoyée avec succès. Bascule sur la page de l'imprimante dans %ss"
 
 #, c-format, boost-format
 msgid "Successfully sent. Will automatically jump to the next page in %ss"
