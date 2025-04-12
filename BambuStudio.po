@@ -3865,7 +3865,7 @@ msgid "Verification failed."
 msgstr "Échec de la vérification."
 
 msgid "Update failed."
-msgstr "Mise à jour a échoué."
+msgstr "La mise à jour a échoué."
 
 msgid ""
 "The current chamber temperature or the target chamber temperature exceeds "
@@ -5968,7 +5968,7 @@ msgid "Status"
 msgstr "Statut"
 
 msgid "Update"
-msgstr "Mise à jour"
+msgstr "Mises à jour"
 
 msgid "Go to"
 msgstr "Aller à"
