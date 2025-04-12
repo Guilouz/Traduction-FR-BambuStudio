@@ -6254,7 +6254,7 @@ msgid "Notification"
 msgstr "Notifications"
 
 msgid "Pause printing"
-msgstr "Suspendre l’impression"
+msgstr "Suspendre"
 
 msgid "Store Sent Files on External Storage"
 msgstr "Stocker les fichiers envoyés sur un stockage externe"
