@@ -4717,7 +4717,7 @@ msgid "Logging"
 msgstr "Enregistrement"
 
 msgid "Prepare"
-msgstr "Préparer"
+msgstr "Préparation"
 
 msgid "Preview"
 msgstr "Aperçu"
@@ -5007,7 +5007,7 @@ msgid "Show 3D Navigator"
 msgstr "Afficher le navigateur 3D"
 
 msgid "Show 3D navigator in Prepare and Preview scene"
-msgstr "Afficher le navigateur 3D dans les onglets Préparer et Aperçu"
+msgstr "Afficher le navigateur 3D dans les onglets Préparation et Aperçu"
 
 msgid "Show object labels in 3D scene"
 msgstr "Afficher les étiquettes des objets dans la scène 3D"
@@ -6801,7 +6801,7 @@ msgid ""
 msgstr ""
 "Mode aperçu uniquement :\n"
 "Le fichier chargé contient uniquement du gcode, impossible d'accéder à la "
-"page Préparer"
+"page Préparation"
 
 msgid ""
 "The nozzle type and AMS quantity information has not been synced from the "
