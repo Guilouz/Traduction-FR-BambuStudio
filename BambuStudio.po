@@ -3816,7 +3816,7 @@ msgid "Check printer absolute accuracy after calibration"
 msgstr "Vérifier la précision absolue de l’imprimante après la calibration"
 
 msgid "Nozzle offset calibration"
-msgstr "Calibrage du décalage des buses"
+msgstr "Calibration du décalage des buses"
 
 msgid "high temperature auto bed levelling"
 msgstr "Nivellement du plateau à haute température"
@@ -15656,7 +15656,7 @@ msgid ""
 "large, or the step is too small"
 msgstr ""
 "Impossible de calibrer : il est possible que la plage de valeurs de "
-"calibrage définie est trop grande ou que l'intervalle est trop petit"
+"calibration définie est trop grande ou que l'intervalle est trop petit"
 
 msgid "Physical Printer"
 msgstr "Imprimante Physique"
