@@ -2953,7 +2953,7 @@ msgid ""
 msgstr ""
 "Le débit de la buse n’est pas défini. Veuillez le définir avant de modifier "
 "le filament.\n"
-"‘Imprimante -> Paramètres de buses’"
+"‘Imprimante -> Paramètres de buse’"
 
 msgid "AMS"
 msgstr "AMS"
@@ -5740,7 +5740,7 @@ msgid "Control"
 msgstr "Contrôles"
 
 msgid "Printer Parts"
-msgstr "Paramètres de buses"
+msgstr "Paramètres de buse"
 
 msgid "Print Options"
 msgstr "Options d'impression"
@@ -8246,7 +8246,7 @@ msgid ""
 "'Device -> Printer parts' to change your nozzle setting."
 msgstr ""
 "Conseils : Si vous avez récemment changé la buse de votre imprimante, "
-"accédez à 'Imprimante -> Paramètres de buses' pour modifier le réglage de "
+"accédez à 'Imprimante -> Paramètres de buse' pour modifier le réglage de "
 "votre buse."
 
 #, c-format, boost-format
@@ -12779,7 +12779,7 @@ msgid "Spiral"
 msgstr "Spirale"
 
 msgid "Direct Drive"
-msgstr "Direct Drive"
+msgstr "Buse"
 
 msgid "Bowden"
 msgstr "Bowden"
