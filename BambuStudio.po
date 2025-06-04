@@ -12338,7 +12338,7 @@ msgid "The parameter sets the depth of skin."
 msgstr "Le paramètre définit la profondeur de la peau."
 
 msgid "Infill lock depth"
-msgstr "Profondeur de verrouillage de remplissage"
+msgstr "Profondeur du chevauchement du remplissage"
 
 msgid "The parameter sets the overlapping depth between the interior and skin."
 msgstr ""
