@@ -7804,10 +7804,10 @@ msgid "System"
 msgstr "Système"
 
 msgid "Unsupported presets"
-msgstr "Préréglages non pris en charge"
+msgstr "Préréglages non supportés"
 
 msgid "Unsupported"
-msgstr "Non prise en charge"
+msgstr "Non supporté"
 
 msgid "Add/Remove filaments"
 msgstr "Ajouter/Supprimer des filaments"
