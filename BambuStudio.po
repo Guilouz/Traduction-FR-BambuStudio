@@ -3847,7 +3847,9 @@ msgid "Check printer absolute accuracy after calibration"
 msgstr "Vérifier la précision absolue de l’imprimante après la calibration"
 
 msgid "Nozzle offset calibration"
-msgstr "Calibration du décalage des buses"
+msgstr ""
+"Calibration du décalage\n"
+"des buses"
 
 msgid "high temperature auto bed levelling"
 msgstr "Nivellement du plateau à haute température"
@@ -8043,7 +8045,7 @@ msgstr ""
 "Mode Auto : Ignore cette étape si le filament a été calibré récemment."
 
 msgid "Nozzle Offset Calibration"
-msgstr "Calibration du décalage des buses"
+msgstr "Calibration des buses"
 
 msgid ""
 "Calibrate nozzle offsets to enhance print quality.\n"
