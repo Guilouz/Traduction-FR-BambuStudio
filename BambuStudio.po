@@ -3838,13 +3838,15 @@ msgid "Nozzle clog pause"
 msgstr "Pause en cas de bouchage de la buse"
 
 msgid "Check printer absolute accuracy before calibration"
-msgstr "Vérifier la précision absolue de l’imprimante avant la calibration"
+msgstr ""
+"Vérification de la précision absolue de l’imprimante avant la calibration"
 
 msgid "Absolute accuracy calibration"
-msgstr "Calibration de précision absolue"
+msgstr "Calibration de la précision absolue"
 
 msgid "Check printer absolute accuracy after calibration"
-msgstr "Vérifier la précision absolue de l’imprimante après la calibration"
+msgstr ""
+"Vérification de la précision absolue de l’imprimante après la calibration"
 
 msgid "Nozzle offset calibration"
 msgstr ""
