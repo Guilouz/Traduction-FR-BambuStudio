@@ -6070,10 +6070,10 @@ msgid "Please input a valid value (0.001 < linear deflection < 0.1)"
 msgstr "Veuillez saisir une valeur valide (0.001 < déviation linéaire < 0.1)"
 
 msgid "Angle Deflection"
-msgstr "Déviation d’angle"
+msgstr "Déviation angulaire"
 
 msgid "Please input a valid value (0.01 < angle deflection < 1.0)"
-msgstr "Veuillez saisir une valeur valide (0.01 < déviation d’angle < 1.0)"
+msgstr "Veuillez saisir une valeur valide (0.01 < déviation angulaire < 1.0)"
 
 msgid "Split compound and compsolid into multiple objects"
 msgstr "Diviser le composant solide en plusieurs objets"
