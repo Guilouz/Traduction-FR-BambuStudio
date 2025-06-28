@@ -2719,10 +2719,10 @@ msgstr ""
 "du réseau et réessayer."
 
 msgid "Sending print job over LAN"
-msgstr "Envoi de la tâche d'impression via le réseau local"
+msgstr "Envoi de la tâche d'impression via le réseau local "
 
 msgid "Sending print job through cloud service"
-msgstr "Envoi de la tâche d'impression vers le service cloud"
+msgstr "Envoi de la tâche d'impression vers le service cloud "
 
 msgid "Print task sending times out."
 msgstr "Expiration des délais d'envoi des tâches d'impression."
