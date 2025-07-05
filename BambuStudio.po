@@ -2466,7 +2466,7 @@ msgid "Parts"
 msgstr "Pièces"
 
 msgid "Aux"
-msgstr "Aux"
+msgstr "Auxiliaire"
 
 msgid "Nozzle1"
 msgstr "Buse 1"
