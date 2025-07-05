@@ -411,7 +411,7 @@ msgid "uniform scale"
 msgstr "Échelle uniforme"
 
 msgid "Part"
-msgstr "Hotend"
+msgstr "Pièce"
 
 msgid "Object"
 msgstr "Objet"
@@ -2153,7 +2153,7 @@ msgstr ""
 "Le type de la dernière partie de l'objet solide ne doit pas être modifié."
 
 msgid "Negative Part"
-msgstr "Partie négative"
+msgstr "Pièce négative"
 
 msgid "Support Blocker"
 msgstr "Bloqueur de support"
@@ -2165,7 +2165,7 @@ msgid "Type:"
 msgstr "Type:"
 
 msgid "Choose part type"
-msgstr "Choisissez le type de pièce"
+msgstr "Type de pièce"
 
 msgid "Enter new name"
 msgstr "Entrez le nouveau nom"
