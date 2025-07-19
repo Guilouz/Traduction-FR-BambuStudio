@@ -13556,8 +13556,8 @@ msgstr "Placement des coutures loin des surplombs (expérimental)"
 msgid ""
 "Ensure seam placement away from overhangs for alignment and backing modes."
 msgstr ""
-"Assure que le positionnement des coutures est éloigné des surplombs pour les "
-"modes d'alignement et de support."
+"Assure que le positionnement des coutures soit éloigné des surplombs pour "
+"les modes d'alignement et de support."
 
 msgid "Seam gap"
 msgstr "Distance de la couture"
@@ -17187,7 +17187,7 @@ msgstr "Préréglages de processus (%d/%d)"
 
 #, c-format, boost-format
 msgid "%u Selected"
-msgstr "%u sélectionné"
+msgstr "%u sélectionnés"
 
 msgid "Please select the preset to be deleted"
 msgstr "Veuillez sélectionner le préréglage à supprimer"
@@ -17290,7 +17290,7 @@ msgstr "%d"
 
 #, c-format, boost-format
 msgid "/%d Selected"
-msgstr "/%d sélectionné"
+msgstr "/%d sélectionnés"
 
 msgid "Nothing selected"
 msgstr "Rien de sélectionné"
