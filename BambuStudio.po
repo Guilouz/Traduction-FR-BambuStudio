@@ -6056,7 +6056,7 @@ msgid "Layer: N/A"
 msgstr "Couche: N/A"
 
 msgid "Estimated finish time: "
-msgstr "Heure de fin estimée :"
+msgstr "Heure de fin estimée : "
 
 msgid ""
 "The estimated printing time for \n"
@@ -6711,8 +6711,8 @@ msgstr ""
 
 msgid "Detects air printing caused by nozzle clogging or filament grinding."
 msgstr ""
-"Détecter l’impression dans l’air causée par le colmatage de la buse ou le "
-"meulage du filament."
+"Détecter l’impression dans le vide causée par le bouchage de la buse\n"
+"ou le meulage du filament."
 
 msgid "First Layer Inspection"
 msgstr "Inspection de la première couche"
@@ -6737,7 +6737,7 @@ msgid ""
 "MakerWorld on External Storage"
 msgstr ""
 "Enregistrez les fichiers d’impression lancés depuis Bambu Studio, Bambu "
-"Handy et MakerWorld sur un stockage externe"
+"Handy et MakerWorld sur un stockage externe."
 
 msgid "Allow Prompt Sound"
 msgstr "Autoriser le son d'invite"
@@ -17175,11 +17175,11 @@ msgstr "Aucun contenu"
 
 #, c-format, boost-format
 msgid "Printer presets (%d/%d)"
-msgstr "Préréglages d'imprimante (%d/%d)"
+msgstr "Préréglages d'imprimantes (%d/%d)"
 
 #, c-format, boost-format
 msgid "Filament presets (%d/%d)"
-msgstr "Préréglages de filament (%d/%d)"
+msgstr "Préréglages de filaments (%d/%d)"
 
 #, c-format, boost-format
 msgid "Process presets (%d/%d)"
