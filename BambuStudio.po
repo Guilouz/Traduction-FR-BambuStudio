@@ -6864,7 +6864,7 @@ msgid "AMS(1 slot)"
 msgstr "AMS HT (1 emplacement)"
 
 msgid "Not installed"
-msgstr "Non installé"
+msgstr "Non connecté"
 
 msgid ""
 "The software does not support using different diameter of nozzles for one "
