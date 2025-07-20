@@ -6880,7 +6880,7 @@ msgstr ""
 "Veuillez confirmer la buse que vous souhaitez utiliser pour ce projet."
 
 msgid "Switch diameter"
-msgstr "Diamètre des buses"
+msgstr "Diamètre de l'interrupteur"
 
 #, c-format, boost-format
 msgid "Left nozzle: %smm"
