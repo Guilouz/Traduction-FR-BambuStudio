@@ -7867,7 +7867,7 @@ msgstr ""
 
 msgid "Clear my choice for Load 3mf dialog settings."
 msgstr ""
-"Effacer mon choix pour les paramètres de la boîte de dialogue Charger 3mf."
+"Effacer mon choix pour les paramètres de la boîte de dialogue Charger 3mf"
 
 msgid "Show the warning dialog again when importing non-Bambu 3MF files"
 msgstr ""
@@ -8040,7 +8040,7 @@ msgid "Media"
 msgstr "Médias"
 
 msgid "Keep liveview when printing."
-msgstr "Conserver l'affichage en direct lors de l'impression."
+msgstr "Conserver la visualisation en direct lors de l'impression"
 
 msgid ""
 "By default, Liveview will pause after 15 minutes of inactivity on the "
