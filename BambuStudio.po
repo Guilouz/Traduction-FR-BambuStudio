@@ -8018,13 +8018,13 @@ msgstr ""
 "fichier OBJ."
 
 msgid "Remember last used color scheme"
-msgstr "Se souvenir du dernier set de couleurs utilisé"
+msgstr "Se souvenir du dernier schéma de couleurs utilisé"
 
 msgid ""
 "When enabled, the last used color scheme (e.g., Line Type, Speed) will be "
 "automatically applied on next startup."
 msgstr ""
-"Lorsque cette option est activée, le dernier set de couleurs utilisé (par "
+"Lorsque cette option est activée, le dernier schéma de couleurs utilisé (par "
 "exemple, type de ligne, vitesse) sera automatiquement appliqué au prochain "
 "démarrage."
 
