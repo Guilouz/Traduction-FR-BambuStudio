@@ -39,6 +39,9 @@ Vous trouverez ici la traduction française du slicer Bambu Studio de BambuLab.
 
 ## Changements
 
+- **13/08/2025:**
+  - Traduction pour la version [2.2.0 Public Release](https://github.com/bambulab/BambuStudio/releases/tag/v02.02.00.85) (2.02.00.85)
+
 - **01/08/2025:**
   - Traduction pour la version [2.2.0 Public Beta 2](https://github.com/bambulab/BambuStudio/releases/tag/v02.02.00.68) (2.02.00.68)
 

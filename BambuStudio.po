@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-31 18:21+0800\n"
+"POT-Creation-Date: 2025-08-12 19:21+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -42,6 +42,64 @@ msgid "The filament model is unknown. A random filament preset will be used."
 msgstr ""
 "Le modèle de filament est inconnu. Un préréglage de filament aléatoire sera "
 "utilisé."
+
+msgid "right"
+msgstr "droite"
+
+msgid "left"
+msgstr "gauche"
+
+msgid "right extruder"
+msgstr "extrudeur droite"
+
+msgid "left extruder"
+msgstr "extrudeur gauche"
+
+msgid "extruder"
+msgstr "hotend"
+
+msgid "TPU is not supported by AMS."
+msgstr "Le TPU n'est pas pris en charge par l'AMS."
+
+msgid ""
+"Damp PVA will become flexible and get stuck inside AMS,please take care to "
+"dry it before use."
+msgstr ""
+"Le PVA humide deviendra flexible et restera coincé à l'intérieur de l'AMS. "
+"Veuillez le sécher avant utilisation."
+
+msgid "Damp PVA is flexible and may get stuck in extruder. Dry it before use."
+msgstr ""
+"Le PVA humide est flexible et peut se coincer dans l’extrudeur. Veuillez le "
+"sécher avant utilisation."
+
+msgid ""
+"The rough surface of PLA Glow can accelerate wear on the AMS system, "
+"particularly on the internal components of the AMS Lite."
+msgstr ""
+"La surface rugueuse du PLA Glow peut accélérer l’usure du système AMS, en "
+"particulier sur les composants internes de l’AMS Lite."
+
+msgid ""
+"CF/GF filaments are hard and brittle, It's easy to break or get stuck in "
+"AMS, please use with caution."
+msgstr ""
+"Les filaments CF/GF sont durs et cassants, ils peuvent se casser ou se "
+"coincer dans l'AMS, veuillez les utiliser avec prudence."
+
+msgid "PPS-CF is brittle and could break in bended PTFE tube above Toolhead."
+msgstr ""
+"Le PPS-CF est cassant et pourrait se briser dans un tube PTFE plié au-dessus "
+"de la tête d'outil."
+
+msgid "PPA-CF is brittle and could break in bended PTFE tube above Toolhead."
+msgstr ""
+"Le PPA-CF est cassant et pourrait se briser dans un tube PTFE plié au-dessus "
+"de la tête d'outil."
+
+#, c-format, boost-format
+msgid "%s is not supported by %s extruder."
+msgstr "%s n'est pas pris en charge par l’extrudeur %s."
 
 msgid "Current AMS humidity"
 msgstr "Humidité actuelle dans l'AMS"
@@ -2475,18 +2533,6 @@ msgstr "Impression multicolore"
 msgid "Line Type"
 msgstr "Type de lignes"
 
-msgid "More"
-msgstr "Plus"
-
-msgid "Open Preferences."
-msgstr "Ouvrir les Préférences."
-
-msgid "Open next tip."
-msgstr "Ouvrir le conseil suivant."
-
-msgid "Open Documentation in web browser."
-msgstr "Ouvrir la documentation dans le navigateur Web."
-
 msgid "Color"
 msgstr "Couleur"
 
@@ -3943,14 +3989,16 @@ msgstr ""
 "Réinitialiser à 50% de la profondeur de la peau."
 
 msgid ""
-"Spiral mode only works when wall loops is 1, support is disabled, top shell "
-"layers is 0, sparse infill density is 0, timelapse type is traditional and "
-"smoothing wall speed in z direction is false."
+"Spiral mode only works when wall loops is 1, support is disabled, clumping "
+"detection by probing is disabled, top shell layers is 0, sparse infill "
+"density is 0, timelapse type is traditional and smoothing wall speed in z "
+"direction is false."
 msgstr ""
 "Le mode vase ne fonctionne que lorsque le nombre de paroi est définie à 1, "
-"les supports désactivés, le nombre de couches supérieures à 0, la densité de "
-"remplissage à 0%, le type de timelapse sur Traditionnel et le lissage de la "
-"vitesse de paroi dans la direction Z est désactivé."
+"les supports sont désactivés, la détection d'agglutination par sondage est "
+"désactivée, le nombre de couches supérieures à 0, la densité de remplissage "
+"à 0%, le type de timelapse sur Traditionnel et le lissage de la vitesse de "
+"paroi dans la direction Z est désactivé."
 
 msgid " But machines with I3 structure will not generate timelapse videos."
 msgstr ""
@@ -4139,27 +4187,14 @@ msgstr "Vérification Auto : Position du matériau"
 msgid "Cutting Module Offset Calibration"
 msgstr "Calibration du décalage du module de coupe"
 
-msgid "left"
-msgstr "gauche"
+msgid "Measuring Surface"
+msgstr "Surface de mesure"
 
-msgid "right"
-msgstr "droite"
-
-#, c-format, boost-format
-msgid "%s is not supported by %s extruder."
-msgstr "%s n'est pas pris en charge par l’extrudeur %s."
+msgid "Thermal Preconditioning for first layer optimization"
+msgstr "Préconditionnement thermique pour l'optimisation de la première couche"
 
 msgid "Unknown"
 msgstr "Inconnue"
-
-msgid "Fatal"
-msgstr "Fatal"
-
-msgid "Serious"
-msgstr "Sérieux"
-
-msgid "Common"
-msgstr "Commun"
 
 msgid "Update successful."
 msgstr "Mise à jour réussie."
@@ -4265,40 +4300,6 @@ msgstr "Échec de la génération du G-code de calibration"
 msgid "Calibration error"
 msgstr "Erreur de la calibration"
 
-msgid "TPU is not supported by AMS."
-msgstr "Le TPU n'est pas pris en charge par l'AMS."
-
-msgid ""
-"Damp PVA will become flexible and get stuck inside AMS,please take care to "
-"dry it before use."
-msgstr ""
-"Le PVA humide deviendra flexible et restera coincé à l'intérieur de l'AMS, "
-"veuillez prendre soin de le sécher avant utilisation."
-
-msgid ""
-"The rough surface of PLA Glow can accelerate wear on the AMS system, "
-"particularly on the internal components of the AMS Lite."
-msgstr ""
-"La surface rugueuse du PLA Glow peut accélérer l’usure du système AMS, en "
-"particulier sur les composants internes de l’AMS Lite."
-
-msgid ""
-"CF/GF filaments are hard and brittle, It's easy to break or get stuck in "
-"AMS, please use with caution."
-msgstr ""
-"Les filaments CF/GF sont durs et cassants, ils peuvent se casser ou se "
-"coincer dans l'AMS, veuillez les utiliser avec prudence."
-
-msgid "PPS-CF is brittle and could break in bended PTFE tube above Toolhead."
-msgstr ""
-"Le PPS-CF est cassant et pourrait se briser dans un tube PTFE plié au-dessus "
-"de la tête d'outil."
-
-msgid "PPA-CF is brittle and could break in bended PTFE tube above Toolhead."
-msgstr ""
-"Le PPA-CF est cassant et pourrait se briser dans un tube PTFE plié au-dessus "
-"de la tête d'outil."
-
 msgid "Resume Printing"
 msgstr "Reprendre l’impression"
 
@@ -4344,8 +4345,8 @@ msgstr "Ignorer ceci et Reprendre"
 msgid "Problem Solved and Resume"
 msgstr "Problème résolu et Reprendre"
 
-msgid "Stop Buzzer"
-msgstr "Arrêter le buzzer"
+msgid "Got it, Turn off the Fire Alarm."
+msgstr "Compris, désactiver l'alarme incendie."
 
 msgid "Retry (problem solved)"
 msgstr "Réessayer (problème résolu)"
@@ -4583,8 +4584,8 @@ msgstr "de"
 msgid "Slicing Result"
 msgstr "Résultat du découpage"
 
-msgid "Helio Action"
-msgstr "Action Helio"
+msgid "Helio Simulation"
+msgstr "Simulation Helio"
 
 msgid "Color Scheme"
 msgstr "Schéma de couleur"
@@ -6616,6 +6617,9 @@ msgstr "Une nouvelle version du logiciel est disponible."
 msgid "Goto download page."
 msgstr "Aller à la page de téléchargement."
 
+msgid "More"
+msgstr "Plus"
+
 msgid "Open Folder."
 msgstr "Ouvrir un dossier."
 
@@ -7372,6 +7376,26 @@ msgstr ""
 msgid "Helio does not support materials %s"
 msgstr "Helio ne prend pas en charge les matériaux %s"
 
+msgid ""
+"No valid Helio-PAT detected. Helio simulation & optimization cannot "
+"proceed. \n"
+"Please request a new Helio-PAT."
+msgstr ""
+"Aucun Helio-PAT valide n'a été détecté. La simulation et l'optimisation "
+"Helio ne peuvent pas être effectuées.\n"
+"Veuillez demander un nouveau Helio-PAT."
+
+msgid "Execution Blocked"
+msgstr "Exécution bloquée"
+
+msgid "Regenerate PAT"
+msgstr "Régénérer PAT"
+
+msgid "Failed to obtain Helio PAT, Click Refresh to obtain it again."
+msgstr ""
+"Impossible d'obtenir Helio-PAT, cliquez sur Actualiser pour l'obtenir à "
+"nouveau."
+
 msgid "Please resolve the slicing errors and publish again."
 msgstr "Veuillez résoudre les erreurs de découpage et republier."
 
@@ -7757,6 +7781,22 @@ msgstr ""
 "%s(%s). Si vous souhaitez toujours effectuer cette impression, veuillez "
 "définir la température du plateau de ce filament sur une valeur non nulle."
 
+msgid "Parameter recommendation"
+msgstr "Recommandation de paramètres"
+
+msgid ""
+"In the process preset, under \"Others-Advanced\", check \"Enable clumping "
+"detection by probing\". This feature generates a small wipe tower and "
+"performs probing detection to identify clumping issues early in the print "
+"and stop printing, preventing print failures or printer damage.\n"
+msgstr ""
+"Dans le préréglage de processus, sous \"Autres - Avancés\", cochez "
+"\"Détection d'agglutination par sondage\". Cette fonctionnalité génère une "
+"petite tour de nettoyage et effectue une détection par sondage pour "
+"identifier les problèmes d'agglutination dès le début de l'impression et "
+"arrêter l'impression, évitant ainsi les erreurs d'impression ou les dommages "
+"à l'imprimante.\n"
+
 msgid ""
 "Currently, the object configuration form cannot be used with a multiple-"
 "extruder printer."
@@ -8126,6 +8166,9 @@ msgstr "Options Helio"
 
 msgid "Enable Helio"
 msgstr "Activer Helio"
+
+msgid "Helio-PAT"
+msgstr "Helio-PAT"
 
 msgid "About Helio"
 msgstr "À propos de Helio"
@@ -8748,17 +8791,8 @@ msgstr ""
 msgid "nozzle"
 msgstr "buse"
 
-msgid "extruder"
-msgstr "hotend"
-
 msgid "both extruders"
 msgstr "les deux extrudeurs"
-
-msgid "right extruder"
-msgstr "extrudeur droite"
-
-msgid "left extruder"
-msgstr "extrudeur gauche"
 
 msgid ""
 "Tips: If you changed your nozzle of your printer lately, Please go to "
@@ -9195,8 +9229,8 @@ msgid ""
 "model without prime tower. Do you still want to enable clumping detection?"
 msgstr ""
 "La tour de purge est requise pour la détection d'agglutination. Sans celle-"
-"ci, il peut y avoir des défauts sur le modèle. Voulez-vous activer la tour "
-"de purge ?"
+"ci, il peut y avoir des défauts sur le modèle. Voulez-vous activer la "
+"détection d'agglutination ?"
 
 msgid ""
 "Prime tower is required for smooth timelapse. There may be flaws on the "
@@ -10755,8 +10789,8 @@ msgstr ""
 msgid "Agree"
 msgstr "Accepter"
 
-msgid "Helio settings"
-msgstr "Paramètres Helio"
+msgid "Helio Additive"
+msgstr "Additif Helio"
 
 msgid "Chamber temperature"
 msgstr "Température de la chambre"
@@ -10771,6 +10805,18 @@ msgstr ""
 
 msgid "How to use Helio"
 msgstr "Comment utiliser Helio"
+
+msgid ""
+"Failed to obtain Helio PAT. The number of issued PATs has reached the upper "
+"limit. Please pay attention to the information on the Helio official "
+"website. Click Refresh to get it again once it is available."
+msgstr ""
+"Échec de l'obtention du Helio-PAT. Le nombre de PAT délivrés a atteint la "
+"limite. Veuillez consulter les informations sur le site officiel de Helio. "
+"Cliquez sur Actualiser pour le récupérer dès qu'il sera disponible."
+
+msgid "Click for more details"
+msgstr "Cliquez pour plus de détails"
 
 msgid "Air Pump"
 msgstr "Pompe à air"
@@ -11166,6 +11212,13 @@ msgstr ""
 "imprimer, vous pouvez activer cette option dans les Préférences."
 
 msgid ""
+"Printing different-temp filaments together may cause nozzle clogging or "
+"printer damage."
+msgstr ""
+"L'impression simultanée de filaments à températures différentes peut "
+"entraîner un bouchage des buses ou endommager l'imprimante."
+
+msgid ""
 "Printing high-temp and mid-temp filaments together may cause nozzle clogging "
 "or printer damage."
 msgstr ""
@@ -11194,6 +11247,19 @@ msgid ""
 msgstr ""
 "La détection d’agglutination n'est pas prise en charge lorsque la séquence "
 "d'impression \"Par objet\" est activée."
+
+msgid "enable_wrapping_detection"
+msgstr "Activer la détection de d’agglutination"
+
+msgid ""
+"Prime tower is required for clumping detection; otherwise, there may be "
+"flaws on the model."
+msgstr ""
+"La tour de purge est requise pour la détection d’agglutination. Sans celle-"
+"ci, il peut y avoir des défauts sur le modèle."
+
+msgid "enable_prime_tower"
+msgstr "Activer la tour de purge"
 
 msgid ""
 "Please select \"By object\" print sequence to print multiple objects in "
@@ -12137,7 +12203,7 @@ msgstr ""
 "(par exemple : 80 %), il sera calculé sur la vitesse de la paroi extérieure "
 "réglée ci-dessus. Régler sur zéro pour automatique."
 
-msgid "Small perimter threshold"
+msgid "Small perimeter threshold"
 msgstr "Seuil des petits périmètres"
 
 msgid ""
@@ -12905,13 +12971,19 @@ msgstr ""
 "couche"
 
 msgid "Enable clumping detection"
-msgstr "Détection d'agglutination"
+msgstr "Détection d'agglutination par sondage"
 
 msgid "Clumping detection layers"
 msgstr "Couches de détection d'agglutination"
 
 msgid "Clumping detection layers."
 msgstr "Couches de détection d'agglutination."
+
+msgid "Probing exclude area of clumping"
+msgstr "Exclure le sondage de la zone d'agglutination"
+
+msgid "Probing exclude area of clumping."
+msgstr "Le sondage exclut la zone d'agglutination."
 
 msgid "Thumbnail size"
 msgstr "Taille de la miniature"
@@ -17276,6 +17348,46 @@ msgstr "Profil de résistance pour buse de 0,8 mm, privilégiant la résistance.
 
 msgid "Standard profile for 0.8mm nozzle, prioritizing speed."
 msgstr "Profil standard pour buse de 0,8 mm, privilégiant la vitesse."
+
+msgid "Helio: Process Started"
+msgstr "Helio : Processus démarré"
+
+msgid "Helio API endpoint is empty, please check the configuration."
+msgstr ""
+"Le point de terminaison de l'API Helio est vide, veuillez vérifier la "
+"configuration."
+
+msgid "Personal assecc token is empty, please fill in the correct token."
+msgstr "Le jeton d'accès personnel est vide, veuillez saisir un jeton correct."
+
+msgid "Helio: Presigned URL Created"
+msgstr "Helio : URL présignée créée"
+
+msgid "Helio: file succesfully uploaded"
+msgstr "Helio : Fichier envoyé avec succès"
+
+msgid "Helio: file upload failed"
+msgstr "Helio : Echec de l'envoi du fichier"
+
+msgid "Please make sure you have the corrent API key set in preferences."
+msgstr ""
+"Veuillez vous assurer que la clé API définie dans les préférences est "
+"correcte."
+
+msgid "Helio: GCode created successfully"
+msgstr "Helio : GCode créé avec succès"
+
+msgid "Helio: simulation successfully created"
+msgstr "Helio : Simulation créée avec succès"
+
+msgid "Helio: simulation working"
+msgstr "Helio : Simulation en cours"
+
+msgid "Helio: simulation failed"
+msgstr "Helio : Simulation échouée"
+
+msgid "Helio: GCode downloaded successfully"
+msgstr "Helio : GCode téléchargé avec succès"
 
 msgid "No AMS"
 msgstr "Aucun AMS"
