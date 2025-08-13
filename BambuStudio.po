@@ -10790,7 +10790,7 @@ msgid "Agree"
 msgstr "Accepter"
 
 msgid "Helio Additive"
-msgstr "Additif Helio"
+msgstr "Helio Additive"
 
 msgid "Chamber temperature"
 msgstr "Température de la chambre"
