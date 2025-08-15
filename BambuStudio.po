@@ -6510,7 +6510,7 @@ msgid "%s information"
 msgstr "Informations %s"
 
 msgid "Skip"
-msgstr "Passer"
+msgstr "Exclure"
 
 msgid "Newer 3mf version"
 msgstr "Nouvelle version 3mf"
