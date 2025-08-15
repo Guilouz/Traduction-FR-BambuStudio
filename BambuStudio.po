@@ -11844,7 +11844,7 @@ msgstr ""
 "couche inférieure."
 
 msgid "Slow down by height"
-msgstr "Ralentir en hauteur"
+msgstr "Ralentir en fonction de la hauteur"
 
 msgid "Enable this option to slow printing down by height"
 msgstr "Activez cette option pour ralentir l'impression en hauteur"
