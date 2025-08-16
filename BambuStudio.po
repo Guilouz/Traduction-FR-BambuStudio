@@ -8081,7 +8081,7 @@ msgstr ""
 "et de nombreux modèles."
 
 msgid "Collapsible"
-msgstr "pliable"
+msgstr "Pliable"
 
 msgid "Uncollapsible"
 msgstr "Indépliable"
