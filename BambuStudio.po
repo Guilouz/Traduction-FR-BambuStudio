@@ -1137,7 +1137,9 @@ msgstr ""
 "intégrée"
 
 msgid "Text Gap"
-msgstr "Espacement du texte"
+msgstr ""
+"Espacement\n"
+"du texte"
 
 msgid ""
 "Warning:There is a mirror in the text matrix, and dragging it will "
