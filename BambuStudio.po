@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-12 19:21+0800\n"
+"POT-Creation-Date: 2025-08-27 20:24+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -1164,6 +1164,13 @@ msgstr "Attention : Le texte normal est une erreur."
 
 msgid "Warning:text normal has been reset."
 msgstr "Attention : Le texte normal a été réinitialisé."
+
+msgid ""
+"Warning:current text spacing is not very reasonable. If you continue "
+"editing, a more reasonable text spacing will be generated."
+msgstr ""
+"Attention : L’espacement actuel du texte n'est pas très raisonnable. Si vous "
+"continuez à éditer, un espacement plus raisonnable sera généré."
 
 msgid ""
 "Warning:old matrix has at least two parameters: mirroring, scaling, and "
@@ -2725,24 +2732,6 @@ msgstr "Refroidissement complet"
 msgid "Init"
 msgstr "Init"
 
-msgid "Hotend"
-msgstr "Buse"
-
-msgid "Parts"
-msgstr "Pièces"
-
-msgid "Aux"
-msgstr "Auxiliaire"
-
-msgid "Nozzle1"
-msgstr "Buse 1"
-
-msgid "MC Board"
-msgstr "Carte MC"
-
-msgid "Heat"
-msgstr "Chauffage"
-
 msgid "Chamber"
 msgstr "Chambre"
 
@@ -2788,8 +2777,33 @@ msgstr ""
 "Le mode de refroidissement convient à l’impression de matériaux PLA/PETG/TPU."
 
 msgctxt "air_duct"
-msgid "Right"
-msgstr "Droite"
+msgid "Right(Aux)"
+msgstr "Droite (Aux)"
+
+msgctxt "air_duct"
+msgid "Right(Filter)"
+msgstr "Droite (Filtre)"
+
+msgid "Hotend"
+msgstr "Buse"
+
+msgid "Parts"
+msgstr "Pièces"
+
+msgid "Aux"
+msgstr "Auxiliaire"
+
+msgid "Nozzle1"
+msgstr "Buse 1"
+
+msgid "MC Board"
+msgstr "Carte MC"
+
+msgid "Heat"
+msgstr "Chauffage"
+
+msgid "Fan"
+msgstr "Ventilation"
 
 msgid "Idling..."
 msgstr "Mise en veille…"
@@ -4356,6 +4370,18 @@ msgstr "Réessayer (problème résolu)"
 msgid "Stop Drying"
 msgstr "Arrêt du séchage"
 
+msgid "Cancle"
+msgstr "Annuler"
+
+msgid "Done"
+msgstr "Terminé"
+
+msgid "Retry"
+msgstr "Réessayer"
+
+msgid "Resume"
+msgstr "Reprendre"
+
 msgid "Unknown error."
 msgstr "Erreur inconnue."
 
@@ -5218,6 +5244,16 @@ msgstr ""
 "H2D.\n"
 "Souhaitez-vous regarder un tutoriel vidéo rapide ?"
 
+msgid ""
+"PPS-CF/PPA-CF is brittle and could break in bended PTFE tube above Toolhead. "
+"Please refer to Wiki before use. "
+msgstr ""
+"Le PPS-CF/PPA-CF est fragile et peut se rompre dans un tube PTFE plié au-"
+"dessus de la tête d'outil. Veuillez vous référer au Wiki avant de l'utiliser."
+
+msgid "Tips"
+msgstr "Astuces"
+
 msgid "Slice all"
 msgstr "Découper tous les plateaux"
 
@@ -5762,8 +5798,13 @@ msgstr ""
 "Veuillez vérifier le réseau et réessayer. Vous pouvez redémarrer ou mettre à "
 "jour l’imprimante si le problème persiste."
 
-msgid "The printer has been logged out and cannot connect."
-msgstr "L’imprimante a été déconnectée et ne peut pas se reconnecter."
+msgid ""
+"Multi-device/client simultaneous liveview is not supported. Please close the "
+"liveview on other devices/clients and try again."
+msgstr ""
+"La visualisation simultanée de plusieurs appareils/clients n'est pas prise "
+"en charge. Veuillez fermer la visualisation sur les autres appareils/clients "
+"et réessayer."
 
 msgid "Video Stopped."
 msgstr "Arrêt de la vidéo."
@@ -5941,9 +5982,6 @@ msgstr ""
 msgid "Download waiting..."
 msgstr "Téléchargement en attente…"
 
-msgid "Retry"
-msgstr "Réessayer"
-
 msgid "Play"
 msgstr "Lecture"
 
@@ -5956,9 +5994,6 @@ msgstr "Téléchargement terminé"
 #, c-format, boost-format
 msgid "Downloading %d%%..."
 msgstr "Téléchargement %d%%…"
-
-msgid "Fan"
-msgstr "Ventilation"
 
 msgid "Air Condition"
 msgstr "Climatisation"
@@ -6133,9 +6168,6 @@ msgstr "Progression de l'impression"
 
 msgid "Parts Skip"
 msgstr "Exclure des Objets"
-
-msgid "Resume"
-msgstr "Reprendre"
 
 msgid "Stop"
 msgstr "Arrêter"
@@ -6890,6 +6922,10 @@ msgstr "Paramètres de l'imprimante"
 msgid "The %s nozzle can not print %s."
 msgstr "La buse %s ne peut pas imprimer %s."
 
+#, boost-format
+msgid "Mixing %1% with %2% in printing is not recommended.\n"
+msgstr "Il n'est pas recommandé de mélanger %1% et %2% lors de l'impression.\n"
+
 msgid " nozzle"
 msgstr " buse"
 
@@ -7469,9 +7505,6 @@ msgstr ""
 msgid "Switch now"
 msgstr "Modifier maintenant"
 
-msgid "Tips"
-msgstr "Astuces"
-
 msgid "Load project"
 msgstr "Charger le projet"
 
@@ -7676,19 +7709,19 @@ msgstr ""
 
 #, c-format, boost-format
 msgid ""
-"Printer not connected. Please go to the device page to connect an %s printer "
-"before syncing."
+"Printer not connected. Please go to the device page to connect %s before "
+"syncing."
 msgstr ""
 "Imprimante non connectée. Veuillez vous rendre sur la page de l’imprimante "
-"pour connecter une imprimante %s avant la synchronisation."
+"pour connecter %s avant la synchronisation."
 
 #, c-format, boost-format
 msgid ""
-"The currently connected printer on the device page is not an %s. Please "
-"switch to an %s before syncing."
+"The currently connected printer on the device page is not %s. Please switch "
+"to %s before syncing."
 msgstr ""
 "L’imprimante actuellement connectée sur la page de l’imprimante n’est pas "
-"une %s. Veuillez la remplacer par une %s avant la synchronisation."
+"%s. Veuillez la remplacer par %s avant la synchronisation."
 
 msgid ""
 "There are no filaments on the printer. Please load the filaments on the "
@@ -10578,9 +10611,6 @@ msgstr "Nouvelle version de Bambu Studio"
 msgid "Skip this Version"
 msgstr "Passez cette version"
 
-msgid "Done"
-msgstr "Terminé"
-
 msgid "resume"
 msgstr "reprendre"
 
@@ -10832,8 +10862,11 @@ msgstr "Laser 40W"
 msgid "Cutting Module"
 msgstr "Module de coupe"
 
+msgid "Auto Fire Extinguishing System"
+msgstr "Système d'extinction automatique d'incendie"
+
 msgid "Model:"
-msgstr "Modèle:"
+msgstr "Modèle :"
 
 msgid "Update firmware"
 msgstr "Mettre à jour le firmware"
@@ -11250,18 +11283,12 @@ msgstr ""
 "La détection d’agglutination n'est pas prise en charge lorsque la séquence "
 "d'impression \"Par objet\" est activée."
 
-msgid "enable_wrapping_detection"
-msgstr "Activer la détection de d’agglutination"
-
 msgid ""
 "Prime tower is required for clumping detection; otherwise, there may be "
 "flaws on the model."
 msgstr ""
 "La tour de purge est requise pour la détection d’agglutination. Sans celle-"
 "ci, il peut y avoir des défauts sur le modèle."
-
-msgid "enable_prime_tower"
-msgstr "Activer la tour de purge"
 
 msgid ""
 "Please select \"By object\" print sequence to print multiple objects in "
@@ -12510,6 +12537,23 @@ msgstr ""
 "Le diamètre du filament est utilisé pour calculer les variables d'extrusion "
 "dans le G-code, il est donc important qu'il soit exact et précis"
 
+msgid "Adaptive volumetric speed"
+msgstr "Vitesse volumétrique adaptative"
+
+msgid ""
+"When enabled, the extrusion flow is limited by the smaller of the fitted "
+"value (calculated from line width and layer height) and the user-defined "
+"maximum flow. When disabled, only the user-defined maximum flow is applied."
+msgstr ""
+"Lorsque cette option est activée, le débit d'extrusion est limité par la "
+"valeur la plus petite entre la valeur ajustée (calculée à partir de la "
+"largeur de ligne et de la hauteur de couche) et le débit maximal défini par "
+"l'utilisateur. Lorsqu'elle est désactivée, seul le débit maximal défini par "
+"l'utilisateur est appliqué."
+
+msgid "Max volumetric speed multinomial coefficients"
+msgstr "Coefficients multinomiaux de vitesse volumétrique maximale"
+
 msgid "Shrinkage"
 msgstr "Compensation de rétrécissement"
 
@@ -12527,6 +12571,22 @@ msgstr ""
 "périmètre est pris en compte.\n"
 "Veillez à laisser suffisamment d’espace entre les objets, car cette "
 "compensation est effectuée après les contrôles."
+
+msgid "Velocity Adaptation Factor"
+msgstr "Facteur d'adaptation de la vitesse"
+
+msgid ""
+"This parameter reflects the speed at which a material transitions from one "
+"state to another. It, along with the smooth coefficient, determines the "
+"final length of the transition zone. A larger value: requires a shorter "
+"transition zone. A smaller value: requires a longer transition zone to avoid "
+"flow instability."
+msgstr ""
+"Ce paramètre reflète la vitesse de transition d'un matériau d'un état à un "
+"autre. Avec le coefficient de lissage, il détermine la longueur finale de la "
+"zone de transition. Une valeur plus élevée nécessite une zone de transition "
+"plus courte. Une valeur plus faible nécessite une zone de transition plus "
+"longue pour éviter l'instabilité du débit."
 
 msgid "Adhesiveness Category"
 msgstr "Catégorie d'adhérence"
@@ -16721,6 +16781,13 @@ msgstr ""
 "Le type de buse actuellement sélectionné pour l'extrudeur %s ne correspond "
 "pas au type de buse de l'imprimante.\n"
 "Cliquez sur le bouton Synchroniser ci-dessus et relancez la calibration."
+
+msgid ""
+"Automatic calibration only supports cases where the left and right nozzle "
+"diameters are identical."
+msgstr ""
+"La calibration automatique ne prend en charge que les cas où les diamètres "
+"des buses gauche et droite sont identiques."
 
 msgid ""
 "Unable to calibrate: maybe because the set calibration value range is too "
