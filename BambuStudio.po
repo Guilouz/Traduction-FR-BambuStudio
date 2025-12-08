@@ -5207,12 +5207,12 @@ msgstr "Buse Droite"
 msgid "The position or size of some models exceeds the %s's printable range."
 msgstr ""
 "La position ou la taille de certains modèles dépasse la plage imprimable de "
-"%s."
+"la %s."
 
 #, c-format, boost-format
 msgid "The position or size of the model %s exceeds the %s's printable range."
 msgstr ""
-"La position ou la taille du modèle %s dépasse la plage imprimable de %s."
+"La position ou la taille du modèle %s dépasse la plage imprimable de la %s."
 
 msgid ""
 " Please check and adjust the part's position or size to fit the printable "
