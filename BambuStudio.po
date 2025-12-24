@@ -245,7 +245,7 @@ msgid "Induction Hotend Rack"
 msgstr "Support des têtes d'impression à induction"
 
 msgid "Hotends Info"
-msgstr "Info Buses"
+msgstr "Informations des têtes d’impression"
 
 msgid "Read All"
 msgstr "Lire tout"
