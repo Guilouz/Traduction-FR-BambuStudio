@@ -129,7 +129,7 @@ msgid ""
 "The toolhead and hotend rack may move. Please keep your hands away from the "
 "chamber."
 msgstr ""
-"La tête d'outil et le support de la tête d'impression peuvent bouger. "
+"La tête d'outil et le support des têtes d'impression peuvent bouger. "
 "Veuillez garder vos mains à distance de la chambre."
 
 msgid "Warning"
@@ -242,7 +242,7 @@ msgid "Error"
 msgstr "Erreur"
 
 msgid "Induction Hotend Rack"
-msgstr "Support de tête d'impression à induction"
+msgstr "Support des têtes d'impression à induction"
 
 msgid "Hotends Info"
 msgstr "Info Buses"
@@ -289,7 +289,7 @@ msgid "Version"
 msgstr "Version"
 
 msgid "Hotend Rack"
-msgstr "Support de tête d'impression"
+msgstr "Support des têtes d'impression"
 
 msgid "ToolHead"
 msgstr "Tête d'outil"
@@ -9421,8 +9421,8 @@ msgid ""
 "The toolhead and hotend rack are full. Please remove at least one hotend "
 "before printing."
 msgstr ""
-"La tête d'impression et le support des têtes d’impression sont pleins. "
-"Veuillez retirer au moins une buse avant d'imprimer."
+"La tête d’outil et le support des têtes d’impression sont pleines. Veuillez "
+"retirer au moins une buse avant d'imprimer."
 
 #, c-format, boost-format
 msgid ""
@@ -11598,7 +11598,7 @@ msgid "Update firmware"
 msgstr "Mettre à jour le firmware"
 
 msgid "Hotends on Rack"
-msgstr "Têtes d'impression sur le support"
+msgstr "Support des têtes d'impression"
 
 msgid "Beta version"
 msgstr "Version Bêta"
