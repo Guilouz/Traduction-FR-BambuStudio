@@ -260,7 +260,7 @@ msgid "Reading"
 msgstr "Lecture"
 
 msgid "Running..."
-msgstr "Traitement…"
+msgstr "Exécution…"
 
 msgid "Raised"
 msgstr "Soulevé"
