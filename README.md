@@ -39,6 +39,6 @@ Vous trouverez ici la traduction française du slicer Bambu Studio de BambuLab.
 
 ## Compatibilité
 
-Version [2.4.0 Public Release](https://github.com/bambulab/BambuStudio/releases/tag/v02.04.00.70)
+Version [2.5.0.66 Public Release (Hotfix)](https://github.com/bambulab/BambuStudio/releases/tag/v02.05.00.66)
 
 
