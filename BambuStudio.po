@@ -10437,7 +10437,7 @@ msgid "Walls"
 msgstr "Parois"
 
 msgid "Top/bottom shells"
-msgstr "Coques supérieures/inférieures"
+msgstr "Surfaces supérieures/inférieures"
 
 msgid "Sparse infill"
 msgstr "Remplissage"
@@ -12817,7 +12817,7 @@ msgid "This G-code is inserted at every layer change before lifting z"
 msgstr "Ce G-code est inséré à chaque changement de couche avant la levée en Z"
 
 msgid "Bottom shell layers"
-msgstr "Nombre de couches des coques inférieures"
+msgstr "Nombre de couches des surfaces inférieures"
 
 msgid ""
 "This is the number of solid layers of bottom shell, including the bottom "
@@ -12830,7 +12830,7 @@ msgstr ""
 "coque inférieure sont augmentées"
 
 msgid "Bottom shell thickness"
-msgstr "Épaisseur des coques inférieures"
+msgstr "Épaisseur des surfaces inférieures"
 
 msgid ""
 "The number of bottom solid layers is increased when slicing if the thickness "
@@ -14740,7 +14740,7 @@ msgid "Speed of internal sparse infill"
 msgstr "Vitesse de remplissage interne"
 
 msgid "Interface shells"
-msgstr "Coques des interfaces"
+msgstr "Coques d’interface"
 
 msgid ""
 "Force the generation of solid shells between adjacent materials/volumes. "
@@ -16099,7 +16099,7 @@ msgid "Speed of top surface infill which is solid"
 msgstr "Vitesse de remplissage de la surface supérieure qui est solide"
 
 msgid "Top shell layers"
-msgstr "Nombre de couches des coques supérieures"
+msgstr "Nombre de couches des surfaces supérieures"
 
 msgid ""
 "This is the number of solid layers of top shell, including the top surface "
@@ -16115,7 +16115,7 @@ msgid "Top solid layers"
 msgstr "Couches solides supérieures"
 
 msgid "Top shell thickness"
-msgstr "Épaisseur des coques supérieures"
+msgstr "Épaisseur des surfaces supérieures"
 
 msgid ""
 "The number of top solid layers is increased when slicing if the thickness "
