@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-28 21:37+0800\n"
+"POT-Creation-Date: 2026-02-05 19:18+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -5084,6 +5084,9 @@ msgstr "Durée totale"
 msgid "Filament change times"
 msgstr "Nombre de changement de filament"
 
+msgid "View Summary"
+msgstr "Voir le résumé"
+
 msgid "Color change"
 msgstr "Changement de couleur"
 
@@ -5781,6 +5784,11 @@ msgstr "Non"
 
 msgid "will be closed before creating a new model. Do you want to continue?"
 msgstr "sera fermé avant de créer un nouveau modèle. Voulez-vous continuer ?"
+
+msgid "Unlock faster, more reliable, warp-free prints with Helio Additive."
+msgstr ""
+"Obtenez des impressions plus rapides, plus fiables et sans déformation grâce "
+"à Helio Additive."
 
 msgid "Slice plate"
 msgstr "Découper le plateau"
@@ -8175,9 +8183,116 @@ msgstr "Données invalides"
 msgid "Slicing Canceled"
 msgstr "Découpe annulée"
 
+msgid "Great! Now click the Helio button to start optimization."
+msgstr ""
+"Super ! Cliquez maintenant sur le bouton Helio pour lancer l'optimisation."
+
 #, c-format, boost-format
 msgid "Slicing Plate %d"
 msgstr "Découpe du plateau %d"
+
+msgid "Multiple Filament Materials Detected"
+msgstr "Plusieurs matériaux de filaments détectés"
+
+msgid "⚠ Multiple Filament Materials Detected"
+msgstr "⚠ Plusieurs matériaux de filaments détectés"
+
+msgid " (unsupported)"
+msgstr " (non supporté)"
+
+msgid ""
+"Multicolour simulation currently supports only a single filament material.\n"
+msgstr ""
+"La simulation multicolore ne prend actuellement en charge qu'un seul "
+"matériau de filament.\n"
+
+#, c-format, boost-format
+msgid "You have selected multiple materials: %s"
+msgstr "Vous avez sélectionné plusieurs matériaux : %s"
+
+msgid ""
+"\n"
+"\n"
+"Note: Unsupported materials will use the selected reference material for "
+"simulation."
+msgstr ""
+"\n"
+"\n"
+"Note : Les matériaux non pris en charge utiliseront le matériau de référence "
+"sélectionné pour la simulation."
+
+msgid "True multi-material support will be added in a future update."
+msgstr ""
+"La prise en charge réelle de plusieurs matériaux sera ajoutée dans une "
+"prochaine mise à jour."
+
+msgid "Option 1: Proceed using a single filament type"
+msgstr "Option 1 : Procéder avec un seul type de filament"
+
+msgid "Select which filament to use for simulation:"
+msgstr "Sélectionnez le filament à utiliser pour la simulation :"
+
+msgid ""
+"⚠ This is not recommended. Filament formulations vary significantly between "
+"manufacturers and materials. Helio cannot guarantee reliable results in this "
+"configuration."
+msgstr ""
+"⚠ Cette configuration est déconseillée. La composition des filaments varie "
+"considérablement selon les fabricants et les matériaux. Helio ne peut "
+"garantir des résultats fiables avec cette configuration."
+
+msgid "Proceed Anyway"
+msgstr "Continuer quand même"
+
+msgid "Option 2: Go back and change filament selection"
+msgstr "Option 2 : Retour arrière et sélection d’un autre filament"
+
+msgid "✓ Recommended"
+msgstr "✓ Recommandé"
+
+msgid ""
+"Change your filament selection to use the same type for all colours, then "
+"try again."
+msgstr ""
+"Modifiez votre sélection de filament pour utiliser le même type pour toutes "
+"les couleurs, puis réessayez."
+
+msgid "See supported materials"
+msgstr "Voir les matériaux pris en charge"
+
+msgid "Go Back"
+msgstr "Retour"
+
+msgid "Unsupported Materials Detected"
+msgstr "Matériaux non pris en charge détectés"
+
+msgid "⚠ Unsupported Materials Detected"
+msgstr "⚠ Matériaux non pris en charge détectés"
+
+msgid "Some of your selected materials are not directly supported by Helio:\n"
+msgstr ""
+"Certains des matériaux que vous avez sélectionnés ne sont pas directement "
+"pris en charge par Helio :\n"
+
+msgid "Option 1: Proceed with a reference material"
+msgstr "Option 1 : Procéder à l’aide d’un matériau de référence"
+
+msgid "Select a similar material type to use for simulation:"
+msgstr ""
+"Sélectionnez un type de matériau similaire à utiliser pour la simulation :"
+
+msgid ""
+"Note: Using a reference material may result in approximate or erroneous "
+"results."
+msgstr ""
+"Note : L'utilisation d'un matériau de référence peut donner des résultats "
+"approximatifs ou erronés."
+
+msgid ""
+"Change your filament selection to use a supported material, then try again."
+msgstr ""
+"Modifiez votre sélection de filament pour utiliser un matériau compatible, "
+"puis réessayez."
 
 msgid "A Helio simulation or optimization task is in progress."
 msgstr "Une tâche de simulation ou d'optimisation Helio est en cours."
@@ -8185,23 +8300,124 @@ msgstr "Une tâche de simulation ou d'optimisation Helio est en cours."
 msgid "Invalid printer preset. Unable to slice with Helio."
 msgstr "Préréglage d'imprimante non valide. Impossible de découper avec Helio."
 
+#, c-format, boost-format
+msgid ""
+"Helio found a potential printer match using token-based matching:\n"
+"\n"
+"Your printer: %s\n"
+"Matched printer: %s\n"
+"\n"
+"Do you want to use this match, or would you prefer to rename your printer "
+"profile?"
+msgstr ""
+"Helio a trouvé une imprimante potentiellement compatible grâce à la "
+"correspondance par jeton :\n"
+"\n"
+"Votre imprimante : %s\n"
+"Imprimante correspondante : %s\n"
+"\n"
+"Souhaitez-vous utiliser cette correspondance ou préférez-vous renommer votre "
+"profil d'imprimante ?"
+
+msgid "Helio Printer Match Confirmation"
+msgstr "Confirmation de compatibilité de l'imprimante Helio"
+
+msgid "Unsupported Printer Detected"
+msgstr "Imprimante non prise en charge détectée"
+
+msgid "⚠ Unsupported Printer Detected"
+msgstr "⚠ Imprimante non prise en charge détectée"
+
+#, c-format, boost-format
+msgid "You're using %s which is not officially supported by Helio."
+msgstr ""
+"Vous utilisez %s, qui n'est pas officiellement pris en charge par Helio."
+
+msgid "Option 1: Proceed with a reference printer"
+msgstr "Option 1 : Procéder avec une imprimante de référence"
+
+msgid "Select a similar printer to use for simulation:"
+msgstr "Sélectionnez une imprimante similaire à utiliser pour la simulation :"
+
+msgid ""
+"Note: Using a reference printer may result in approximate or erroneous "
+"results."
+msgstr ""
+"Note : L'utilisation d'une imprimante de référence peut donner des résultats "
+"approximatifs ou erronés."
+
+msgid "Option 2: Go back and change printer selection"
+msgstr "Option 2 : Retour arrière et sélection d’une autre imprimante"
+
+msgid ""
+"Change your printer selection to use a supported printer, then try again."
+msgstr ""
+"Modifiez votre sélection d'imprimante pour utiliser une imprimante "
+"compatible, puis réessayez."
+
+msgid "See supported printers"
+msgstr "Voir les imprimantes compatibles"
+
 msgid "The current printer preset cannot be sliced using Helio."
 msgstr ""
 "Le préréglage d'imprimante actuel ne peut pas être découpé à l'aide de Helio."
 
-msgid "Helio does not support using a number of materials greater than 1."
+#, c-format, boost-format
+msgid ""
+"Helio found a potential material match using token-based matching:\n"
+"\n"
+"Your material: %s\n"
+"Matched material: %s\n"
+"\n"
+"Do you want to use this match, or would you prefer to rename your material "
+"profile?"
 msgstr ""
-"Helio ne prend pas en charge l'utilisation d'un nombre de matériaux "
-"supérieur à 1."
+"Helio a trouvé une correspondance potentielle de matériau grâce à la "
+"recherche par jeton :\n"
+"\n"
+"Votre matériau : %s\n"
+"Matériau correspondant : %s\n"
+"\n"
+"Souhaitez-vous utiliser cette correspondance ou préférez-vous renommer votre "
+"profil de matériau ?"
+
+msgid "Helio Material Match Confirmation"
+msgstr "Confirmation de correspondance des matériaux Helio"
+
+msgid "Unsupported Material Detected"
+msgstr "Matériau non pris en charge détecté"
+
+msgid "⚠ Unsupported Material Detected"
+msgstr "⚠ Matériau non pris en charge détecté"
+
+msgid "Choose a Reference Material"
+msgstr "Choisissez un matériau de référence"
 
 #, c-format, boost-format
 msgid "Helio does not support materials %s"
 msgstr "Helio ne prend pas en charge les matériaux %s"
 
-msgid "Helio functions do not support the print sequence of \"ByObject\"."
+msgid ""
+"Warning: Infill combination is currently unsupported by Helio.\n"
+"\n"
+"Proceeding with this setting enabled may return erroneous results.\n"
+"\n"
+"Do you want to continue anyway?"
 msgstr ""
-"Les fonctions Helio ne prennent pas en charge la séquence d'impression de "
-"\"Par objet\"."
+"Avertissement : La combinaison de remplissage n’est actuellement pas prise "
+"en charge par Helio.\n"
+"\n"
+"L’activation de ce paramètre peut retourner des résultats erronés.\n"
+"\n"
+"Voulez-vous continuer malgré tout ?"
+
+msgid "Helio Warning"
+msgstr "Avertissement Helio"
+
+msgid "Click the Optimize/Enhance button to start your first optimization."
+msgstr ""
+"Cliquez sur le bouton Optimiser/Améliorer pour lancer votre première "
+"optimisation."
 
 msgid ""
 "No valid Helio-PAT detected. Helio simulation & optimization cannot "
@@ -11763,52 +11979,74 @@ msgstr ""
 msgid "reconnect"
 msgstr "Reconnecter"
 
-msgid "Third-party Extension"
-msgstr "Extension Tierce"
+msgid "Welcome to Helio Additive"
+msgstr "Bienvenue sur Helio Additive"
+
+msgid "Know Your Print Will Work — Before You Hit Print"
+msgstr "La certitude que votre impression réussira, avant même d’imprimer !"
 
 msgid ""
-"Stronger parts, less warping, faster prints - powered by fast physics-based "
-"FEM simulation"
+"Physics-based analysis and optimization that makes prints faster, stronger, "
+"and far more reliable."
 msgstr ""
-"Des pièces plus solides, moins de déformations, des impressions plus rapides "
-"grâce à une simulation FEM rapide basée sur la physique."
-
-msgid "Uninstall the Helio Additive extension"
-msgstr "Désinstaller l'extension Helio Additive"
-
-msgid "Use Immediately"
-msgstr "Utiliser maintenant"
-
-msgid "Third-Party Extension"
-msgstr "Extension Tierce"
-
-msgid "HELIO ADDITIVE"
-msgstr "HELIO ADDITIVE"
+"Analyse et optimisation basées sur la physique pour des impressions plus "
+"rapides, plus résistantes et bien plus fiables."
 
 msgid ""
-"Helio Additive third - party software service feature has been successfully "
-"enabled!"
+"Unlock a world of faster, more reliable printing with Helio's state of the "
+"art physics based 3d printing simulation technology."
 msgstr ""
-"La fonctionnalité de service logiciel tiers Helio Additive a été activée "
-"avec succès !"
+"Découvrez un monde d'impression plus rapide et plus fiable grâce à la "
+"technologie de simulation d'impression 3D basée sur la physique de pointe de "
+"Helio."
 
-msgid "Helio-PAT"
-msgstr "Helio-PAT"
+msgid "Fewer Failed Prints"
+msgstr "Moins d'impressions ratées"
 
-msgid "Copy successful!"
-msgstr "Copie réussie !"
+msgid "Catch issues before printing and improve first-try success."
+msgstr ""
+"Détectez les problèmes avant l'impression et améliorez le taux de réussite "
+"dès le premier essai."
 
-msgid "Helio Additive"
-msgstr "Helio Additive"
+msgid "Faster Prints, Better Quality"
+msgstr "Impressions plus rapides, meilleure qualité"
 
-msgid "Privacy Policy of Helio Additive"
-msgstr "Politique de confidentialité de Helio Additive"
+msgid "Automatically tune speed and extrusion without manual tweaking."
+msgstr ""
+"Réglage automatique de la vitesse et de l'extrusion sans intervention "
+"manuelle."
 
-msgid "Terms of Use of Helio Additive"
-msgstr "Conditions d'utilisation de Helio Additive"
+msgid "Enable Helio Additive"
+msgstr "Activer Helio Additive"
 
-msgid "Agree and proceed"
-msgstr "Accepter et continuer"
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+msgid "After slicing, click the Helio button to analyze your print."
+msgstr ""
+"Après le découpage, cliquez sur le bouton Helio pour analyser votre "
+"impression."
+
+msgid "Helio Additive does not change your printer's firmware."
+msgstr "Helio Additive ne modifie pas le firmware de votre imprimante."
+
+msgid "Designed to help prints succeed — even if you're new to 3D printing."
+msgstr ""
+"Conçu pour vous aider à réussir vos impressions, même si vous débutez dans "
+"l'impression 3D."
+
+msgid ""
+"Are you sure you want to uninstall Helio Additive? This will disable all "
+"Helio features."
+msgstr ""
+"Êtes-vous sûr de vouloir désinstaller Helio Additive ? Cela désactivera "
+"toutes les fonctionnalités de Helio."
+
+msgid "Uninstall Helio Additive"
+msgstr "Désinstaller Helio Additive"
+
+msgid "Legal & Activation Terms"
+msgstr "Conditions générales d'utilisation et d'activation"
 
 msgid "Got it"
 msgstr "J'ai compris"
@@ -11826,11 +12064,237 @@ msgstr ""
 "donc être obtenu. Cliquez sur le bouton d'actualisation pour obtenir à "
 "nouveau le PAT."
 
-msgid "Simulation"
-msgstr "Simulation"
+msgid "You are activating Helio Additive's advanced simulation services."
+msgstr "Vous activez les services de simulation avancés de Helio Additive."
 
-msgid "Optimization"
-msgstr "Optimisation"
+msgid "Software Service Terms && Conditions"
+msgstr "Conditions générales d'utilisation des services logiciels"
+
+msgid "^"
+msgstr "^"
+
+msgid "Helio Additive"
+msgstr "Helio Additive"
+
+msgid "Helio Additive Privacy Agreement"
+msgstr "Accord de confidentialité de Helio Additive"
+
+msgid "Helio Additive User Agreement"
+msgstr "Contrat d'utilisation de Helio Additive"
+
+msgid ""
+"Unless otherwise specified, Bambu Lab only provides support for the software "
+"features officially provided. The slicing evaluation and slicing "
+"optimization features based on "
+msgstr ""
+"Sauf indication contraire, Bambu Lab ne prend en charge que les "
+"fonctionnalités logicielles officiellement fournies. Les fonctionnalités "
+"d'évaluation et d'optimisation du découpage basées sur le service cloud de "
+
+msgid ""
+"'s cloud service in this software will be developed, operated, provided, and "
+"maintained by "
+msgstr " seront développées, exploitées, fournies et maintenues par "
+
+msgid ""
+". Helio Additive is responsible for the effectiveness and availability of "
+"this service. The optimization feature of this service may modify the "
+"default print commands, posing a risk of printer damage. These features will "
+"collect necessary user information and data to achieve relevant service "
+"functions. Subscriptions and payments may be involved. Please visit "
+msgstr ""
+". Helio Additive est responsable de l'efficacité et de la disponibilité de "
+"ce service. La fonction d'optimisation peut modifier les commandes "
+"d'impression par défaut, ce qui peut endommager l'imprimante. Ces "
+"fonctionnalités collectent les informations et données utilisateur "
+"nécessaires au fonctionnement du service. Des abonnements et des paiements "
+"peuvent être requis. Veuillez consulter "
+
+msgid " and refer to the "
+msgstr " et vous référez à l’"
+
+msgid " and "
+msgstr " et au "
+
+msgid " for detailed information."
+msgstr " pour des informations détaillées."
+
+msgid ""
+"Meanwhile, you understand that this product is provided to you \"as is\" "
+"based on "
+msgstr ""
+"Par ailleurs, vous comprenez que ce produit vous est fourni \"tel quel\" "
+"basé sur les services de  "
+
+msgid ""
+"'s services, and Bambu Lab makes no express or implied warranties of any "
+"kind, nor can it control the service effects. To the fullest extent "
+"permitted by applicable law, Bambu Lab or its licensors/affiliates do not "
+"provide any express or implied representations or warranties, including but "
+"not limited to warranties regarding merchantability, satisfactory quality, "
+"fitness for a particular purpose, accuracy, confidentiality, and non-"
+"infringement of third-party rights. Due to the nature of network services, "
+"Bambu Lab cannot guarantee that the service will be available at all times, "
+"and Bambu Lab reserves the right to terminate the service based on relevant "
+"circumstances. You agree not to use this product and its related updates to "
+"engage in the following activities:"
+msgstr ""
+", et Bambu Lab n'offre aucune garantie, expresse ou implicite, de quelque "
+"nature que ce soit, et ne peut contrôler les effets du service. Dans toute "
+"la mesure permise par la loi applicable, Bambu Lab et ses concédants de "
+"licence/affiliés n'offrent aucune garantie, expresse ou implicite, notamment "
+"quant à la qualité marchande, la qualité satisfaisante, l'adéquation à un "
+"usage particulier, l'exactitude, la confidentialité et l'absence de "
+"contrefaçon des droits de tiers. De par la nature des services réseau, Bambu "
+"Lab ne peut garantir la disponibilité permanente du service et se réserve le "
+"droit de l'interrompre en fonction des circonstances. Vous vous engagez à ne "
+"pas utiliser ce produit ni ses mises à jour pour les activités suivantes :"
+
+msgid ""
+"1. Copy or use any part of this product outside the authorized scope of "
+"Helio Additive and Bambu Lab;"
+msgstr ""
+"1. Copier ou utiliser toute partie de ce produit en dehors du cadre autorisé "
+"de Helio Additive et Bambu Lab;"
+
+msgid ""
+"2. Attempt to disrupt, bypass, alter, invalidate, or evade any Digital "
+"Rights Management system related to and/or an integral part of this product;"
+msgstr ""
+"2. Tenter de perturber, contourner, modifier, invalider ou éluder tout "
+"système de gestion des droits numériques lié à ce produit et/ou en faisant "
+"partie intégrante;"
+
+msgid ""
+"3. Using this software and services for any improper or illegal activities."
+msgstr ""
+"3. Utiliser ce logiciel et ces services à des fins inappropriées ou "
+"illégales."
+
+msgid ""
+"When you confirm to enable this feature, it means that you have confirmed "
+"and agreed to the above statements."
+msgstr ""
+"En confirmant l'activation de cette fonctionnalité, vous confirmez et "
+"acceptez les déclarations ci-dessus."
+
+msgid "Special Note && Privacy Policy"
+msgstr "Note spéciale et politique de confidentialité"
+
+msgid ""
+"This service is provided and hosted by a third party, Helio Additive. All "
+"data collection and processing activities are solely managed by Helio "
+"Additive, and Bambu Lab assumes no responsibility in this regard. By "
+"clicking \"Agree and Proceed\", you agree to Helio Additive's privacy policy."
+msgstr ""
+"Ce service est fourni et hébergé par un tiers, Helio Additive. La collecte "
+"et le traitement des données sont entièrement gérés par Helio Additive, et "
+"Bambu Lab décline toute responsabilité à cet égard. En cliquant sur "
+"« Accepter et continuer », vous acceptez la politique de confidentialité de "
+"Helio Additive."
+
+msgid ""
+"I have read and agree to the terms\n"
+"and policies."
+msgstr ""
+"J'ai lu et j'accepte les conditions générales\n"
+"et les politiques."
+
+msgid "Agree and Proceed"
+msgstr "Accepter et Continuer"
+
+msgid "Activation Successful!"
+msgstr "Activation réussie !"
+
+msgid "Helio Additive is now active. You have unlocked free optimizations!"
+msgstr ""
+"Helio Additive est maintenant actif. Vous avez débloqué les optimisations "
+"gratuites !"
+
+msgid "Applies only when first activated"
+msgstr "S'applique uniquement lors de la première activation"
+
+msgid "Run Your First Optimization"
+msgstr "Lancez votre première optimisation"
+
+msgid ""
+"You're nearly there! Now that Helio is activated, your first optimization "
+"run for faster, more reliable printing takes only minutes! (Now referred to "
+"as 'Enhance' or 'Enhancement')"
+msgstr ""
+"Vous y êtes presque ! Helio étant activé, votre première optimisation pour "
+"une impression plus rapide et plus fiable ne prendra que quelques minutes ! "
+"(Désormais appelée 'Amélioration' ou 'Optimisation')"
+
+msgid ""
+"Add an object to the build plate, select a material and printer that Helio "
+"supports, then slice.\n"
+"\n"
+msgstr ""
+"Ajoutez un objet au plateau de construction, sélectionnez un matériau et une "
+"imprimante compatibles avec Helio, puis découpez.\n"
+"\n"
+
+msgid "Supported printers and materials"
+msgstr "Imprimantes et matériaux compatibles"
+
+msgid "Copy PAT"
+msgstr "Copier PAT"
+
+msgid ""
+"Personal Access Token (PAT)\n"
+"\n"
+"A secure credential that verifies your identity with Helio services. It's "
+"automatically used by BambuStudio for optimizations and simulations.\n"
+"\n"
+"You may need to copy this to:\n"
+"• Integrate Helio with other slicers or tools\n"
+"• Use the Helio API directly\n"
+"• Provide to support when troubleshooting"
+msgstr ""
+"Jeton d'accès personnel (PAT)\n"
+"\n"
+"Un identifiant sécurisé qui authentifie votre identité auprès des services "
+"Helio. Il est automatiquement utilisé par BambuStudio pour les optimisations "
+"et les simulations.\n"
+"\n"
+"Vous pourriez avoir besoin de ce jeton pour :\n"
+"• Intégrer Helio à d'autres logiciels de découpe ou outils\n"
+"• Utiliser directement l'API Helio\n"
+"• Le fournir au support technique en cas de problème"
+
+msgid "Copy successful!"
+msgstr "Copie réussie !"
+
+msgid "History"
+msgstr "Historique"
+
+msgid "View and download recent optimizations and simulations"
+msgstr "Consultez et téléchargez les optimisations et simulations récentes."
+
+msgid "Terms of Use"
+msgstr "Conditions d'utilisation"
+
+msgid "Activation Successful"
+msgstr "Activation réussie"
+
+msgid "Assess"
+msgstr "Évaluer"
+
+msgid "Formerly referred to as 'Simulate' or 'Simulation'"
+msgstr "Anciennement appelé 'Simuler' ou 'Simulation'"
+
+msgid "See where it will fail"
+msgstr "Voir où cela échouera"
+
+msgid "Enhance"
+msgstr "Améliorer"
+
+msgid "Formerly referred to as 'Optimize' or 'Optimization'"
+msgstr "Anciennement appelé 'Optimiser' ou 'Optimisation'"
+
+msgid "Auto-fix with new speeds"
+msgstr "Correction auto avec de nouvelles vitesses"
 
 msgid "Environment Temperature"
 msgstr "Température ambiante"
@@ -11839,12 +12303,19 @@ msgid "Chamber Temperature"
 msgstr "Température de la chambre"
 
 msgid ""
-"Note: Adjust the above temperature based on actual conditions. More accurate "
-"data ensures more precise analysis results."
+"Refers to the environment temperature of the print (i.e. A-series - room "
+"temperature). Changing chamber temperature when running an assessment/"
+"simulation allows you to play around with different temperature scenarios."
 msgstr ""
-"Remarque : Ajustez la température ci-dessus en fonction des conditions "
-"réelles. Des données plus précises garantissent des résultats d’analyse plus "
-"précis."
+"Cela fait référence à la température ambiante de l'impression (par exemple, "
+"pour la série A, la température ambiante). Modifier la température de la "
+"chambre lors d'une évaluation ou d'une simulation permet d'explorer "
+"différents scénarios de température."
+
+msgid "Optional. More accurate temperatures ensures better results."
+msgstr ""
+"Facultatif. Des températures plus précises garantissent de meilleurs "
+"résultats."
 
 msgid ""
 "Helio's advanced feature for power users: available post purchase on its "
@@ -11853,14 +12324,43 @@ msgstr ""
 "Fonctionnalité avancée de Helio pour les utilisateurs expérimentés : "
 "disponible après l'achat sur son site officiel."
 
-msgid "Monthly quota remaining: "
-msgstr "Quota mensuel restant :"
+msgid "Account Status"
+msgstr "Statut du compte"
 
-msgid "Add-ons available: "
-msgstr "Extensions disponibles :"
+msgid "Subscription:"
+msgstr "Abonnement :"
 
-msgid "Optimise Outer Walls"
-msgstr "Optimiser les parois extérieures"
+msgid "Loading subscription status..."
+msgstr "Chargement du statut de l'abonnement..."
+
+msgid "Monthly quota:"
+msgstr "Quota mensuel :"
+
+msgid "Add-ons:"
+msgstr "Extensions :"
+
+msgid "Plans / Upgrades"
+msgstr "Plans / Mises à niveau"
+
+msgid "Manage Account"
+msgstr "Gérer mon compte"
+
+msgid "Environment Settings"
+msgstr "Paramètres d'environnement"
+
+msgid ""
+"Uses the chamber temperature from Filament settings when available; "
+"otherwise estimates it from the build plate temperature."
+msgstr ""
+"Utilisation de la température de la chambre définie dans les paramètres de "
+"filament lorsque celle-ci est disponible; sinon elle est estimée en fonction "
+"de la température du plateau de construction."
+
+msgid "Optimization Settings"
+msgstr "Paramètres d'optimisation"
+
+msgid "Now referred to as 'Enhance' or 'Enhancement'"
+msgstr "Désormais appelé 'Améliorer' ou 'Amélioration'"
 
 msgid "Helio default (recommended)"
 msgstr "Helio par défaut (recommandé)"
@@ -11870,6 +12370,16 @@ msgstr "Slicer par défaut"
 
 msgid "Limits"
 msgstr "Limites"
+
+msgid ""
+"Set your own speed and flow rate limits - or rely on Helio's custom limit "
+"settings. With unsupported materials you need to supply your own data or "
+"rely on the slicer's built in data."
+msgstr ""
+"Définissez vos propres limites de vitesse et de débit, ou utilisez les "
+"paramètres personnalisés de Helio. Pour les matériaux non pris en charge, "
+"vous devrez fournir vos propres données ou utiliser celles intégrées au "
+"logiciel de découpe."
 
 msgid "Min Velocity"
 msgstr "Vitesse minimale"
@@ -11886,23 +12396,136 @@ msgstr "Vitesse volumétrique maximale"
 msgid "Last Trace ID: "
 msgstr "ID de la dernière trace :"
 
-msgid "Buy Now / Manage Account"
-msgstr "Acheter maintenant / Gérer mon compte"
-
 msgid "Click for more details"
 msgstr "Cliquez pour plus de détails"
 
-msgid "Start Simulation"
-msgstr "Démarrer la simulation"
+msgid ""
+"Enhancement will only take a few minutes to complete, depending on the size "
+"of your object. (A lot of compute is happening in the background) (Formerly "
+"referred to as 'Optimize' or 'Optimization')"
+msgstr ""
+"L'amélioration ne prendra que quelques minutes, selon la taille de votre "
+"objet. (De nombreux calculs sont effectués en arrière-plan.) (Anciennement "
+"appelée 'Optimiser' ou 'Optimisation')"
 
-msgid "Start Optimization"
-msgstr "Démarrer l’optimisation"
+msgid ""
+"Assessment will only take a few minutes to complete, depending on the size "
+"of your object. (A lot of compute is happening in the background) (Formerly "
+"referred to as 'Simulate' or 'Simulation')"
+msgstr ""
+"L'évaluation ne prendra que quelques minutes, selon la taille de votre "
+"objet. (De nombreux calculs sont effectués en arrière-plan.) (Anciennement "
+"appelée 'Simuler' ou 'Simulation')"
 
-msgid "Buy add-ons"
-msgstr "Acheter des extensions"
+msgid "Start Free Trial"
+msgstr "Essai gratuit"
 
-msgid "Layers to Optimize "
-msgstr "Couches à optimiser"
+msgid "Activate your free trial to unlock premium enhancements"
+msgstr "Activez votre essai gratuit pour débloquer les améliorations premium"
+
+msgid "Go to our storefront to purchase more enhancements"
+msgstr ""
+"Rendez-vous sur notre boutique en ligne pour acheter d'autres améliorations."
+
+msgid "Free Trial"
+msgstr "Essai gratuit"
+
+msgid "Free Trial Expired"
+msgstr "Essai gratuit expiré"
+
+msgid ""
+"Your free trial has ended. Explore our plans to continue using premium "
+"features."
+msgstr ""
+"Votre période d'essai gratuite est terminée. Découvrez nos forfaits pour "
+"continuer à utiliser les fonctionnalités premium."
+
+msgid ""
+"Start your free trial to unlock premium enhancements and faster, warp-free "
+"prints!"
+msgstr ""
+"Démarrez votre essai gratuit pour débloquer des améliorations premium et des "
+"impressions plus rapides et sans déformation !"
+
+msgid "Unlimited*"
+msgstr "Illimité*"
+
+msgid "*Fair usage terms apply - click to learn more"
+msgstr ""
+"*Des conditions d'utilisation équitable s'appliquent - Cliquez pour en "
+"savoir plus"
+
+msgid ""
+"Restrict Helio's fixes to only certain layers, or keep them for all layers - "
+"the choice is yours! (Layer 1 attached to the bed is typically skipped.)"
+msgstr ""
+"Vous pouvez limiter les corrections de Helio à certaines couches seulement, "
+"ou les appliquer à toutes les couches, à vous de choisir ! (La première "
+"couche sur le plateau est généralement ignorée.)"
+
+msgid "Print Priority"
+msgstr "Priorité d'impression"
+
+msgid "Loading print priority options..."
+msgstr "Chargement des options de priorité d'impression..."
+
+msgid "Fetching material-specific options from Helio API..."
+msgstr ""
+"Récupération des options spécifiques aux matériaux depuis l'API Helio..."
+
+msgid "Preserve Surface Finish"
+msgstr "Finition de la surface"
+
+msgid "Speed & Strength"
+msgstr "Vitesse & Résistance"
+
+msgid ""
+"Speed & Strength: Optimizes outer walls for improved performance.\n"
+"Preserve Surface Finish: Maintains original wall speeds to preserve visual "
+"finish.\n"
+"\n"
+"Note: Using fallback options - couldn't fetch material-specific settings "
+"from API."
+msgstr ""
+"Vitesse & Résistance : Optimise les parois extérieures pour des performances "
+"accrues.\n"
+"Finition de la surface : Maintient la vitesse d’origine des parois pour "
+"préserver leur aspect visuel.\n"
+"\n"
+"Remarque : Utilisation des options de repli; impossible de récupérer les "
+"paramètres spécifiques au matériau via l’API."
+
+msgid "No print priority options available for this material"
+msgstr ""
+"Aucune option de priorité d'impression n'est disponible pour ce matériau"
+
+msgid "This material does not support print priority optimization."
+msgstr ""
+"Ce matériau ne prend pas en charge l'optimisation de la priorité "
+"d'impression."
+
+msgid "Optimizes outer walls for improved performance."
+msgstr "Optimise les parois extérieures pour des performances améliorées."
+
+msgid "Maintains original wall speeds to preserve visual finish."
+msgstr ""
+"Maintient les vitesses d'origine des parois pour préserver l'aspect visuel."
+
+msgid "Enhance Surface Gloss"
+msgstr "Brillance de la surface"
+
+msgid "Optimizes for enhanced surface gloss."
+msgstr "Optimise la brillance de la surface."
+
+msgid ""
+"Failed to load print priority options from Helio API.\n"
+"Using standard optimization method instead (same as before print priority "
+"feature)."
+msgstr ""
+"Impossible de charger les options de priorité d'impression depuis l'API "
+"Helio.\n"
+"Utilisation de la méthode d'optimisation standard (identique à celle "
+"utilisée avant l'activation de la priorité d'impression)."
 
 msgid ""
 "Failed to obtain Helio PAT. The number of issued PATs has reached the upper "
@@ -11913,6 +12536,9 @@ msgstr ""
 "limite. Veuillez consulter les informations sur le site officiel de Helio. "
 "Cliquez sur Actualiser pour le récupérer dès qu'il sera disponible."
 
+msgid "HELIO ADDITIVE"
+msgstr "HELIO ADDITIVE"
+
 msgid "Print Time Improvement"
 msgstr "Amélioration de la durée d'impression"
 
@@ -11922,6 +12548,25 @@ msgstr "Amélioration moyenne"
 msgid "Consistency Improvement"
 msgstr "Amélioration de la cohérence"
 
+msgid "Estimate of improvement in print time before and after enhancement"
+msgstr ""
+"Estimation de l'amélioration du temps d'impression avant et après "
+"l'amélioration"
+
+msgid ""
+"Level of Strength & Warping improvement for this part after enhancement - "
+"average for the part"
+msgstr ""
+"Niveau d’amélioration de la résistance et de la déformation de cette pièce "
+"après optimisation - moyenne pour la pièce"
+
+msgid ""
+"Level of Strength & Warping improvement for this part after enhancement - "
+"change in overall consistency"
+msgstr ""
+"Niveau d’amélioration de la résistance et de la déformation de cette pièce "
+"après optimisation - changement de la consistance générale"
+
 msgid ""
 "Your gcode has been improved for the best possible print. To further improve "
 "your print please check out our wiki for tips & tricks on what to do next."
@@ -11929,6 +12574,158 @@ msgstr ""
 "Votre G-code a été amélioré pour une impression optimale. Pour optimiser "
 "encore votre impression, consultez notre wiki pour obtenir des conseils et "
 "astuces sur la marche à suivre."
+
+msgid ""
+"Rate the enhancement based on your expectations. 5 stars means awesome! 1 "
+"star means it didn't add much value for you."
+msgstr ""
+"Évaluez l'amélioration en fonction de vos attentes. 5 étoiles : excellent ! "
+"1 étoile : peu d'intérêt pour vous."
+
+msgid "Save the enhanced gcode locally"
+msgstr "Enregistrer le gcode amélioré localement"
+
+msgid "Print Plate"
+msgstr "Imprimer le plateau"
+
+msgid "Print the enhanced part immediately"
+msgstr "Imprimer la partie améliorée immédiatement"
+
+msgid "View Details"
+msgstr "Voir les détails"
+
+msgid "Verify Print Success Results"
+msgstr "Vérifier les résultats d'impression réussis"
+
+msgid ""
+"Simulates the thermal process to confirm your part will print without "
+"failure."
+msgstr ""
+"Simule le processus thermique pour garantir que votre pièce s'imprimera sans "
+"problème."
+
+msgid "Now referred to as 'Assess' or 'Assessment'"
+msgstr "Désormais appelé 'Évaluer' ou 'Évaluation'"
+
+msgid "Time saved: "
+msgstr "Gain de temps :"
+
+msgid "From "
+msgstr "Depuis"
+
+msgid "Expected Outcome:"
+msgstr "Résultat attendu :"
+
+msgid "Analysis:"
+msgstr "Analyse :"
+
+msgid "Additional observations:"
+msgstr "Observations complémentaires :"
+
+msgid "Fix suggestions"
+msgstr "Suggestions de correction"
+
+msgid "With Enhance Speed & Quality:"
+msgstr "Avec une vitesse et une qualité améliorées :"
+
+msgid ""
+"This is the time that can be saved if you run the Helio Additive Enhance "
+"feature. Click the Enhance Speed and Quality button to proceed."
+msgstr ""
+"Voici le temps que vous pouvez gagner en utilisant la fonction "
+"d’amélioration Helio Additive. Cliquez sur le bouton Améliorer Vitesse et "
+"Qualité pour continuer."
+
+msgid "Enhance Speed & Quality"
+msgstr "Améliorer Vitesse et Qualité"
+
+msgid "Applies Helio's optimized speed/flow/fan strategy."
+msgstr ""
+"Applique la stratégie d’optimisation de vitesse/débit/ventilation de Helio."
+
+msgid "✅ Will Print"
+msgstr "✅ Peut être imprimé"
+
+msgid "⚠️ May Print with Issues"
+msgstr "⚠️ Peut être imprimé avec des problèmes"
+
+msgid "❌ Likely to Fail"
+msgstr "❌ Risque d'échec"
+
+msgid ""
+"Thermal conditions are balanced. The part is printing within safe "
+"temperature limits."
+msgstr ""
+"Les conditions thermiques sont équilibrées. La pièce est imprimée dans des "
+"limites de température sûres."
+
+msgid ""
+"Material is cooling too rapidly before the next layer is applied. This can "
+"cause weak layer bonding, warping, or cracking."
+msgstr ""
+"Le matériau refroidit trop rapidement avant l'application de la couche "
+"suivante. Cela peut entraîner une faible adhérence des couches, des "
+"déformations ou des fissures."
+
+msgid ""
+"Heat is building up in small layers faster than it can dissipate. This may "
+"cause sagging or loss of detail in fine features."
+msgstr ""
+"La chaleur s'accumule en fines couches plus rapidement qu'elle ne peut se "
+"dissiper. Cela peut entraîner un affaissement ou une perte de détails au "
+"niveau des structures fines."
+
+msgid "Ready to print"
+msgstr "Prêt à imprimer"
+
+msgid "Too cold overall — see suggestions"
+msgstr "Trop froid en général — voir les suggestions"
+
+msgid "Too hot overall — see suggestions"
+msgstr "Trop chaud en général — voir les suggestions"
+
+msgid "Your part is ready to print! Thermal conditions are within safe limits."
+msgstr ""
+"Votre pièce est prête à être imprimée ! Les conditions thermiques sont dans "
+"les limites de sécurité."
+
+msgid "Too cold (overall)"
+msgstr "Trop froid (en général)"
+
+msgid ""
+"The part cools too fast between layers on average. Some layers may behave "
+"differently—see observations."
+msgstr ""
+"La pièce refroidit trop rapidement entre les couches. Certaines couches "
+"peuvent se comporter différemment — voir les observations."
+
+msgid "Too hot (overall)"
+msgstr "Trop chaud (en général)"
+
+msgid ""
+"The part stays too warm between layers on average. Some layers may behave "
+"differently—see observations."
+msgstr ""
+"La pièce reste trop chaude entre les couches. Certaines couches peuvent se "
+"comporter différemment — voir les observations."
+
+msgid "Suggestions"
+msgstr "Suggestions"
+
+msgid "Quick fixes (beginner):"
+msgstr "Solutions rapides (débutant) :"
+
+msgid "Expert"
+msgstr "Expert"
+
+msgid "Learn more"
+msgstr "En savoir plus"
+
+msgid "Helio Flowchart"
+msgstr "Diagramme de flux Helio"
+
+msgid "Fixing cold prints"
+msgstr "Correction des impressions à froid"
 
 msgid "Air Pump"
 msgstr "Pompe à air"
@@ -18384,11 +19181,12 @@ msgstr ""
 "Le nombre d'extrudeurs de l’imprimante et l'imprimante sélectionnée pour la "
 "calibration ne correspondent pas."
 
+#, c-format, boost-format
 msgid ""
 "The nozzle diameter of %sextruder is 0.2mm which does not support automatic "
 "Flow Dynamics calibration."
 msgstr ""
-"Le diamètre de la buse de %extruder est de 0,2mm, ce qui ne prend pas en "
+"Le diamètre de la buse de %sextruder est de 0,2mm, ce qui ne prend pas en "
 "charge la calibration de la dynamique du débit."
 
 #, c-format, boost-format
@@ -19117,6 +19915,9 @@ msgstr "Helio : Optimisation réalisée avec succès"
 msgid "Helio: optimization working"
 msgstr "Helio : Optimisation en cours"
 
+msgid "Helio: optimization failed"
+msgstr "Helio : L’optimisation a échoué"
+
 msgid "Helio: Optimzaion check failed"
 msgstr "Hélio : Échec de la vérification d'optimisation"
 
@@ -19341,9 +20142,6 @@ msgstr "Paramètres globaux"
 
 msgid "Video tutorial"
 msgstr "Tutoriel vidéo"
-
-msgid "Learn more"
-msgstr "En savoir plus"
 
 msgid "(Sync with printer)"
 msgstr "(Synchronisé avec l’imprimante)"
@@ -19722,6 +20520,121 @@ msgstr ""
 "Conditions générales du programme d'amélioration de l'expérience utilisateur "
 "de Bambu Lab"
 
+msgid "Recent Helio Runs"
+msgstr "Exécutions Helio récentes"
+
+msgid "Showing recent completed optimizations and simulations"
+msgstr "Affiche les optimisations et simulations récemment réalisées"
+
+msgid "Loading recent runs..."
+msgstr "Chargement des exécutions récentes..."
+
+msgid "No Recent Runs Found"
+msgstr "Aucune exécution récente trouvée"
+
+msgid "No completed simulations or optimizations found"
+msgstr "Aucune simulation ni optimisation terminée trouvée"
+
+#, c-format, boost-format
+msgid "OPTIMIZATIONS (%d)"
+msgstr "OPTIMISATIONS (%d)"
+
+#, c-format, boost-format
+msgid "SIMULATIONS (%d)"
+msgstr "SIMULATIONS (%d)"
+
+#, c-format, boost-format
+msgid "%d layers"
+msgstr "%d couches"
+
+#, c-format, boost-format
+msgid "Quality: %s | Consistency: %s"
+msgstr "Qualité : %s | Cohérence : %s"
+
+msgid "Download GCode"
+msgstr "Télécharger le GCode"
+
+msgid "View Results"
+msgstr "Voir les résultats"
+
+msgid "GCode URL is not available"
+msgstr "L'URL du GCode n'est pas disponible."
+
+msgid "Download Error"
+msgstr "Erreur de téléchargement"
+
+msgid "Save GCode File"
+msgstr "Enregistrer le fichier GCode"
+
+#, c-format, boost-format
+msgid ""
+"GCode file downloaded successfully!\n"
+"\n"
+"Saved to: %s"
+msgstr ""
+"Fichier GCode téléchargé avec succès !\n"
+"\n"
+"Enregistré sous : %s"
+
+msgid "Download Complete"
+msgstr "Téléchargement terminé"
+
+#, c-format, boost-format
+msgid ""
+"Failed to open file for writing:\n"
+"%s"
+msgstr ""
+"Impossible d'ouvrir le fichier pour l’écriture :\n"
+"%s"
+
+#, c-format, boost-format
+msgid "Error saving file: %s"
+msgstr "Erreur de sauvegarde du fichier : %s"
+
+#, c-format, boost-format
+msgid ""
+"Failed to download GCode file.\n"
+"\n"
+"Error: %s"
+msgstr ""
+"Échec du téléchargement du fichier GCode.\n"
+"\n"
+"Erreur : %s"
+
+msgid "Optimization Details"
+msgstr "Détails d'optimisation"
+
+msgid "Simulation Details"
+msgstr "Détails de simulation"
+
+#, c-format, boost-format
+msgid "%d seconds ago"
+msgstr "il y a %d secondes"
+
+#, c-format, boost-format
+msgid "%d minutes ago"
+msgstr "il y a %d minutes"
+
+#, c-format, boost-format
+msgid "%d hours ago"
+msgstr "il y a %d heures"
+
+#, c-format, boost-format
+msgid "%d days ago"
+msgstr "il y a %d jours"
+
+msgid "Print Outcome: WILL_PRINT"
+msgstr "Résultat d'impression : Peut être imprimé"
+
+msgid "Print Outcome: MAY_PRINT"
+msgstr "Résultat d'impression : Peut être imprimé avec des problèmes"
+
+msgid "Print Outcome: LIKELY_FAIL"
+msgstr "Résultat d'impression : Risque d’échec"
+
+msgid "Print Outcome: "
+msgstr "Résultat d'impression :"
+
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
 "How to use keyboard shortcuts\n"
@@ -20044,192 +20957,90 @@ msgstr ""
 "appropriée de la température du plateau peut réduire le\n"
 "risque de déformation."
 
-#: resources/data/helio_hints.ini: [hint: Single-Material Only]
+#: resources/data/helio_hints.ini: [hint: Run Nylon & PC (and other advanced
+#: materials) Like a Pro]
 msgid ""
-"Single-Material Only\n"
-"Helio currently simulates one material and one nozzle per job. Multi-"
-"material or multi-extruder G-code adds long pauses that break thermal "
-"continuity, so results wouldn’t be meaningful."
+"Run Nylon & PC (and other advanced materials) Like a Pro\n"
+"Printing Nylon 612 or Polycarbonate or other advanced materials? Helio helps "
+"you avoid the 'almost worked' failure."
 msgstr ""
-"Matériau unique uniquement\n"
-"Helio simule actuellement un matériau et une buse par tâche. Le G-code multi-"
-"matériaux ou multi-extrudeurs ajoute de longues pauses qui interrompent la "
-"continuité thermique, rendant les résultats insignifiants."
+"Imprimez du Nylon & PC (et autres matériaux avancés) comme un pro\n"
+"Vous imprimez du Nylon 612, du Polycarbonate ou d'autres matériaux avancés ? "
+"Helio vous aide à éviter l'échec du 'presque réussi'."
 
-#: resources/data/helio_hints.ini: [hint: One Plate per Job]
+#: resources/data/helio_hints.ini: [hint: Make Prints up to 30% Faster
+#: (Safely)]
 msgid ""
-"One Plate per Job\n"
-"Upload G-code with a single build plate—multi-plate projects aren’t yet "
-"supported, so only the first plate would run."
+"Make Prints up to 30% Faster (Safely)\n"
+"Get real throughput, not risky 'speed mode'. A print that normally takes 8 "
+"hours might drop to ~5.6 hours."
 msgstr ""
-"Un plateau par tâche\n"
-"Téléchargez le G-code avec un seul plateau de construction. Les projets "
-"multi-plateaux ne sont pas encore pris en charge, seul le premier plateau "
-"sera donc exécuté."
+"Imprimez jusqu'à 30 % plus rapidement (en toute sécurité)\n"
+"Bénéficiez d'un débit réel, sans 'mode vitesse' risqué. Une impression qui "
+"prend normalement 8 heures pourrait être réalisée en seulement 5.6 heures "
+"environ."
 
-#: resources/data/helio_hints.ini: [hint: What is the Thermal Quality Index?]
+#: resources/data/helio_hints.ini: [hint: Stop Wasting Precious Design Time on
+#: Tuning]
 msgid ""
-"What is the Thermal Quality Index?\n"
-"The Thermal Quality Index (scale –100 to +100) shows how hot or cold each "
-"region prints—green (≈ 0) is the “just right” zone for strong, warp-free "
-"parts. Keep most of the part green for best results."
+"Stop Wasting Precious Design Time on Tuning\n"
+"Fewer trial prints, faster dial-in. Instead of multiple test prints, detect "
+"issues and print first time right."
 msgstr ""
-"Qu'est-ce que l'indice de qualité thermique ?\n"
-"L'indice de qualité thermique (échelle de –100 à +100) indique la "
-"température d'impression de chaque zone. Le vert (≈ 0) correspond à la zone "
-"idéale pour des pièces robustes et sans déformation. Pour de meilleurs "
-"résultats, maintenez la majeure partie de la pièce verte."
+"Ne perdez plus un temps précieux à peaufiner vos réglages.\n"
+"Moins d'impressions d'essai, une mise au point plus rapide. Au lieu de "
+"multiples impressions de test, détectez les problèmes et imprimez "
+"correctement du premier coup."
 
-#: resources/data/helio_hints.ini: [hint: Voxel-Level Accuracy]
+#: resources/data/helio_hints.ini: [hint: Cut Warping on ASA/ABS and other
+#: advanced materials]
 msgid ""
-"Voxel-Level Accuracy\n"
-"We predict temperature in every voxel at every time-step, and for standard "
-"jobs the forecast is typically within ±5–10 °C. Pauses, custom firmware or "
-"odd cooling can widen that margin."
+"Cut Warping on ASA/ABS and other advanced materials\n"
+"Warping ruins long jobs. Helio shows where risk is highest before you print, "
+"and, with enhance, cuts the risk of warping to almost nil."
 msgstr ""
-"Précision au niveau du voxel\n"
-"Nous prévoyons la température dans chaque voxel à chaque pas de temps, et "
-"pour les tâches standard, la prévision est généralement comprise entre ±5 et "
-"10 °C. Des pauses, un firmware personnalisé ou un refroidissement irrégulier "
-"peuvent élargir cette marge."
+"Réduction du warping sur l'ASA/ABS et autres matériaux avancés\n"
+"Le warping peut ruiner les impressions de longue durée. Helio identifie les "
+"zones à risque avant l'impression et, grâce à l'option d'amélioration, "
+"réduit le risque de warping à un niveau quasi nul."
 
-#: resources/data/helio_hints.ini: [hint: Fan & Airflow Model]
+#: resources/data/helio_hints.ini: [hint: Quality Check Before You Hit Print]
 msgid ""
-"Fan & Airflow Model\n"
-"A simplified fan-and-room model shows how cooling settings change part temps "
-"without slow CFD maths—great for day-to-day tuning. Chamber vortices aren’t "
-"yet simulated so runs stay fast."
+"Quality Check Before You Hit Print\n"
+"Think of it like a pre-flight check. Example: if a PC bracket shows low TQI "
+"in thin ribs, you'll know to adjust before committing to an overnight run."
 msgstr ""
-"Modèle de ventilateur et de flux d'air\n"
-"Un modèle simplifié de ventilateur et de pièce montre comment les paramètres "
-"de refroidissement modifient la température des pièces sans recourir à des "
-"calculs CFD lents, ce qui est idéal pour les réglages quotidiens. Les "
-"tourbillons de la chambre n'étant pas encore simulés, les cycles restent "
-"rapides."
+"Contrôle qualité avant impression\n"
+"Considérez cela comme une vérification avant vol. Par exemple : si un "
+"support de PC présente un faible TQI au niveau des nervures fines, vous "
+"saurez qu’il faut l’ajuster avant de lancer une impression de nuit."
 
-#: resources/data/helio_hints.ini: [hint: TQI Limits Explained]
+#: resources/data/helio_hints.ini: [hint: Stronger Parts With One Click]
 msgid ""
-"TQI Limits Explained\n"
-"-100 → too cold: tensile strength is ~50 % lower than parts printed at the "
-"ideal 0 (ASTM D638 dog-bone tests). +100 → too hot: layers stay molten and "
-"may sag or collapse. Keep regions near 0 for peak strength and accuracy."
+"Stronger Parts With One Click\n"
+"Better bonding, fewer brittle failures. Example: for Polycarbonate, results "
+"show ~+65% tensile strength after optimization."
 msgstr ""
-"Explication des limites de l'IQT\n"
-"-100 → Trop froid : la résistance à la traction est environ 50% inférieure à "
-"celle des pièces imprimées à la température idéale de 0 (tests ASTM D638 en "
-"os de chien). +100 → Trop chaud : les couches restent fondues et peuvent "
-"s'affaisser ou s'effondrer. Maintenir les zones proches de 0 pour une "
-"résistance et une précision optimales."
+"Des pièces plus résistantes en un clic\n"
+"Meilleure adhérence, moins de ruptures dues à la fragilité. Exemple : pour "
+"le Polycarbonate, les résultats montrent une augmentation de la résistance à "
+"la traction d’environ 65% après optimisation."
 
-#: resources/data/helio_hints.ini: [hint: What Drives Runtime?]
+#: resources/data/helio_hints.ini: [hint: Save Money Every Run]
 msgid ""
-"What Drives Runtime?\n"
-"Extra layers, dense infill, lots of tiny arcs (small mesh elements) or very "
-"slow printing speeds all extend simulation time because the solver must step "
-"through more seconds. Multi-core CPUs or CUDA GPUs speed things up."
+"Save Money Every Run\n"
+"Faster + fewer failures = real savings."
 msgstr ""
-"Quels sont les facteurs qui influencent le temps d'exécution ?\n"
-"Des couches supplémentaires, un remplissage dense, de nombreux arcs "
-"minuscules (petits éléments de maillage) ou des vitesses d'impression très "
-"lentes allongent le temps de simulation, car le solveur doit parcourir plus "
-"de secondes. Les processeurs multicœurs ou les GPU CUDA accélèrent le "
-"processus."
+"Économisez de l'argent à chaque éxécution\n"
+"Plus rapide + moins d'échecs = de réelles économies."
 
-#: resources/data/helio_hints.ini: [hint: Nozzle Temp Range]
+#: resources/data/helio_hints.ini: [hint: First-Time-Right Reliability]
 msgid ""
-"Nozzle Temp Range\n"
-"Supported set-points are 190 – 320 °C; anything outside is clamped to keep "
-"physics realistic."
+"First-Time-Right Reliability\n"
+"Less babysitting, more predictable output. Example: a small farm running "
+"PETG parts avoids 'fail at hour 6' surprises and keeps batches on schedule."
 msgstr ""
-"Plage de température des buses\n"
-"Les points de consigne pris en charge sont compris entre 190 et 320 °C; "
-"toute valeur en dehors de ces limites est limitée pour garantir le réalisme "
-"des lois physiques."
-
-#: resources/data/helio_hints.ini: [hint: Debugging Flowchart]
-msgid ""
-"Debugging Flowchart\n"
-"Not sure why a result looks off? Follow our step-by-step debugging flowchart "
-"to trace settings, G-code and material issues in minutes."
-msgstr ""
-"Diagramme de débogage\n"
-"Vous ne comprenez pas pourquoi un résultat semble anormal ? Suivez notre "
-"diagramme de débogage étape par étape pour identifier les problèmes de "
-"paramètres, de G-code et de matériaux en quelques minutes."
-
-#: resources/data/helio_hints.ini: [hint: Why Cooling Varies]
-msgid ""
-"Why Cooling Varies\n"
-"Outer walls and bridges cool fastest while thick interiors stay warmer—"
-"geometry, airflow and tool-path all play a part, and the simulation "
-"visualises these differences."
-msgstr ""
-"Pourquoi le refroidissement varie\n"
-"Les parois extérieures et les ponts refroidissent plus rapidement, tandis "
-"que les intérieurs épais restent plus chauds. La géométrie, le flux d'air et "
-"le parcours de l'outil jouent tous un rôle, et la simulation visualise ces "
-"différences."
-
-#: resources/data/helio_hints.ini: [hint: Extrusion Temp Model]
-msgid ""
-"Extrusion Temp Model\n"
-"Material properties shape the melt curve, but printer geometry decides how "
-"much heat the filament actually gains, so the model is material-specific and "
-"printer-calibrated."
-msgstr ""
-"Modèle de température d'extrusion\n"
-"Les propriétés du matériau façonnent la courbe de fusion, mais la géométrie "
-"de l'imprimante détermine la quantité de chaleur réellement gagnée par le "
-"filament. Le modèle est donc spécifique au matériau et calibré par "
-"l'imprimante."
-
-#: resources/data/helio_hints.ini: [hint: Nozzle setting of 190 °C vs 320
-#: °C?]
-msgid ""
-"Nozzle setting of 190 °C vs 320 °C?\n"
-"A 100 °C nozzle change only nudges the thermal index because extrusion temp, "
-"flow rate and post-deposition cooling dominate the part’s heat history."
-msgstr ""
-"Réglage de la buse à 190 °C ou 320 °C ?\n"
-"Un changement de buse à 100 °C n'a pour effet que de modifier légèrement "
-"l'indice thermique, car la température d'extrusion, le débit et le "
-"refroidissement post-dépôt dominent l'historique thermique de la pièce."
-
-#: resources/data/helio_hints.ini: [hint: Bed Temperature influence]
-msgid ""
-"Bed Temperature influence\n"
-"Only the first-layer bed temp feeds the model right now; later bed changes "
-"aren’t yet captured."
-msgstr ""
-"Influence de la température du plateau\n"
-"Seule la température du plateau de la première couche alimente actuellement "
-"le modèle, les changements ultérieurs du plateau ne sont pas encore capturés."
-
-#: resources/data/helio_hints.ini: [hint: Actual Tool-Path]
-msgid ""
-"Actual Tool-Path\n"
-"Yes—your exact G-code path, speeds and fan commands are simulated."
-msgstr ""
-"Trajectoire d'outil réelle\n"
-"Oui, votre trajectoire G-code, vos vitesses et vos commandes de ventilateur "
-"sont simulés."
-
-#: resources/data/helio_hints.ini: [hint: Mesh Resolution]
-msgid ""
-"Mesh Resolution\n"
-"The voxel grid is finer than the G-code line spacing, capturing layer-by-"
-"layer detail without wasting compute."
-msgstr ""
-"Résolution du maillage\n"
-"La grille de voxels est plus fine que l'espacement des lignes du G-code, ce "
-"qui permet de capturer les détails couche par couche sans perte de calcul."
-
-#: resources/data/helio_hints.ini: [hint: Shrinkage, Warping & Stress]
-msgid ""
-"Shrinkage, Warping & Stress\n"
-"By controlling the thermal index you can remove the heat-driven causes of "
-"warp and stress."
-msgstr ""
-"Rétrécissement, déformation et contrainte\n"
-"En contrôlant l'indice thermique, vous pouvez éliminer les causes de "
-"déformation et de contrainte liées à la chaleur."
+"Fiabilité garantie dès la première production\n"
+"Moins de surveillance, une production plus prévisible. Exemple : une petite "
+"exploitation agricole fabriquant des pièces en PETG évite les mauvaises "
+"surprises ('panne à la 6ème heure') et respecte ses délais de production."
