@@ -3191,10 +3191,10 @@ msgid "Push new filament into extruder"
 msgstr "Insertion du nouveau filament dans l'extrudeur"
 
 msgid "Grab new filament"
-msgstr "Saisir un nouveau filament"
+msgstr "Récupération d’un nouveau filament"
 
 msgid "Purge old filament"
-msgstr "Purge de l'ancien filament"
+msgstr "Purge du filament précédent"
 
 msgid "Confirm extruded"
 msgstr "Confirmation de l'extrusion"
@@ -8227,7 +8227,7 @@ msgstr ""
 "prochaine mise à jour."
 
 msgid "Option 1: Proceed using a single filament type"
-msgstr "Option 1 : Procéder avec un seul type de filament"
+msgstr "Option 1 : Continuer avec un seul type de filament"
 
 msgid "Select which filament to use for simulation:"
 msgstr "Sélectionnez le filament à utiliser pour la simulation :"
@@ -8245,7 +8245,7 @@ msgid "Proceed Anyway"
 msgstr "Continuer quand même"
 
 msgid "Option 2: Go back and change filament selection"
-msgstr "Option 2 : Retour arrière et sélection d’un autre filament"
+msgstr "Option 2 : Sélectionner un autre filament"
 
 msgid "✓ Recommended"
 msgstr "✓ Recommandé"
@@ -8275,7 +8275,7 @@ msgstr ""
 "pris en charge par Helio :\n"
 
 msgid "Option 1: Proceed with a reference material"
-msgstr "Option 1 : Procéder à l’aide d’un matériau de référence"
+msgstr "Option 1 : Continuer avec un matériau de référence"
 
 msgid "Select a similar material type to use for simulation:"
 msgstr ""
@@ -8334,7 +8334,7 @@ msgstr ""
 "Vous utilisez %s, qui n'est pas officiellement pris en charge par Helio."
 
 msgid "Option 1: Proceed with a reference printer"
-msgstr "Option 1 : Procéder avec une imprimante de référence"
+msgstr "Option 1 : Continuer avec une imprimante de référence"
 
 msgid "Select a similar printer to use for simulation:"
 msgstr "Sélectionnez une imprimante similaire à utiliser pour la simulation :"
@@ -8347,7 +8347,7 @@ msgstr ""
 "approximatifs ou erronés."
 
 msgid "Option 2: Go back and change printer selection"
-msgstr "Option 2 : Retour arrière et sélection d’une autre imprimante"
+msgstr "Option 2 : Sélectionner une autre imprimante"
 
 msgid ""
 "Change your printer selection to use a supported printer, then try again."
