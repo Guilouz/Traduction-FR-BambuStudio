@@ -2848,7 +2848,7 @@ msgid "Wall loops"
 msgstr "Nombre de parois"
 
 msgid "Infill density(%)"
-msgstr "Densité de remplissage(%)"
+msgstr "Densité de remplissage (%)"
 
 msgid "Auto Brim"
 msgstr "Bordure automatique"
