@@ -3445,7 +3445,7 @@ msgstr ""
 "circuler l’air de la chambre."
 
 msgid "Strong Cooling"
-msgstr "Refroidissement puissant"
+msgstr "Refroidissement"
 
 msgid "Fan"
 msgstr "Ventilation"
@@ -8079,8 +8079,8 @@ msgstr "Protection contre la chauffe"
 
 msgid "Stops heating automatically after 5 mins of idle to ensure safety."
 msgstr ""
-"Arrête automatiquement la chauffe après 5 minutes d'inactivité pour plus de "
-"sécurité."
+"Arrête automatiquement la chauffe après 5 minutes d'inactivité\n"
+"pour plus de sécurité."
 
 msgid "Global"
 msgstr "Global"
