@@ -12936,7 +12936,7 @@ msgid " and refer to the "
 msgstr " et vous référez à l’"
 
 msgid " and "
-msgstr " et au "
+msgstr " et "
 
 msgid " for detailed information."
 msgstr " pour des informations détaillées."
@@ -21820,7 +21820,7 @@ msgstr "Emplacement %s (%s)"
 
 msgid "cannot be mixed. Please select the same filament type."
 msgstr ""
-"Ne peuvent pas être mélangés. Veuillez choisir le même type de filament."
+"ne peuvent pas être mélangés. Veuillez choisir le même type de filament."
 
 msgid "Please select a filament for all components"
 msgstr "Veuillez sélectionner un filament pour tous les composants"
