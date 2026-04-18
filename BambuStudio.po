@@ -16360,13 +16360,14 @@ msgstr ""
 "refroidissement auxiliaire"
 
 msgid "Fan direction"
-msgstr "Direction du ventilateur"
+msgstr "Emplacement du ventilateur"
 
 msgid "Cooling fan direction of the printer"
-msgstr "Direction du ventilateur de refroidissement de l'imprimante"
+msgstr ""
+"Emplacement du ventilateur de refroidissement auxiliaire de l'imprimante"
 
 msgid "Both"
-msgstr "Les deux"
+msgstr "Des deux côtés"
 
 msgid "Support control chamber temperature"
 msgstr "Contrôle de température de la chambre"
