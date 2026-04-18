@@ -9132,7 +9132,7 @@ msgstr "Échec du téléchargement, exception de taille de fichier."
 
 #, c-format, boost-format
 msgid "Project downloaded %d%%"
-msgstr "Projet téléchargé %d%%"
+msgstr "Téléchargement du projet : %d%%"
 
 msgid ""
 "Importing to Bambu Studio failed. Please download the file and manually "
