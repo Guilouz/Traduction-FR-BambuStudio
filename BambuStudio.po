@@ -21513,7 +21513,7 @@ msgstr "Faire tourner la bobine pendant le séchage"
 
 msgctxt "amsdrying"
 msgid "Back"
-msgstr "Arrière"
+msgstr "Retour"
 
 msgid "Drying-Heating"
 msgstr "Séchage-Chauffage"
@@ -21614,7 +21614,9 @@ msgstr ""
 "secondes..."
 
 msgid "For better drying results, remove the filament and allow it to rotate."
-msgstr "Pour un séchage optimal, retirez le filament et laissez-le tourner."
+msgstr ""
+"Pour un séchage optimal,\n"
+"retirez le filament et laissez-le tourner."
 
 msgid ""
 "The AMS will automatically rotate the stored filament slots to enhance the "
