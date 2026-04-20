@@ -21484,7 +21484,9 @@ msgid "AMS Dryness Control"
 msgstr "Contrôle du séchage AMS"
 
 msgid "Filament Drying Settings"
-msgstr "Paramètres de séchage du filament"
+msgstr ""
+"Paramètres de séchage\n"
+"du filament"
 
 msgid "Start"
 msgstr "Démarrer"
