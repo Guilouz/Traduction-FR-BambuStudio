@@ -7961,8 +7961,8 @@ msgstr ""
 
 msgid "Ensures the build plate type and placement are correct."
 msgstr ""
-"Garantit que le type et le positionnement de la plaque d’impression sont "
-"corrects."
+"Garantit que le type et le positionnement de la plaque d’impression\n"
+"sont corrects."
 
 msgid "Type Detection"
 msgstr "Détection du type de plaque"
