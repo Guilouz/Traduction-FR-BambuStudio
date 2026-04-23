@@ -12337,7 +12337,8 @@ msgstr "Informations de la buse synchronisées avec succès."
 
 msgid "Successfully synchronized nozzle and AMS number information."
 msgstr ""
-"Informations de la buse et le numéro de l’AMS synchronisés avec succès."
+"Informations de la buse et le numéro\n"
+"de l’AMS synchronisés avec succès."
 
 msgid "Continue to sync filaments"
 msgstr "Continuer à synchroniser"
