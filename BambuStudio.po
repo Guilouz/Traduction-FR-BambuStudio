@@ -3510,7 +3510,7 @@ msgid "Purge old filament"
 msgstr "Purge du filament précédent"
 
 msgid "Switch"
-msgstr "Commuter"
+msgstr "Changement de"
 
 msgid "hotend"
 msgstr "Buse"
@@ -3519,7 +3519,7 @@ msgid "Wait for AMS cooling"
 msgstr "Attente du refroidissement de l’AMS"
 
 msgid "Switch current filament at Filament Track Switch"
-msgstr "Changer le filament actuel du Filament Track Switch"
+msgstr "Changement du filament actuel du Filament Track Switch"
 
 msgid "Pull back current filament at Filament Track Switch"
 msgstr "Retrait du filament actuel du Filament Track Switch"
