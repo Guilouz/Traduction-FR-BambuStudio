@@ -3298,7 +3298,7 @@ msgid "Connecting..."
 msgstr "Connexion…"
 
 msgid "Auto-refill"
-msgstr "Recharge Automatique"
+msgstr "Recharge"
 
 msgid "Load"
 msgstr "Charger"
