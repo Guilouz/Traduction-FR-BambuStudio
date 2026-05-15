@@ -3833,11 +3833,11 @@ msgstr ""
 
 msgid "Reminder: parameters changed, click Apply to take effect"
 msgstr ""
-"Rappel : Les paramètres ont été modifiés. Cliquez sur Appliquer pour que les "
-"modifications soient prises en compte."
+"Rappel : Les paramètres ont été modifiés.\n"
+"Cliquez sur Appliquer pour que les modifications soient prises en compte."
 
 msgid "Auto-merge same filament"
-msgstr "Fusion auto des filaments identiques"
+msgstr "Fusion automatique des filaments identiques"
 
 msgid ""
 "Automatically merge identical filaments into existing filaments in the "
