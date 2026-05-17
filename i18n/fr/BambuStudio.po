@@ -21590,7 +21590,7 @@ msgid ""
 "maximize savings"
 msgstr ""
 "Attribution intelligente des filaments : Attribuer un filament à plusieurs "
-"buses pour optimiser les économies"
+"buses pour optimiser les économies."
 
 msgid "Filament grouping"
 msgstr "Regroupement des filaments"
@@ -21637,7 +21637,7 @@ msgstr ""
 
 #, c-format, boost-format
 msgid "Manually assign filament to the %s or %s"
-msgstr "Attribuer manuellement le filament à la %s ou à la %s"
+msgstr "Attribuer manuellement le filament à la %s ou à la %s."
 
 msgid "Global settings"
 msgstr "Paramètres globaux"
