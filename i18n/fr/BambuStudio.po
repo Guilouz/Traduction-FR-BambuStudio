@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bambu Studio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-01 09:40+0800\n"
+"POT-Creation-Date: 2026-06-15 21:22+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril\n"
@@ -228,7 +228,7 @@ msgid "How to feed TPU filament."
 msgstr "Comment alimenter le filament TPU."
 
 msgid "How to feed TPU filament on X2D."
-msgstr "Comment alimenter le filament TPU sur X2D."
+msgstr "Comment charger le filament TPU sur X2D."
 
 msgid "Using non-bambu filament may have printing quality issues."
 msgstr ""
@@ -2510,11 +2510,14 @@ msgstr "Ajouter un modificateur SVG"
 msgid "Select settings"
 msgstr "Sélectionnez les paramètres"
 
-msgid "Hide"
-msgstr "Masquer"
+msgid "Add to New Step"
+msgstr "Ajouter à un nouveau Step"
 
-msgid "Show"
-msgstr "Afficher"
+msgid "Add to Current Step"
+msgstr "Ajouter au Step actuel"
+
+msgid "Add to Existing Step"
+msgstr "Ajouter au Step existant"
 
 msgid "Delete the selected object"
 msgstr "Supprimer l'objet sélectionné"
@@ -4074,7 +4077,7 @@ msgid ""
 "TPU needs a different feeding path and loading procedure. Otherwise clogging "
 "or jam may happen. Please read the tutorial before using TPU."
 msgstr ""
-"Le TPU nécessite un système d'alimentation et une procédure de chargement "
+"Le TPU nécessite un système de chargement et une procédure de chargement "
 "différents. Dans le cas contraire, des obstructions ou des blocages peuvent "
 "survenir. Veuillez lire le tutoriel avant d'utiliser le TPU."
 
@@ -5953,6 +5956,9 @@ msgstr ""
 "Veuillez vérifier et ajuster la position ou la taille de la pièce pour "
 "qu’elle corresponde à la plage imprimable :\n"
 
+msgid "Unnamed"
+msgstr "Sans nom"
+
 msgid "Mirror Object"
 msgstr "Objet miroir"
 
@@ -6096,6 +6102,12 @@ msgstr "Ajuster la caméra"
 msgid "Fit camera to scene or selected object."
 msgstr "Ajuster la caméra à la scène ou à l’objet sélectionné."
 
+msgid "Unlock camera"
+msgstr "Déverrouiller la caméra"
+
+msgid "Lock camera"
+msgstr "Verrouiller la caméra"
+
 msgid "Paint Toolbar"
 msgstr "Barre d'outils de peinture"
 
@@ -6113,6 +6125,15 @@ msgstr "Contrôle de l'assemblage"
 
 msgid "Selection Mode"
 msgstr "Mode de sélection"
+
+msgid "OnlyCurrentStep"
+msgstr "Step actuel uniquement"
+
+msgid "Highlight"
+msgstr "Souligner"
+
+msgid "Display Mode"
+msgstr "Mode d'affichage"
 
 msgid "Total Volume:"
 msgstr "Volume total :"
@@ -6374,6 +6395,9 @@ msgstr ""
 "La page actuelle contient des modifications non enregistrées. Vous pouvez "
 "continuer à la modifier ou choisir d'enregistrer/annuler vos modifications "
 "avant de quitter."
+
+msgid "Home"
+msgstr "Home"
 
 msgid "Device"
 msgstr "Imprimante"
@@ -8871,6 +8895,22 @@ msgstr "Calcul des couleurs de texture : %s"
 msgid "Texture Import Warning"
 msgstr "Avertissement de l'importation de textures"
 
+msgid ""
+"The imported STEP file is split by sub-assembly, so some objects may not be "
+"placed on the build plate at first.\n"
+"It is expected if they are placed on the build plate later after translation "
+"or similar operations.\n"
+"The overall assembly can be checked from the assembly thumbnail or by "
+"entering the assembly view."
+msgstr ""
+"Le fichier STEP importé est divisé en sous-ensembles, il est donc possible "
+"que certains objets ne soient pas positionnés immédiatement sur le plateau "
+"d'impression.\n"
+"Ce comportement est normal, ils seront positionnés ultérieurement après des "
+"opérations de translation ou similaires.\n"
+"L'assemblage complet peut être visualisé à partir de sa vignette ou en "
+"accédant à la vue d'assemblage."
+
 msgid "Load these files as a single object with multiple parts?\n"
 msgstr ""
 "Charger ces fichiers en tant qu'objet unique avec plusieurs parties ?\n"
@@ -9936,6 +9976,17 @@ msgid ""
 msgstr ""
 "Avec cette option activée, vous pouvez envoyer une tâche à plusieurs "
 "imprimantes en même temps et gérer plusieurs imprimantes."
+
+msgid "Take effect after restarting Studio"
+msgstr "prend effet après le redémarrage de Bambu Studio"
+
+msgid ""
+"The Filament Manager is turned off by default on macOS because compatibility "
+"issues on some systems may cause the application to become unresponsive."
+msgstr ""
+"Le Gestionnaire de filaments est désactivé par défaut sur macOS car des "
+"problèmes de compatibilité sur certains systèmes peuvent rendre "
+"l'application non réactive."
 
 msgid "Show the step mesh parameter setting dialog."
 msgstr ""
@@ -12153,6 +12204,17 @@ msgstr "Rétraction Firmware"
 
 msgid "Detached"
 msgstr "Détaché"
+
+msgid ""
+"The current preset is a project preset and can't be used to create a new "
+"preset. Please select a system preset or user preset, then try again."
+msgstr ""
+"Le préréglage actuel est un préréglage de projet et ne peut pas servir à "
+"créer un nouveau préréglage. Veuillez sélectionner un préréglage système ou "
+"un préréglage utilisateur, puis réessayer."
+
+msgid "Unable to save preset"
+msgstr "Impossible d'enregistrer le préréglage"
 
 #, c-format, boost-format
 msgid ""
@@ -14518,6 +14580,13 @@ msgid ""
 msgstr ""
 "Le mode vase ne fonctionne pas lorsqu'un objet contient plusieurs matériaux."
 
+msgid ""
+"The spiral vase mode does not work when an object contains regions with "
+"different print settings."
+msgstr ""
+"Le mode vase ne fonctionne pas lorsqu'un objet contient des zones avec des "
+"paramètres d'impression différents."
+
 msgid "Variable layer height is not supported with Organic supports."
 msgstr ""
 "La hauteur de couche variable n’est pas prise en charge avec les supports "
@@ -15954,7 +16023,29 @@ msgid "Hotend change time"
 msgstr "Durée de changement de la tête d'impression"
 
 msgid "Time to change hotend."
-msgstr "Durée pour le changement de la tête d’impression"
+msgstr "Durée de changement de la tête d’impression"
+
+msgid "Cut and unload from extruder time"
+msgstr "Durée de coupe et décharge de l'extrudeur"
+
+msgid ""
+"Time to cut filament and retract it out of the extruder, used when parallel "
+"feeding is supported. For statistics only"
+msgstr ""
+"Durée pour couper et rétracter le filament hors de l'extrudeur, utilisée "
+"lorsque le (pré)-chargement parallèle du filament est pris en charge. Pour "
+"les statistiques uniquement."
+
+msgid "Extruder bite time after pre-feed"
+msgstr "Durée de saisie de l’extrudeur après pré-amorçage"
+
+msgid ""
+"Time for the extruder to bite the filament once it has been pre-fed, used "
+"when parallel feeding is supported. For statistics only"
+msgstr ""
+"Durée nécessaire à l'extrudeur pour saisir le filament après son pré-"
+"amorçage, utilisée lorsque le (pré)-chargement parallèle du filament est "
+"pris en charge. Pour les statistiques uniquement."
 
 msgid "Bed temperature type"
 msgstr "Type de température du plateau"
@@ -18088,6 +18179,18 @@ msgstr ""
 msgid "Traditional"
 msgstr "Traditionnel"
 
+msgid "Farthest point timelapse"
+msgstr "Timelapse du point le plus éloigné"
+
+msgid ""
+"When enabled, the timelapse snapshot is taken at the farthest point from "
+"camera instead of traveling to the wipe tower or excess chute. Only "
+"effective in traditional timelapse mode on non-I3 printers."
+msgstr ""
+"Si activé, le timelapse est effectué au point le plus éloigné de la caméra, "
+"sans déplacement jusqu'à la tour de purge ou la goulotte d'évacuation. "
+"Fonctionne uniquement en mode Traditionnel sur les imprimantes non i3."
+
 msgid "Temperature variation"
 msgstr "Variation de température"
 
@@ -18804,6 +18907,20 @@ msgstr "Multiplicateur de purge (Mode Rapide)"
 
 msgid "The flush multiplier used in fast purge mode."
 msgstr "Multiplicateur de purge utilisé en mode de purge rapide."
+
+msgid "Alternate extruder printing"
+msgstr "Impression alternée des extrudeurs"
+
+msgid ""
+"When the printer supports parallel (pre-)feeding, print the two extruders in "
+"an alternating order within a layer instead of finishing one extruder first. "
+"Only takes effect when the printer supports parallel feeding."
+msgstr ""
+"Lorsque l'imprimante prend en charge le (pré)-chargement parallèle du "
+"filament, les deux extrudeurs sont utilisés en alternance au sein d'une même "
+"couche au lieu de terminer complètement l'une avant de passer à l'autre. "
+"Cette option n'a d'effet que sur les imprimantes compatibles avec le "
+"chargement parallèle."
 
 msgid "Width of prime tower"
 msgstr "Largeur de la tour de purge"
