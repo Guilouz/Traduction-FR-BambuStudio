@@ -24,6 +24,7 @@ Vous trouverez ici la traduction française du slicer Bambu Studio de BambuLab.
   - Rendez-vous dans le dossier `\resources\web\device` et remplacez le fichier `missing_connection.html` du dossier `\web\device`.
   - Rendez-vous dans le dossier `\resources\web\device_page\dist\assets` et remplacez le fichier `index.js` du dossier `\web\device_page\dist\assets`.
   - Rendez-vous dans le dossier `\resources\web\model` et remplacez le fichier `index.html` du dossier `\web\model`.
+   - Rendez-vous dans le dossier `\resources\web\model_new` et remplacez le fichier `editor.html` du dossier `\web\model_new`.
   - Démarrez Bambu Studio et définissez la langue sur `Français` dans les paramètres.
 
 - **MacOS:**
@@ -37,6 +38,7 @@ Vous trouverez ici la traduction française du slicer Bambu Studio de BambuLab.
   - Rendez-vous dans le dossier `\Contents\Resources\web\device` et remplacez le fichier `missing_connection.html` du dossier `\web\device`.
   - Rendez-vous dans le dossier `\Contents\Resources\resources\web\device_page\dist\assets` et remplacez le fichier `index.js` du dossier `\web\device_page\dist\assets`.
   - Rendez-vous dans le dossier `\Contents\Resources\web\model` et remplacez le fichier `index.html` du dossier `\web\model`.
+  - Rendez-vous dans le dossier `\Contents\Resources\web\model_new` et remplacez le fichier `editor.html` du dossier `\web\model_new`.
   - Démarrez Bambu Studio et définissez la langue sur `Français` dans les paramètres.
 
 ## Compatibilité
