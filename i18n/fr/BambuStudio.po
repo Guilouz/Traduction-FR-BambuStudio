@@ -2536,7 +2536,9 @@ msgstr ""
 "du texte"
 
 msgid "Line Gap"
-msgstr "Espacement des lignes"
+msgstr ""
+"Espacement\n"
+"des lignes"
 
 msgid ""
 "Warning: There is a mirror in the text matrix, and dragging it will "
