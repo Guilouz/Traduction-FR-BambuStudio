@@ -6681,7 +6681,7 @@ msgid "Live View Camera Calibration"
 msgstr "Calibration de la caméra Live View"
 
 msgid "Waiting for heatbed to reach target temperature"
-msgstr "En attente que le plateau atteigne la température cible"
+msgstr "Attente de la montée en température du plateau"
 
 msgid "Auto Check: Material Position"
 msgstr "Vérification Auto : Position du matériau"
@@ -26906,7 +26906,7 @@ msgstr ""
 "seront automatiquement ajustés en fonction du nouveau modèle d’imprimante."
 
 msgid "3MF File Settings"
-msgstr "Paramètres de fichier 3MF"
+msgstr "Paramètres du fichier 3MF"
 
 msgid "Connected Printer"
 msgstr "Imprimante connectée"
