@@ -1158,7 +1158,7 @@ var LangText={
 		"t404": " et confirmer avoir pris connaissance ",
 		"t405": "de la Politique de confidentialité",
 		"t406": ". Si vous n’acceptez pas les Conditions ou si vous ne prenez pas connaissance de la Politique, vous ne pouvez pas utiliser Bambu Studio.",
-		"t407": "Refuser"
+		"t407": "Refuser",
 		"t300":"Connexion à l'imprimante",
 		"t301":"Veuillez configurer la connexion de votre imprimante pour afficher l'interface.",
 		"t302":"Aucune information sur le modèle",
